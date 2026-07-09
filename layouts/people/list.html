@@ -1,0 +1,42 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">The team</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+{{ $groups := slice "Principal Investigator" "Postdoctoral Researchers" "PhD Students" "Research Assistants & Staff" "Alumni" }}
+{{ $members := .Site.Data.people.members }}
+
+<section>
+  <div class="wrap">
+    {{ range $g := $groups }}
+      {{ $inGroup := where $members "group" $g }}
+      {{ if $inGroup }}
+        <h2 style="margin-top:2.5rem;">{{ $g }}</h2>
+        <div class="people-grid">
+          {{ range $inGroup }}
+          <div class="person">
+            <div class="avatar">{{ partial "avatar.html" . }}</div>
+            <p class="name">{{ .name }}</p>
+            <p class="role">{{ .role }}</p>
+            {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
+            {{ if or .email .scholar .github }}
+            <p class="links">
+              {{ with .email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
+              {{ with .scholar }}<a href="{{ . }}">Scholar</a>{{ end }}
+              {{ with .github }}<a href="{{ . }}">GitHub</a>{{ end }}
+            </p>
+            {{ end }}
+          </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+
+    {{ with .Content }}<div class="prose" style="margin-top:3rem;">{{ . }}</div>{{ end }}
+  </div>
+</section>
+{{ end }}

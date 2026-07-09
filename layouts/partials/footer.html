@@ -1,0 +1,24 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <p class="lab">{{ .Site.Params.labFullName }}</p>
+      <p>{{ .Site.Params.institution }}</p>
+      <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      {{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+    </div>
+    <div class="footer-col">
+      <h4>Elsewhere</h4>
+      {{ with .Site.Params.scholar }}<a href="{{ . }}">Google Scholar</a>{{ end }}
+      {{ with .Site.Params.twitter }}<a href="{{ . }}">X / Twitter</a>{{ end }}
+      {{ with .Site.Params.bluesky }}<a href="{{ . }}">Bluesky</a>{{ end }}
+      {{ with .Site.Params.github }}<a href="{{ . }}">GitHub</a>{{ end }}
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© {{ now.Year }} {{ .Site.Params.labFullName }}</span>
+    <span>Supported by CRUK · UKRI · University of Cambridge</span>
+  </div>
+</footer>

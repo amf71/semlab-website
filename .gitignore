@@ -1,0 +1,11 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# OS / editor junk (per house rules)
+.DS_Store
+.Rhistory
+*.swp
+.idea/
+.vscode/

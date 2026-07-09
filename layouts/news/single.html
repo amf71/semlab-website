@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">{{ .Date.Format "2 January 2006" }}</p>
+    <h1>{{ .Title }}</h1>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="prose">
+      {{ .Content }}
+      <p style="margin-top:2rem;"><a href="{{ "/news/" | relURL }}">← Back to news</a></p>
+    </div>
+  </div>
+</section>
+{{ end }}

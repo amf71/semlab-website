@@ -1,0 +1,41 @@
+{{/* Clonal-lineage motif: hairline branching tree evoking somatic evolution.
+     Purely decorative; sits behind the hero text. */}}
+<svg class="hero-lineage" viewBox="0 0 1200 520" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#3d348b" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#3d348b" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3d348b" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="url(#fade)" stroke-width="1.1">
+    <!-- trunk -->
+    <path d="M-20,260 H520"/>
+    <!-- first bifurcation -->
+    <path d="M520,260 C600,260 620,150 700,150"/>
+    <path d="M520,260 C600,260 620,370 700,370"/>
+    <!-- upper clade -->
+    <path d="M700,150 C770,150 785,90 860,90"/>
+    <path d="M700,150 C770,150 785,210 860,210"/>
+    <path d="M860,90 C930,90 945,55 1030,55"/>
+    <path d="M860,90 C930,90 945,125 1030,125"/>
+    <path d="M860,210 C930,210 945,180 1030,180"/>
+    <path d="M860,210 C930,210 945,245 1030,245"/>
+    <!-- lower clade -->
+    <path d="M700,370 C770,370 785,310 860,310"/>
+    <path d="M700,370 C770,370 785,430 860,430"/>
+    <path d="M860,310 C930,310 945,285 1030,285"/>
+    <path d="M860,310 C930,310 945,345 1030,345"/>
+    <path d="M860,430 C930,430 945,400 1030,400"/>
+    <path d="M860,430 C930,430 945,470 1030,470"/>
+  </g>
+  <!-- terminal nodes (present-day clones) -->
+  <g fill="#3d348b">
+    {{ range slice 55 125 180 245 285 345 400 470 }}
+    <circle cx="1030" cy="{{ . }}" r="3.4" fill-opacity="0.9"/>
+    {{ end }}
+    <circle cx="520" cy="260" r="4" fill-opacity="0.55"/>
+    <circle cx="700" cy="150" r="3.2" fill-opacity="0.5"/>
+    <circle cx="700" cy="370" r="3.2" fill-opacity="0.5"/>
+  </g>
+</svg>

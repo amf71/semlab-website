@@ -1,0 +1,51 @@
+# ------------------------------------------------------------
+#  Lab members. `group` must match one of the headings in
+#  layouts/people/list.html:
+#    Principal Investigator | Postdoctoral Researchers |
+#    PhD Students | Research Assistants & Staff | Alumni
+#
+#  Optional per person: photo (file in static/images/people/),
+#  blurb, email, scholar, github.
+#  --- All names below are placeholders. Replace with your team. ---
+# ------------------------------------------------------------
+members:
+  - name: "Alex Principal"
+    role: "Principal Investigator"
+    group: "Principal Investigator"
+    blurb: "Group leader. Somatic evolution, clonal dynamics and the mathematics of early cancer."
+    email: "sem.lab@cam.ac.uk"
+    scholar: "https://scholar.google.com/"
+
+  - name: "Jordan Postdoc"
+    role: "Postdoctoral Researcher"
+    group: "Postdoctoral Researchers"
+    blurb: "Selection inference from ultra-deep sequencing of normal tissue."
+
+  - name: "Sam Fellow"
+    role: "Postdoctoral Researcher"
+    group: "Postdoctoral Researchers"
+    blurb: "Population-genetics models of clonal haematopoiesis."
+
+  - name: "Riley Student"
+    role: "PhD Student"
+    group: "PhD Students"
+    blurb: "Single-cell phylogenetics of pre-malignant lesions."
+
+  - name: "Casey Graduate"
+    role: "PhD Student"
+    group: "PhD Students"
+    blurb: "Bayesian methods for timing mutational events."
+
+  - name: "Morgan Analyst"
+    role: "Research Assistant"
+    group: "Research Assistants & Staff"
+    blurb: "Sequencing pipelines and data infrastructure."
+
+  - name: "Taylor Manager"
+    role: "Lab Manager"
+    group: "Research Assistants & Staff"
+    blurb: "Keeps the wet and dry labs running."
+
+  - name: "Jamie Former"
+    role: "Now: Postdoc, Somewhere Institute"
+    group: "Alumni"

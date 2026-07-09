@@ -1,0 +1,65 @@
+# ============================================================
+#  Site configuration
+#  Most things you'll want to change day-to-day live in the
+#  [params] block below, or in the data/ and content/ folders.
+# ============================================================
+
+baseURL = "https://semlab.com/"        # <-- change to your final domain
+languageCode = "en-gb"
+title = "SEM Lab"                        # browser tab / SEO title
+enableRobotsTXT = true
+
+# Pretty, trailing-slash URLs (e.g. /research/ not /research.html)
+[permalinks]
+  news = "/news/:slug/"
+
+[params]
+  # ---- Identity -------------------------------------------------
+  labName      = "SEM Lab"                              # shown in the nav
+  labFullName  = "Somatic Evolution Monitoring Lab"       # shown in the footer
+  tagline      = "forecasting cancer before it begins"
+  subtitle     = "Evolution · Mathematics · Genomics"
+  institution  = "Early Cancer Institute, University of Cambridge"
+  email        = "sem.lab@cam.ac.uk"
+  # ---- Social / external links (leave blank to hide) ------------
+  twitter      = "https://x.com/"
+  scholar      = "https://scholar.google.com/"
+  github       = "https://github.com/"
+  bluesky      = ""
+
+# ---- Top navigation (order set by weight) ---------------------
+[menu]
+  [[menu.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 10
+  [[menu.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 20
+  [[menu.main]]
+    name = "People"
+    pageRef = "/people"
+    weight = 30
+  [[menu.main]]
+    name = "Opportunities"
+    pageRef = "/opportunities"
+    weight = 40
+  [[menu.main]]
+    name = "News"
+    pageRef = "/news"
+    weight = 50
+  [[menu.main]]
+    name = "Gallery"
+    pageRef = "/gallery"
+    weight = 60
+  [[menu.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 70
+
+[markup.goldmark.renderer]
+  unsafe = true   # allow raw HTML in Markdown where needed
+
+[build]
+  writeStats = false

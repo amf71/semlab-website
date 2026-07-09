@@ -1,0 +1,42 @@
+# ------------------------------------------------------------
+#  Publications, newest first. All entries below are PLACEHOLDERS.
+#  Optional per item: url (links the title), tags (list of strings),
+#  links (list of {label, url} e.g. PDF, Code, Data).
+# ------------------------------------------------------------
+items:
+  - year: "2025"
+    title: "Selection dynamics of somatic mutations in ageing human epithelium"
+    authors: "A. Principal, J. Postdoc, R. Student, et al."
+    venue: "Placeholder Journal of Somatic Evolution, in press"
+    tags: ["Clonal dynamics", "Selection"]
+    links:
+      - label: "PDF"
+        url: "#"
+      - label: "Code"
+        url: "#"
+
+  - year: "2024"
+    title: "A phylogenetic framework for reconstructing tissue histories from single-cell data"
+    authors: "R. Student, A. Principal"
+    venue: "Placeholder Methods, 12(3), 210–225"
+    tags: ["Phylogenetics"]
+    links:
+      - label: "Preprint"
+        url: "#"
+
+  - year: "2024"
+    title: "Inferring mutation rates from ultra-deep targeted sequencing"
+    authors: "J. Postdoc, S. Fellow, A. Principal"
+    venue: "Placeholder Genomics, 8, 1145"
+    tags: ["Mutation", "Methods"]
+
+  - year: "2023"
+    title: "Clonal haematopoiesis and the population genetics of blood"
+    authors: "S. Fellow, A. Principal"
+    venue: "Placeholder Reviews Cancer, 21, 55–70"
+    tags: ["Review"]
+
+  - year: "2022"
+    title: "Quantitative models of pre-cancerous clonal expansion"
+    authors: "A. Principal, C. Graduate"
+    venue: "Placeholder Cell Systems, 5, 401–414"

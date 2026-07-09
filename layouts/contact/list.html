@@ -1,0 +1,27 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Get in touch</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section>
+  <div class="wrap contact-grid">
+    <div class="prose">
+      {{ .Content }}
+    </div>
+    <div>
+      <dl class="contact-info">
+        <dt>Email</dt>
+        <dd><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></dd>
+        <dt>Address</dt>
+        <dd>{{ .Site.Params.institution }}<br>{{ with .Params.address }}{{ . | safeHTML }}{{ end }}</dd>
+        {{ with .Site.Params.scholar }}<dt>Publications</dt><dd><a href="{{ . }}">Google Scholar</a></dd>{{ end }}
+        {{ with .Site.Params.twitter }}<dt>Social</dt><dd><a href="{{ . }}">X / Twitter</a></dd>{{ end }}
+      </dl>
+    </div>
+  </div>
+</section>
+{{ end }}

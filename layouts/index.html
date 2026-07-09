@@ -1,0 +1,96 @@
+{{ define "main" }}
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  {{ partial "lineage.html" . }}
+  <div class="wrap hero-inner">
+    <p class="tagline">{{ .Site.Params.tagline }}</p>
+    <h1>{{ .Site.Params.labFullName }}</h1>
+    <p class="subtitle">{{ .Site.Params.subtitle }}</p>
+    <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
+  </div>
+</section>
+
+<!-- ============ MISSION ============ -->
+<section>
+  <div class="wrap mission">
+    <p class="eyebrow">Our aim</p>
+    <p class="lead">{{ .Params.missionLead | safeHTML }}</p>
+    <div class="body">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH THEMES ============ -->
+<section class="section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Research themes</p>
+    <h2>What we work on</h2>
+    <div class="grid-3">
+      {{ range $i, $r := .Site.Data.research.themes }}
+      <article class="card">
+        <span class="num">{{ printf "%02d" (add $i 1) }}</span>
+        <h3>{{ $r.title }}</h3>
+        <p>{{ $r.summary }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- ============ GROUP PHOTO + STATS ============ -->
+<section>
+  <div class="wrap">
+    <figure class="figure">
+      {{ partial "group-photo.html" . }}
+      <figcaption><strong>The group, {{ now.Format "2006" }}.</strong> Replace <code>static/images/group.jpg</code> with your own photo and edit this caption in <code>content/_index.md</code>.</figcaption>
+    </figure>
+    <div class="stats">
+      {{ range .Site.Data.research.stats }}
+      <div class="stat"><div class="n">{{ .n }}</div><div class="l">{{ .l }}</div></div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- ============ SELECTED PUBLICATIONS ============ -->
+<section class="section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Selected work</p>
+    <h2>Recent publications</h2>
+    <ul class="pub-list">
+      {{ range first 4 .Site.Data.publications.items }}
+      <li class="pub">
+        <div class="year">{{ .year }}</div>
+        <div>
+          <p class="title">{{ .title }}</p>
+          <p class="authors">{{ .authors }}</p>
+          <p class="venue"><em>{{ .venue }}</em></p>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+    <p style="margin-top:1.75rem;"><a href="{{ "/publications/" | relURL }}">All publications →</a></p>
+  </div>
+</section>
+
+<!-- ============ PEOPLE PREVIEW ============ -->
+<section>
+  <div class="wrap">
+    <p class="eyebrow">The team</p>
+    <h2>People</h2>
+    <div class="people-grid">
+      {{ range first 4 .Site.Data.people.members }}
+      <div class="person">
+        <div class="avatar">{{ partial "avatar.html" . }}</div>
+        <p class="name">{{ .name }}</p>
+        <p class="role">{{ .role }}</p>
+      </div>
+      {{ end }}
+    </div>
+    <p style="margin-top:1.75rem;"><a href="{{ "/people/" | relURL }}">Meet the whole team →</a></p>
+  </div>
+</section>
+
+{{ end }}

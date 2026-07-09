@@ -1,0 +1,17 @@
+# ------------------------------------------------------------
+#  Gallery items. `image` is a filename in static/images/gallery/.
+#  If the file is missing, a captioned placeholder tile is shown.
+# ------------------------------------------------------------
+items:
+  - caption: "Lab retreat, 2025"
+    image: "retreat.jpg"
+  - caption: "Single-cell phylogeny"
+    image: "phylogeny.jpg"
+  - caption: "Sequencing run"
+    image: "sequencing.jpg"
+  - caption: "Group lunch"
+    image: "lunch.jpg"
+  - caption: "Conference poster session"
+    image: "poster.jpg"
+  - caption: "Microscopy"
+    image: "microscopy.jpg"

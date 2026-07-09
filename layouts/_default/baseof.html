@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode | default "en-gb" }}">
+{{ partial "head.html" . }}
+<body>
+  {{ partial "header.html" . }}
+  <main id="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  <script>
+    // Mobile nav toggle
+    const t = document.querySelector('.nav-toggle');
+    const l = document.querySelector('.nav-links');
+    if (t && l) t.addEventListener('click', () => {
+      const open = l.classList.toggle('open');
+      t.setAttribute('aria-expanded', open);
+    });
+  </script>
+</body>
+</html>

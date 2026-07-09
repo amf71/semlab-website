@@ -1,0 +1,33 @@
+{{ define "main" }}
+<section class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Selected work</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <ul class="pub-list">
+      {{ range .Site.Data.publications.items }}
+      <li class="pub">
+        <div class="year">{{ .year }}</div>
+        <div>
+          <p class="title">{{ if .url }}<a href="{{ .url }}" style="text-decoration:none;color:inherit;">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
+          <p class="authors">{{ .authors }}</p>
+          <p class="venue"><em>{{ .venue }}</em></p>
+          {{ if or .links .tags }}
+          <div class="tags">
+            {{ range .tags }}<span class="tag" style="cursor:default;">{{ . }}</span>{{ end }}
+            {{ range .links }}<a class="tag" href="{{ .url }}">{{ .label }}</a>{{ end }}
+          </div>
+          {{ end }}
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+    {{ with .Content }}<div class="prose" style="margin-top:2.5rem;">{{ . }}</div>{{ end }}
+  </div>
+</section>
+{{ end }}
