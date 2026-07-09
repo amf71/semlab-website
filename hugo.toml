@@ -4,7 +4,7 @@
 #  [params] block below, or in the data/ and content/ folders.
 # ============================================================
 
-baseURL = "https://semlab.com/"        # <-- change to your final domain
+baseURL = "https://semlab.co.uk/"      # <-- change to your final domain
 languageCode = "en-gb"
 title = "SEM Lab"                        # browser tab / SEO title
 enableRobotsTXT = true

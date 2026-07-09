@@ -40,10 +40,10 @@ hugo server
 1. Create a repo on GitHub and push this project (see git notes below).
 2. In the repo: **Settings → Pages → Build and deployment → Source: GitHub Actions**.
    The included workflow (`.github/workflows/hugo.yml`) builds and deploys on every push to `main`.
-3. **Custom domain:** `static/CNAME` already contains `semlab.com`. At your registrar, add DNS records:
+3. **Custom domain:** `static/CNAME` already contains `semlab.co.uk` (you must register this domain first — `semlab.com` was already taken). At your registrar, add DNS records:
    - Four `A` records for the apex `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - One `CNAME` record for `www` → `<your-github-username>.github.io`
-   Then in **Settings → Pages** enter `semlab.com` as the custom domain and tick **Enforce HTTPS**.
+   Then in **Settings → Pages** enter `semlab.co.uk` as the custom domain and tick **Enforce HTTPS**.
    (Change the domain in both `static/CNAME` and `hugo.toml` `baseURL` if it differs.)
 
 DNS usually propagates within an hour or two; the HTTPS certificate is issued automatically.
