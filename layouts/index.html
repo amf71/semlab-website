@@ -8,11 +8,14 @@
       {{ with .Site.Data.funders.institution }}
       <div class="hero-affil">
         {{ range . }}
-          {{ if fileExists (printf "static/images/funders/%s" .image) }}
-            {{ if .url }}<a href="{{ .url }}" title="{{ .name }}">{{ end }}
-            <img src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="eager">
-            {{ if .url }}</a>{{ end }}
-          {{ end }}
+          {{ if .url }}<a class="affil-item" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="affil-item">{{ end }}
+            {{ if and .icon .text }}
+              <img class="affil-icon" src="{{ printf "/images/funders/%s" .icon | relURL }}" alt="{{ .name }}" loading="eager">
+              <span class="affil-label">{{ .text | safeHTML }}</span>
+            {{ else if .image }}
+              <img class="affil-full" src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="eager">
+            {{ end }}
+          {{ if .url }}</a>{{ else }}</span>{{ end }}
         {{ end }}
       </div>
       {{ end }}

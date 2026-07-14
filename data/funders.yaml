@@ -7,10 +7,11 @@
 # ------------------------------------------------------------
 institution:
   - name: "University of Cambridge"
-    image: "cambridge-dark.png"
+    image: "cambridge-logo.png"
     url: "https://www.cam.ac.uk/"
   - name: "Early Cancer Institute"
-    image: "eci-dark.png"
+    icon: "eci-icon.png"
+    text: "Early Cancer<br>Institute"
     url: "https://www.earlycancer.cam.ac.uk/"
 
 logos:
