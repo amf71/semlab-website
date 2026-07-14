@@ -126,8 +126,8 @@ p { margin: 0 0 1.1rem; }
 .affil-full { height: 36px; width: auto; object-fit: contain; }        /* Cambridge / CRUK CC lockups */
 .affil-icon { height: 44px; width: auto; object-fit: contain; }        /* ECI magnifier icon */
 .affil-label {
-  font-family: var(--font-display); font-weight: 600; font-size: 1.05rem;
-  line-height: 1.05; color: #1f2430; letter-spacing: 0.005em;
+  font-family: var(--font-display); font-weight: 500; font-size: 1.12rem;
+  line-height: 1.1; color: #1f2430; letter-spacing: 0.005em;
 }
 .hero h1 { margin: 0 0 0.6rem; }
 .hero .tagline { font-family: var(--font-display); font-size: clamp(1.4rem, 2.6vw, 2rem); font-style: italic; color: var(--accent-dark); margin: 0 0 0.4rem; }

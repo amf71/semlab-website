@@ -10,7 +10,7 @@ institution:
     image: "cambridge-mark.png"
     url: "https://www.cam.ac.uk/"
   - name: "Early Cancer Institute"
-    icon: "eci-icon2.png"
+    icon: "eci-circle.png"
     text: "Early Cancer<br>Institute"
     url: "https://www.earlycancer.cam.ac.uk/"
   - name: "Cancer Research UK Cambridge Centre"
