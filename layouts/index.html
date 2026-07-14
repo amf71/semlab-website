@@ -44,7 +44,7 @@
   <div class="wrap">
     <figure class="figure">
       {{ partial "group-photo.html" . }}
-      <figcaption><strong>The group, {{ now.Format "2006" }}.</strong> Replace <code>static/images/group.jpg</code> with your own photo and edit this caption in <code>content/_index.md</code>.</figcaption>
+      <figcaption><strong>The Somatic Evolution Monitoring Lab.</strong></figcaption>
     </figure>
     <div class="stats">
       {{ range .Site.Data.research.stats }}
@@ -65,7 +65,7 @@
         <div class="year">{{ .year }}</div>
         <div>
           <p class="title">{{ .title }}</p>
-          <p class="authors">{{ .authors }}</p>
+          <p class="authors">{{ .authors | safeHTML }}</p>
           <p class="venue"><em>{{ .venue }}</em></p>
         </div>
       </li>
@@ -74,6 +74,9 @@
     <p style="margin-top:1.75rem;"><a href="{{ "/publications/" | relURL }}">All publications →</a></p>
   </div>
 </section>
+
+<!-- ============ FUNDERS ============ -->
+{{ partial "funders.html" . }}
 
 <!-- ============ PEOPLE PREVIEW ============ -->
 <section>

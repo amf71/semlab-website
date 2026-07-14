@@ -15,7 +15,7 @@
         <div class="year">{{ .year }}</div>
         <div>
           <p class="title">{{ if .url }}<a href="{{ .url }}" style="text-decoration:none;color:inherit;">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
-          <p class="authors">{{ .authors }}</p>
+          <p class="authors">{{ .authors | safeHTML }}</p>
           <p class="venue"><em>{{ .venue }}</em></p>
           {{ if or .links .tags }}
           <div class="tags">

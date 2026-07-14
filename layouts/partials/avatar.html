@@ -2,7 +2,16 @@
 {{ if and .photo (fileExists (printf "static/images/people/%s" .photo)) }}
   <img src="{{ printf "/images/people/%s" .photo | relURL }}" alt="{{ .name }}" loading="lazy">
 {{ else }}
+  {{/* Build clean initials: skip parenthetical nicknames, use first + last word */}}
+  {{ $words := slice }}
+  {{ range (split .name " ") }}
+    {{ $w := trim . " " }}
+    {{ if and (gt (len $w) 0) (ne (substr $w 0 1) "(") }}{{ $words = $words | append $w }}{{ end }}
+  {{ end }}
   {{ $initials := "" }}
-  {{ range (split .name " ") }}{{ $initials = printf "%s%s" $initials (substr . 0 1) }}{{ end }}
+  {{ if gt (len $words) 0 }}
+    {{ $initials = substr (index $words 0) 0 1 }}
+    {{ if gt (len $words) 1 }}{{ $initials = printf "%s%s" $initials (substr (index $words (sub (len $words) 1)) 0 1) }}{{ end }}
+  {{ end }}
   <div style="width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:1.6rem;color:#4a4590;background:var(--accent-soft);">{{ upper $initials }}</div>
 {{ end }}

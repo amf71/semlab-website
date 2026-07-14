@@ -10,3 +10,6 @@
 .idea/
 .vscode/
 .claude/
+
+# Raw source material (kept in Google Drive, not published)
+/Human input/

@@ -1,0 +1,26 @@
+{{/* Funders & partners strip. Data in data/funders.yaml. */}}
+<section class="section-alt">
+  <div class="wrap">
+    <p class="eyebrow">Funders &amp; partners</p>
+    <div class="funder-logos">
+      {{ range .Site.Data.funders.logos }}
+        {{ if fileExists (printf "static/images/funders/%s" .image) }}
+          <img src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" title="{{ .name }}" loading="lazy">
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ with .Site.Data.funders.names }}
+    <p class="funder-names">
+      Our work is generously supported by
+      {{ range $i, $n := . }}{{ if $i }}, {{ end }}{{ $n }}{{ end }}.
+    </p>
+    {{ end }}
+  </div>
+</section>
+<style>
+  .funder-logos{display:flex;flex-wrap:wrap;align-items:center;gap:2.5rem;margin:1.25rem 0;}
+  .funder-logos img{height:56px;width:auto;object-fit:contain;filter:grayscale(1);opacity:.75;transition:filter .2s,opacity .2s;}
+  .funder-logos img:hover{filter:grayscale(0);opacity:1;}
+  .funder-names{font-size:.95rem;color:var(--muted,#666);max-width:60ch;}
+  @media (prefers-color-scheme: dark){ .funder-logos img{filter:grayscale(1) invert(0);} }
+</style>

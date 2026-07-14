@@ -1,0 +1,22 @@
+# ------------------------------------------------------------
+#  Funders & partners. `logos` are shown as an image strip
+#  (files in static/images/funders/). `names` lists all funders
+#  as text (used for those without a logo).
+# ------------------------------------------------------------
+logos:
+  - name: "Cancer Research UK"
+    image: "cruk.png"
+  - name: "University of Cambridge"
+    image: "cambridge.png"
+  - name: "Early Cancer Institute"
+    image: "eci.png"
+  - name: "The Francis Crick Institute"
+    image: "crick.png"
+
+names:
+  - "Wellcome Trust"
+  - "Cancer Research UK"
+  - "Academy of Medical Sciences"
+  - "Downing College, Cambridge"
+  - "The Cowen Foundation"
+  - "NIHR Cambridge Biomedical Research Centre"

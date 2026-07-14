@@ -2,50 +2,76 @@
 #  Lab members. `group` must match one of the headings in
 #  layouts/people/list.html:
 #    Principal Investigator | Postdoctoral Researchers |
-#    PhD Students | Research Assistants & Staff | Alumni
+#    PhD Students | Research Assistants & Staff | Team | Alumni
 #
 #  Optional per person: photo (file in static/images/people/),
 #  blurb, email, scholar, github.
-#  --- All names below are placeholders. Replace with your team. ---
+#
+#  NOTE: roles marked "Team member" below need confirming, and most
+#  members still need a short blurb and a headshot (drop a JPG into
+#  static/images/people/ and set `photo:`). Alex & Emma are complete.
 # ------------------------------------------------------------
 members:
-  - name: "Alex Principal"
-    role: "Principal Investigator"
+  - name: "Alex Frankell"
+    role: "Group Leader · Assistant Professor"
     group: "Principal Investigator"
-    blurb: "Group leader. Somatic evolution, clonal dynamics and the mathematics of early cancer."
-    email: "sem.lab@cam.ac.uk"
-    scholar: "https://scholar.google.com/"
+    photo: "alex-frankell.jpg"
+    blurb: "Alex leads the Somatic Evolution Monitoring Lab at the Early Cancer Institute. He combines computational and experimental methods to track cancer evolution across space and time — spanning oesophageal and lung cancer (including TRACERx) and non-invasive ctDNA approaches — and developed methods including cloneMap, ECLIPSE and ParallelGDDetect. He holds a Wellcome Career Development Award."
+    email: "amf71@cam.ac.uk"
+    scholar: "https://scholar.google.com/citations?user=2xS5m4gAAAAJ&hl=en"
 
-  - name: "Jordan Postdoc"
+  - name: "Emma Hazelwood"
+    role: "Postdoctoral Research Fellow in Cancer Evolution"
+    group: "Postdoctoral Researchers"
+    photo: "emma-hazelwood.jpg"
+    blurb: "Emma joined the lab as a postdoc after completing her PhD in Cancer Epidemiology at the University of Bristol in 2024. She develops spatial DNA sequencing technologies and contributes to the TRACERx lung cancer project, focusing on germline analyses. She also holds the Everitt Butterfield Research Fellowship at Downing College. Outside the lab she enjoys live music and pub quizzes."
+
+  - name: "Lianlian (Leanne) Wu"
     role: "Postdoctoral Researcher"
     group: "Postdoctoral Researchers"
-    blurb: "Selection inference from ultra-deep sequencing of normal tissue."
+    blurb: ""
 
-  - name: "Sam Fellow"
-    role: "Postdoctoral Researcher"
-    group: "Postdoctoral Researchers"
-    blurb: "Population-genetics models of clonal haematopoiesis."
-
-  - name: "Riley Student"
+  - name: "Zhidong (Woody) Zhang"
     role: "PhD Student"
     group: "PhD Students"
-    blurb: "Single-cell phylogenetics of pre-malignant lesions."
+    blurb: "Develops AstroCNA, a method for detecting allele-specific copy-number changes and chromosomal instability in low-purity, non-invasive samples."
 
-  - name: "Casey Graduate"
+  - name: "Katie Honan"
     role: "PhD Student"
     group: "PhD Students"
-    blurb: "Bayesian methods for timing mutational events."
+    blurb: ""
 
-  - name: "Morgan Analyst"
-    role: "Research Assistant"
-    group: "Research Assistants & Staff"
-    blurb: "Sequencing pipelines and data infrastructure."
+  - name: "Tiantian Ye"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
 
-  - name: "Taylor Manager"
-    role: "Lab Manager"
-    group: "Research Assistants & Staff"
-    blurb: "Keeps the wet and dry labs running."
+  - name: "Fabiola (Fabi) Roman Maldonado"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
 
-  - name: "Jamie Former"
-    role: "Now: Postdoc, Somewhere Institute"
-    group: "Alumni"
+  - name: "Hannah Bazin"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
+
+  - name: "Janhavi Rastogi"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
+
+  - name: "Jie (Jason) Sheng Aik"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
+
+  - name: "Thomas Pons"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
+
+  - name: "Timothy Somerset"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
