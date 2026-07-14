@@ -8,4 +8,4 @@ We are a multidisciplinary research group in the [Early Cancer Institute](https:
 
 We track this somatic evolution across space and time, combining large longitudinal collections of non-invasive samples, detailed snapshots from tissue biopsies, and state-of-the-art genomic technologies with quantitative evolutionary models. Our aim is to measure high-risk evolution as it unfolds — years before a diagnosis — and to turn those measurements into biomarkers that can detect and prevent cancer earlier.
 
-Our work is generously supported by the Wellcome Trust, Cancer Research UK, the Academy of Medical Sciences, the Cowen Foundation, Downing College and the NIHR Cambridge Biomedical Research Centre.
+Our work is generously supported by the Wellcome Trust, Cancer Research UK, the Academy of Medical Sciences, the Cowan Foundation, Downing College and the NIHR Cambridge Biomedical Research Centre.
