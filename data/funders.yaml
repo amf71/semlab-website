@@ -13,10 +13,11 @@ institution:
     icon: "eci-icon.png"
     text: "Early Cancer<br>Institute"
     url: "https://www.earlycancer.cam.ac.uk/"
+  - name: "Cancer Research UK Cambridge Centre"
+    image: "crukcc-logo.png"
+    url: "https://www.cruk.cam.ac.uk/"
 
 logos:
-  - name: "Cancer Research UK"
-    image: "cruk-dark.png"
   - name: "The Francis Crick Institute"
     image: "crick.png"
 

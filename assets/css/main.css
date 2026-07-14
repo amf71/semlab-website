@@ -120,13 +120,13 @@ p { margin: 0 0 1.1rem; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-logo { display: none; }
 }
-.hero-affil { display: flex; flex-wrap: wrap; align-items: center; gap: 2.2rem; margin: 0 0 1.8rem; }
+.hero-affil { display: flex; flex-wrap: wrap; align-items: center; column-gap: 1.9rem; row-gap: 1rem; margin: 0 0 1.8rem; }
 .affil-item { display: inline-flex; align-items: center; gap: 0.55rem; text-decoration: none; transition: opacity 0.2s; }
 .affil-item:hover { opacity: 0.72; }
-.affil-full { height: 44px; width: auto; object-fit: contain; }        /* Cambridge lockup */
-.affil-icon { height: 54px; width: auto; object-fit: contain; }        /* ECI magnifier icon */
+.affil-full { height: 38px; width: auto; object-fit: contain; }        /* Cambridge / CRUK CC lockups */
+.affil-icon { height: 48px; width: auto; object-fit: contain; }        /* ECI magnifier icon */
 .affil-label {
-  font-family: var(--font-display); font-weight: 600; font-size: 1.12rem;
+  font-family: var(--font-display); font-weight: 600; font-size: 1.02rem;
   line-height: 1.08; color: #154378; letter-spacing: 0.005em;
 }
 .hero h1 { margin: 0 0 0.6rem; }
