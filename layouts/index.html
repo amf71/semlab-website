@@ -3,11 +3,18 @@
 <!-- ============ HERO ============ -->
 <section class="hero">
   {{ partial "lineage.html" . }}
-  <div class="wrap hero-inner">
-    <p class="tagline">{{ .Site.Params.tagline }}</p>
-    <h1>{{ .Site.Params.labFullName }}</h1>
-    <p class="subtitle">{{ .Site.Params.subtitle }}</p>
-    <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
+  <div class="wrap hero-grid">
+    <div class="hero-inner">
+      <p class="tagline">{{ .Site.Params.tagline }}</p>
+      <h1>{{ .Site.Params.labFullName }}</h1>
+      <p class="subtitle">{{ .Site.Params.subtitle }}</p>
+      <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
+    </div>
+    {{ if fileExists "static/images/logo.png" }}
+    <div class="hero-logo">
+      <img src="{{ "/images/logo.png" | relURL }}" alt="SEM Lab — tracking somatic evolution from liquid biopsies and tissue">
+    </div>
+    {{ end }}
   </div>
 </section>
 
