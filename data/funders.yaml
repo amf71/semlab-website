@@ -7,15 +7,15 @@
 # ------------------------------------------------------------
 institution:
   - name: "University of Cambridge"
-    image: "cambridge.png"
+    image: "cambridge-dark.png"
     url: "https://www.cam.ac.uk/"
   - name: "Early Cancer Institute"
-    image: "eci.png"
+    image: "eci-dark.png"
     url: "https://www.earlycancer.cam.ac.uk/"
 
 logos:
   - name: "Cancer Research UK"
-    image: "cruk.png"
+    image: "cruk-dark.png"
   - name: "The Francis Crick Institute"
     image: "crick.png"
 
