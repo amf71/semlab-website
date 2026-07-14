@@ -7,7 +7,7 @@
 # ------------------------------------------------------------
 institution:
   - name: "University of Cambridge"
-    image: "cambridge-lockup.png"
+    image: "cambridge-mark.png"
     url: "https://www.cam.ac.uk/"
   - name: "Early Cancer Institute"
     icon: "eci-icon2.png"
