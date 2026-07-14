@@ -1,15 +1,21 @@
 # ------------------------------------------------------------
-#  Funders & partners. `logos` are shown as an image strip
-#  (files in static/images/funders/). `names` lists all funders
-#  as text (used for those without a logo).
+#  Institution & funders.
+#  `institution` logos are shown large and in full colour (our home).
+#  `logos` are the smaller funder/partner strip.
+#  `names` lists all funders as text (for those without a logo).
+#  Image files live in static/images/funders/.
 # ------------------------------------------------------------
+institution:
+  - name: "University of Cambridge"
+    image: "cambridge.png"
+    url: "https://www.cam.ac.uk/"
+  - name: "Early Cancer Institute"
+    image: "eci.png"
+    url: "https://www.earlycancer.cam.ac.uk/"
+
 logos:
   - name: "Cancer Research UK"
     image: "cruk.png"
-  - name: "University of Cambridge"
-    image: "cambridge.png"
-  - name: "Early Cancer Institute"
-    image: "eci.png"
   - name: "The Francis Crick Institute"
     image: "crick.png"
 

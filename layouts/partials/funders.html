@@ -1,7 +1,20 @@
-{{/* Funders & partners strip. Data in data/funders.yaml. */}}
+{{/* Institution (prominent) + funders/partners strip. Data in data/funders.yaml. */}}
 <section class="section-alt">
   <div class="wrap">
-    <p class="eyebrow">Funders &amp; partners</p>
+    {{ with .Site.Data.funders.institution }}
+    <p class="eyebrow">Our home</p>
+    <div class="institution-logos">
+      {{ range . }}
+        {{ if fileExists (printf "static/images/funders/%s" .image) }}
+          {{ if .url }}<a href="{{ .url }}" title="{{ .name }}">{{ end }}
+          <img src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="lazy">
+          {{ if .url }}</a>{{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <p class="eyebrow" style="margin-top:2.5rem;">Funders &amp; partners</p>
     <div class="funder-logos">
       {{ range .Site.Data.funders.logos }}
         {{ if fileExists (printf "static/images/funders/%s" .image) }}
@@ -18,9 +31,12 @@
   </div>
 </section>
 <style>
-  .funder-logos{display:flex;flex-wrap:wrap;align-items:center;gap:2.5rem;margin:1.25rem 0;}
-  .funder-logos img{height:56px;width:auto;object-fit:contain;filter:grayscale(1);opacity:.75;transition:filter .2s,opacity .2s;}
+  .institution-logos{display:flex;flex-wrap:wrap;align-items:center;gap:clamp(2rem,6vw,4.5rem);margin:1.25rem 0 .5rem;}
+  .institution-logos img{height:clamp(74px,9vw,104px);width:auto;object-fit:contain;}
+  .institution-logos a{display:inline-flex;transition:transform .2s;}
+  .institution-logos a:hover{transform:translateY(-2px);}
+  .funder-logos{display:flex;flex-wrap:wrap;align-items:center;gap:2.5rem;margin:1rem 0;}
+  .funder-logos img{height:46px;width:auto;object-fit:contain;filter:grayscale(1);opacity:.6;transition:filter .2s,opacity .2s;}
   .funder-logos img:hover{filter:grayscale(0);opacity:1;}
-  .funder-names{font-size:.95rem;color:var(--muted,#666);max-width:60ch;}
-  @media (prefers-color-scheme: dark){ .funder-logos img{filter:grayscale(1) invert(0);} }
+  .funder-names{font-size:.95rem;color:var(--muted,#666);max-width:62ch;}
 </style>

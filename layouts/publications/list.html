@@ -9,6 +9,9 @@
 
 <section>
   <div class="wrap">
+    {{ with .Site.Params.scholar }}
+    <p style="margin:0 0 2rem;"><a class="btn" href="{{ . }}">View full list on Google Scholar →</a></p>
+    {{ end }}
     <ul class="pub-list">
       {{ range .Site.Data.publications.items }}
       <li class="pub">
