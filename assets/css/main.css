@@ -10,7 +10,7 @@
   --accent:      #3d348b;   /* deep indigo */
   --accent-dark: #2a2560;
   --accent-soft: #e2e0f2;   /* pale indigo wash */
-  --muted:       #5a6270;   /* secondary text */
+  --muted:       #3f4654;   /* secondary text (darkened for readability) */
   --line:        #e6e3dc;   /* hairline rules / borders */
   --paper-2:     #f3f1ea;   /* alternate section background */
 
@@ -120,6 +120,10 @@ p { margin: 0 0 1.1rem; }
   .hero-grid { grid-template-columns: 1fr; }
   .hero-logo { display: none; }
 }
+.hero-affil { display: flex; flex-wrap: wrap; align-items: center; gap: 1.6rem; margin: 0 0 1.6rem; }
+.hero-affil img { height: 40px; width: auto; object-fit: contain; }
+.hero-affil a { display: inline-flex; transition: opacity 0.2s; }
+.hero-affil a:hover { opacity: 0.7; }
 .hero h1 { margin: 0 0 0.6rem; }
 .hero .tagline { font-family: var(--font-display); font-size: clamp(1.4rem, 2.6vw, 2rem); font-style: italic; color: var(--accent-dark); margin: 0 0 0.4rem; }
 .hero .subtitle { font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: 0.12em; color: var(--muted); margin: 0 0 2rem; }

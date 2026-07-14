@@ -1,20 +1,7 @@
 {{/* Institution (prominent) + funders/partners strip. Data in data/funders.yaml. */}}
 <section class="section-alt">
   <div class="wrap">
-    {{ with .Site.Data.funders.institution }}
-    <p class="eyebrow">Our home</p>
-    <div class="institution-logos">
-      {{ range . }}
-        {{ if fileExists (printf "static/images/funders/%s" .image) }}
-          {{ if .url }}<a href="{{ .url }}" title="{{ .name }}">{{ end }}
-          <img src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="lazy">
-          {{ if .url }}</a>{{ end }}
-        {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-
-    <p class="eyebrow" style="margin-top:2.5rem;">Funders &amp; partners</p>
+    <p class="eyebrow">Funders &amp; partners</p>
     <div class="funder-logos">
       {{ range .Site.Data.funders.logos }}
         {{ if fileExists (printf "static/images/funders/%s" .image) }}

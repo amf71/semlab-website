@@ -5,6 +5,17 @@
   {{ partial "lineage.html" . }}
   <div class="wrap hero-grid">
     <div class="hero-inner">
+      {{ with .Site.Data.funders.institution }}
+      <div class="hero-affil">
+        {{ range . }}
+          {{ if fileExists (printf "static/images/funders/%s" .image) }}
+            {{ if .url }}<a href="{{ .url }}" title="{{ .name }}">{{ end }}
+            <img src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="eager">
+            {{ if .url }}</a>{{ end }}
+          {{ end }}
+        {{ end }}
+      </div>
+      {{ end }}
       <p class="tagline">{{ .Site.Params.tagline }}</p>
       <h1>{{ .Site.Params.labFullName }}</h1>
       <p class="subtitle">{{ .Site.Params.subtitle }}</p>
