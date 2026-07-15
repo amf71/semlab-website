@@ -31,7 +31,7 @@ logos:
     image: "downing.png"
     url: "https://www.dow.cam.ac.uk/"
   - name: "NIHR Cambridge Biomedical Research Centre"
-    image: "nihr.png"
+    image: "nihr-mark.png"
     url: "https://cambridgebrc.nihr.ac.uk/"
   - name: "The Francis Crick Institute"
     image: "crick.png"
