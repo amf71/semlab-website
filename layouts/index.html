@@ -2,7 +2,8 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  {{ partial "lineage.html" . }}
+  <div class="decor decor--lineage" data-decor="lineage" data-seed="4" aria-hidden="true"></div>
+  <div class="decor decor--fish" data-decor="fishplot" data-seed="9" aria-hidden="true"></div>
   <div class="wrap hero-grid">
     <div class="hero-inner">
       {{ with .Site.Data.funders.institution }}
@@ -44,7 +45,8 @@
 </section>
 
 <!-- ============ RESEARCH THEMES ============ -->
-<section class="section-alt">
+<section class="section-alt research-themes">
+  <div class="decor decor--clone-edge" data-decor="clonemap" data-seed="12" aria-hidden="true"></div>
   <div class="wrap">
     <p class="eyebrow">Research themes</p>
     <h2>What we work on</h2>
