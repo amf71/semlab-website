@@ -74,11 +74,13 @@ p { margin: 0 0 1.1rem; }
   gap: 1rem; padding-block: 1rem;
 }
 .brand {
+  display: inline-flex; align-items: center; gap: 0.55rem;
   font-family: var(--font-display);
   font-size: 1.35rem; font-weight: 600; letter-spacing: -0.01em;
   color: var(--ink); text-decoration: none;
 }
 .brand:hover { color: var(--accent); }
+.brand-mark { height: 34px; width: auto; max-width: none; object-fit: contain; display: block; }
 .nav-links { display: flex; gap: 1.6rem; align-items: center; list-style: none; margin: 0; padding: 0; }
 .nav-links a {
   font-size: 0.9rem; color: var(--ink); text-decoration: none;

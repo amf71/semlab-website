@@ -24,9 +24,9 @@
       <p class="subtitle">{{ .Site.Params.subtitle }}</p>
       <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
     </div>
-    {{ if fileExists "static/images/logo.png" }}
+    {{ if fileExists "static/images/hero-clonemap.png" }}
     <div class="hero-logo">
-      <img src="{{ "/images/logo.png" | relURL }}" alt="SEM Lab — tracking somatic evolution from liquid biopsies and tissue">
+      <img src="{{ "/images/hero-clonemap.png" | relURL }}" alt="A clone map showing clonal population dynamics over serial samples">
     </div>
     {{ end }}
   </div>

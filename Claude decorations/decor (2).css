@@ -1,0 +1,46 @@
+/* ============================================================
+   SEM Lab — data-motif decoration layer
+   Append to main.css.  Pairs with /js/sem-decor.js.
+   Atmospheric, low-contrast backdrops that never touch text.
+   ============================================================ */
+.decor { position: absolute; inset: 0; pointer-events: none; overflow: hidden; z-index: 0; }
+.decor svg { width: 100%; height: 100%; display: block; }
+
+/* --- Placements ------------------------------------------------ */
+/* Hero: lineage fanning from the left, a faint fishplot flowing behind */
+.hero .decor--lineage { opacity: 0.45; }
+.hero .decor--fish    { opacity: 0.16; z-index: 0; }
+
+/* Page headers (research / software) */
+.page-head { position: relative; overflow: hidden; }
+.page-head .decor--fish  { opacity: 0.24; }
+.page-head .decor--clone { opacity: 0.42; display: flex; justify-content: flex-end; }
+.page-head .decor--clone svg { width: min(560px, 60%); margin-inline-end: -6%; }
+.page-head > .wrap { position: relative; z-index: 2; }
+
+/* Section flourishes: a cloneMap bleeding off one edge */
+.decor--clone-edge { opacity: 0.34; display: flex; align-items: center; justify-content: flex-end; }
+.decor--clone-edge svg { width: min(520px, 46%); margin-inline-end: -8%; }
+.decor--dna { opacity: 0.14; align-items: flex-end; }
+
+/* keep the hero logo tile above its own motif */
+.hero-inner, .hero-logo { position: relative; z-index: 2; }
+
+/* --- Motion (subtle; disabled for reduced-motion) -------------- */
+/* NB: clone/fish colour is carried by each path's fill-opacity, NOT the
+   animation — motifs stay fully visible even when animation isn't ticking. */
+.fp-band { animation: fp-drift var(--dur, 30s) var(--d, 0s) ease-in-out infinite alternate; }
+.cm-node { animation: cm-breathe 8s var(--d, 0s) ease-in-out infinite alternate; }
+.decor .ln { stroke-dasharray: 640; stroke-dashoffset: 640; animation: ln-draw 2.6s ease forwards; }
+.decor .nd { opacity: 0; animation: nd-in 0.6s ease forwards; animation-delay: 1.8s; }
+
+@keyframes fp-drift  { from { transform: translateX(-10px); } to { transform: translateX(14px); } }
+@keyframes cm-breathe{ 0% { transform: scale(0.992); } 100% { transform: scale(1.012); } }
+@keyframes ln-draw   { to { stroke-dashoffset: 0; } }
+@keyframes nd-in     { to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .fp-band, .cm-node, .decor .ln, .decor .nd { animation: none; }
+  .decor .ln { stroke-dashoffset: 0; }
+  .decor .nd { opacity: 1; }
+}
