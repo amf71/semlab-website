@@ -1,7 +1,7 @@
 {{/* Funders & partners logo wall. Data in data/funders.yaml. */}}
 <section class="section-alt">
   <div class="wrap">
-    <p class="eyebrow">Funders &amp; partners</p>
+    <p class="eyebrow">Funders</p>
     <div class="funder-wall">
       {{ range .Site.Data.funders.logos }}
         {{ if fileExists (printf "static/images/funders/%s" .image) }}
@@ -20,7 +20,7 @@
   .funder-wall { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 1.35rem 0 0; }
   .funder-card {
     background: #fff; border: 1px solid var(--line); border-radius: 12px;
-    width: 190px; height: 90px; padding: 0.75rem 1.1rem;
+    width: 240px; height: 116px; padding: 0.85rem 1.2rem;
     display: flex; align-items: center; justify-content: center;
     transition: box-shadow 0.2s, transform 0.2s;
   }
