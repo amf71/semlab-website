@@ -4,11 +4,16 @@
     <p class="eyebrow">Funders</p>
     <div class="funder-wall">
       {{ range .Site.Data.funders.logos }}
-        {{ if fileExists (printf "static/images/funders/%s" .image) }}
-          {{ if .url }}<a class="funder-card" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="funder-card">{{ end }}
+        {{ if .url }}<a class="funder-card" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="funder-card">{{ end }}
+          {{ if and .icon .text }}
+            <span class="funder-lockup">
+              <img class="funder-lockup-icon" src="{{ printf "/images/funders/%s" .icon | relURL }}" alt="{{ .name }}" loading="lazy">
+              <span class="funder-lockup-text">{{ .text | safeHTML }}</span>
+            </span>
+          {{ else if .image }}
             <img src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="lazy">
-          {{ if .url }}</a>{{ else }}</span>{{ end }}
-        {{ end }}
+          {{ end }}
+        {{ if .url }}</a>{{ else }}</span>{{ end }}
       {{ end }}
     </div>
     {{ with .Site.Data.funders.extra }}
@@ -26,5 +31,8 @@
   }
   a.funder-card:hover { box-shadow: 0 8px 22px rgba(61,52,139,0.12); transform: translateY(-2px); }
   .funder-card img { max-width: 100%; max-height: 100%; width: auto; height: auto; object-fit: contain; display: block; }
+  .funder-lockup { display: inline-flex; align-items: center; gap: 0.55rem; }
+  .funder-lockup-icon { height: 52px; width: auto; object-fit: contain; }
+  .funder-lockup-text { font-family: var(--font-display); font-weight: 500; font-size: 1.12rem; line-height: 1.1; color: #1f2430; }
   .funder-names { font-size: 0.92rem; color: var(--muted); margin: 1.5rem 0 0; text-align: center; }
 </style>
