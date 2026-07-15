@@ -18,13 +18,24 @@ institution:
     url: "https://crukcambridgecentre.org.uk/"
 
 logos:
+  - name: "Wellcome Trust"
+    image: "wellcome.png"
+    url: "https://wellcome.org/"
+  - name: "Cancer Research UK"
+    image: "cruk.png"
+    url: "https://www.cancerresearchuk.org/"
+  - name: "Academy of Medical Sciences"
+    image: "ams.png"
+    url: "https://acmedsci.ac.uk/"
+  - name: "Downing College, Cambridge"
+    image: "downing.png"
+    url: "https://www.dow.cam.ac.uk/"
+  - name: "NIHR Cambridge Biomedical Research Centre"
+    image: "nihr.png"
+    url: "https://cambridgebrc.nihr.ac.uk/"
   - name: "The Francis Crick Institute"
     image: "crick.png"
+    url: "https://www.crick.ac.uk/"
 
-names:
-  - "Wellcome Trust"
-  - "Cancer Research UK"
-  - "Academy of Medical Sciences"
-  - "Downing College, Cambridge"
-  - "The Cowan Foundation"
-  - "NIHR Cambridge Biomedical Research Centre"
+# Funders without a logo available — shown as a short text line.
+extra: "the Cowan Foundation"
