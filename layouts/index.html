@@ -4,32 +4,25 @@
 <section class="hero">
   <div class="decor decor--lineage" data-decor="lineage" data-seed="4" aria-hidden="true"></div>
   <div class="decor decor--fish" data-decor="fishplot" data-seed="9" aria-hidden="true"></div>
-  <div class="wrap hero-grid">
-    <div class="hero-inner">
-      {{ with .Site.Data.funders.institution }}
-      <div class="hero-affil">
-        {{ range . }}
-          {{ if .url }}<a class="affil-item" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="affil-item">{{ end }}
-            {{ if and .icon .text }}
-              <img class="affil-icon" src="{{ printf "/images/funders/%s" .icon | relURL }}" alt="{{ .name }}" loading="eager">
-              <span class="affil-label">{{ .text | safeHTML }}</span>
-            {{ else if .image }}
-              <img class="affil-full" src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="eager">
-            {{ end }}
-          {{ if .url }}</a>{{ else }}</span>{{ end }}
-        {{ end }}
-      </div>
+  <div class="wrap hero-inner">
+    {{ with .Site.Data.funders.institution }}
+    <div class="hero-affil">
+      {{ range . }}
+        {{ if .url }}<a class="affil-item" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="affil-item">{{ end }}
+          {{ if and .icon .text }}
+            <img class="affil-icon" src="{{ printf "/images/funders/%s" .icon | relURL }}" alt="{{ .name }}" loading="eager">
+            <span class="affil-label">{{ .text | safeHTML }}</span>
+          {{ else if .image }}
+            <img class="affil-full" src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="eager">
+          {{ end }}
+        {{ if .url }}</a>{{ else }}</span>{{ end }}
       {{ end }}
-      <p class="tagline">{{ .Site.Params.tagline }}</p>
-      <h1>{{ .Site.Params.labFullName }}</h1>
-      <p class="subtitle">{{ .Site.Params.subtitle }}</p>
-      <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
-    </div>
-    {{ if fileExists "static/images/hero-clonemap.png" }}
-    <div class="hero-logo">
-      <img src="{{ "/images/hero-clonemap.png" | relURL }}" alt="A clone map showing clonal population dynamics over serial samples">
     </div>
     {{ end }}
+    <p class="tagline">{{ .Site.Params.tagline }}</p>
+    <h1>{{ .Site.Params.labFullName }}</h1>
+    <p class="subtitle">{{ .Site.Params.subtitle }}</p>
+    <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
   </div>
 </section>
 
@@ -45,8 +38,7 @@
 </section>
 
 <!-- ============ RESEARCH THEMES ============ -->
-<section class="section-alt research-themes">
-  <div class="decor decor--clone-edge" data-decor="clonemap" data-seed="12" aria-hidden="true"></div>
+<section class="section-alt">
   <div class="wrap">
     <p class="eyebrow">Research themes</p>
     <h2>What we work on</h2>
