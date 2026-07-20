@@ -1,8 +1,11 @@
 # ------------------------------------------------------------
-#  Lab members. `group` must match one of the headings in
-#  layouts/people/list.html:
+#  Lab members. The page has two sections, Current and Alumni.
+#  Section is set per person by `status`:
+#    status: alumni  -> Alumni section (omit for current members)
+#  Within each section people are ordered by seniority using `group`
+#  (see $roleOrder in layouts/people/list.html):
 #    Principal Investigator | Postdoctoral Researchers |
-#    PhD Students | Research Assistants & Staff | Team | Alumni
+#    PhD Students | Research Assistants & Staff | Team
 #
 #  Optional per person: photo (file in static/images/people/),
 #  blurb, email, scholar, github.
@@ -24,7 +27,7 @@ members:
     role: "Postdoctoral Research Fellow in Cancer Evolution"
     group: "Postdoctoral Researchers"
     photo: "emma-hazelwood.jpg"
-    blurb: "Emma joined the lab as a postdoc after completing her PhD in Cancer Epidemiology at the University of Bristol in 2024. She develops spatial DNA sequencing technologies and contributes to the TRACERx lung cancer project, focusing on germline analyses. She also holds the Everitt Butterfield Research Fellowship at Downing College. Outside the lab she enjoys live music and pub quizzes."
+    blurb: "Emma joined the lab as a postdoc, after completing her PhD in Cancer Epidemiology at the University of Bristol in 2024. Emma now works on developing spatial DNA sequencing technologies and contributing to the TRACERx lung cancer project, focussing on germline analyses. Alongside her position in the Frankell lab, Emma also holds the Everitt Butterfield Research Fellowship at Downing College. Outside of work, she enjoys watching live music and participating in pub quizzes."
 
   - name: "Lianlian (Leanne) Wu"
     role: "Postdoctoral Researcher"
@@ -34,7 +37,8 @@ members:
   - name: "Zhidong (Woody) Zhang"
     role: "PhD Student"
     group: "PhD Students"
-    blurb: "Develops AstroCNA, a method for detecting allele-specific copy-number changes and chromosomal instability in low-purity, non-invasive samples."
+    photo: "woody-zhang.jpg"
+    blurb: "Woody studied computational biology at Sichuan University before completing an MPhil in Chemical Pathology with Professor Dennis Lo at the Chinese University of Hong Kong, where he studied cell-free DNA biology and its applications in non-invasive prenatal and cancer testing. He joined the Frankell lab as a PhD student in 2024. His research focuses on developing sensitive computational genomics methods to detect chromosomal instability and track tumour evolution in non-invasive samples, including circulating tumour DNA and capsule sponges. He applies these methods to some of the most lethal cancers, including lung and oesophageal cancers, with the aim of improving early detection and risk stratification. Outside the lab, Woody enjoys football, hiking and photography."
 
   - name: "Katie Honan"
     role: "PhD Student"
@@ -44,6 +48,7 @@ members:
   - name: "Tiantian Ye"
     role: "Team member"
     group: "Team"
+    status: "alumni"
     blurb: ""
 
   - name: "Fabiola (Fabi) Roman Maldonado"
@@ -54,12 +59,14 @@ members:
   - name: "Hannah Bazin"
     role: "Team member"
     group: "Team"
+    status: "alumni"
     blurb: ""
 
   - name: "Janhavi Rastogi"
-    role: "Team member"
-    group: "Team"
-    blurb: ""
+    role: "Research Assistant"
+    group: "Research Assistants & Staff"
+    photo: "janhavi-rastogi.jpg"
+    blurb: "Janhavi received her M.Sc. in Biomedical Science from the University of Bristol, where her final-year research focused on cell synchronisation in osteoarthritis. She then joined the CRUK Manchester Institute, investigating circulating tumour cells (CTCs) as biomarkers for cancer detection in Prof Caroline Dive's Laboratory. Since joining the Frankell Lab in January 2026, her research has focused on advancing early cancer detection through the longitudinal analysis of circulating tumour DNA (ctDNA), with the aim of improving our understanding of tumour evolution and disease monitoring."
 
   - name: "Jie (Jason) Sheng Aik"
     role: "Team member"

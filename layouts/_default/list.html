@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-g.png" "side" "right") }}
   <div class="wrap">
     <p class="eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}{{ .Site.Params.labName }}{{ end }}</p>
     <h1>{{ .Title }}</h1>

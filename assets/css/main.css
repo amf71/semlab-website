@@ -167,18 +167,32 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
 /* ============================================================
    People
    ============================================================ */
-.people-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.75rem; margin-top: 2.5rem; }
-.person { text-align: left; }
+.people-list { display: flex; flex-direction: column; margin-top: 2.5rem; }
+.person {
+  display: grid; grid-template-columns: 11rem 1fr; gap: 1.75rem; align-items: start;
+  text-align: left; padding: 1.75rem 0; border-top: 1px solid var(--line);
+}
 .person .avatar {
-  aspect-ratio: 1; border-radius: 4px; overflow: hidden; border: 1px solid var(--line);
-  background: var(--accent-soft); margin-bottom: 0.85rem;
+  width: 11rem; aspect-ratio: 1; border-radius: 4px; overflow: hidden; border: 1px solid var(--line);
+  background: var(--accent-soft); flex-shrink: 0;
 }
 .person .avatar img { width: 100%; height: 100%; object-fit: cover; }
-.person .name { font-family: var(--font-display); font-size: 1.1rem; margin: 0; }
-.person .role { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin: 0.2rem 0 0.4rem; }
-.person .blurb { font-size: 0.9rem; color: var(--muted); margin: 0; }
-.person .links { margin-top: 0.5rem; font-size: 0.8rem; }
+.person .name { font-family: var(--font-display); font-size: 1.2rem; margin: 0; }
+.person .role { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin: 0.25rem 0 0.5rem; }
+.person .blurb { font-size: 0.95rem; color: var(--muted); margin: 0; max-width: 42rem; }
+.person .links { margin-top: 0.6rem; font-size: 0.8rem; }
 .person .links a { margin-right: 0.6rem; }
+
+/* Home-page team preview: compact photo-on-top cards in a grid */
+.people-preview { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem 1.75rem; margin-top: 2.5rem; }
+.person-card { text-align: left; }
+.person-card .avatar {
+  width: 100%; aspect-ratio: 1; border-radius: 4px; overflow: hidden;
+  border: 1px solid var(--line); background: var(--accent-soft); margin-bottom: 0.85rem;
+}
+.person-card .avatar img { width: 100%; height: 100%; object-fit: cover; }
+.person-card .name { font-family: var(--font-display); font-size: 1.1rem; margin: 0; }
+.person-card .role { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); margin: 0.2rem 0 0; }
 
 /* ============================================================
    Publications
@@ -266,9 +280,10 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
    Responsive
    ============================================================ */
 @media (max-width: 900px) {
-  .grid-3, .people-grid { grid-template-columns: repeat(2, 1fr); }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
   .contact-grid, .footer-inner { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+  .people-preview { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 640px) {
   .nav-toggle { display: block; }
@@ -281,11 +296,14 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
   .nav-links.open { max-height: 30rem; }
   .nav-links li { width: 100%; }
   .nav-links a { display: block; padding-block: 0.7rem; width: 100%; }
-  .grid-3, .people-grid { grid-template-columns: 1fr; }
+  .grid-3 { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: 1fr; }
   .pub { grid-template-columns: 1fr; gap: 0.4rem; }
   .news-item { grid-template-columns: 1fr; gap: 0.3rem; }
   .stats { gap: 1.5rem; }
+  .person { grid-template-columns: 1fr; }
+  .person .avatar { width: 7rem; }
+  .people-preview { grid-template-columns: repeat(2, 1fr); gap: 1.5rem 1.25rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -326,6 +344,36 @@ a:focus-visible, button:focus-visible, .btn:focus-visible {
 .decor--clone-edge { opacity: 0.34; display: flex; align-items: center; justify-content: flex-end; }
 .decor--clone-edge svg { width: min(520px, 46%); margin-inline-end: -8%; }
 .decor--dna { opacity: 0.14; align-items: flex-end; }
+
+/* Real (recoloured) cloneMap images bleeding off a page-header edge */
+.decor--clone-img { display: flex; align-items: center; }
+.decor--clone-img.decor--right { justify-content: flex-end; }
+.decor--clone-img.decor--left  { justify-content: flex-start; }
+.decor--clone-img img {
+  width: min(430px, 42%); height: auto; opacity: 0.3;
+  mix-blend-mode: multiply;
+}
+.decor--clone-img.decor--right img { margin-inline-end: -7%; }
+.decor--clone-img.decor--left  img { margin-inline-start: -7%; }
+@media (max-width: 640px) { .decor--clone-img img { opacity: 0.2; width: 58%; } }
+
+/* Sections that host a scattered background cloneMap need a positioning
+   context, with their content lifted above it. */
+.decor-host { position: relative; overflow: hidden; }
+.decor-host > .wrap { position: relative; z-index: 1; }
+
+/* A single faint cloneMap bleeding off an edge, at an explicit vertical
+   offset down a long page — very low-key, never competes with content. */
+.decor--scatter {
+  position: absolute; inset: auto 0 auto 0; height: 26rem; z-index: 0;
+  pointer-events: none; display: flex; align-items: center;
+}
+.decor--scatter.decor--right { justify-content: flex-end; }
+.decor--scatter.decor--left  { justify-content: flex-start; }
+.decor--scatter img { width: min(320px, 32%); height: auto; opacity: 0.17; mix-blend-mode: multiply; }
+.decor--scatter.decor--right img { margin-inline-end: -6%; }
+.decor--scatter.decor--left  img { margin-inline-start: -6%; }
+@media (max-width: 640px) { .decor--scatter { display: none; } }
 
 
 /* --- Motion (subtle; disabled for reduced-motion) -------------- */

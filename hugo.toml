@@ -18,7 +18,7 @@ enableRobotsTXT = true
   labName      = "SEM Lab"                              # shown in the nav
   labFullName  = "Somatic Evolution Monitoring Lab"       # shown in the footer
   tagline      = "tracking cancer evolution before it begins"
-  subtitle     = "Somatic evolution · Genomics · Early detection"
+  subtitle     = "Tech & Methods Development · Evolutionary Dynamics · Non‑invasive Biomarkers"
   institution  = "Early Cancer Institute, University of Cambridge"
   email        = "amf71@cam.ac.uk"
   # ---- Social / external links (leave blank to hide) ------------
@@ -29,6 +29,10 @@ enableRobotsTXT = true
 
 # ---- Top navigation (order set by weight) ---------------------
 [menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 5
   [[menu.main]]
     name = "Research"
     pageRef = "/research"

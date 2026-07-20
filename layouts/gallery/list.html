@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-d.png" "side" "right") }}
   <div class="wrap">
     <p class="eyebrow">In pictures</p>
     <h1>{{ .Title }}</h1>
@@ -15,7 +16,7 @@
         {{ if and .image (fileExists (printf "static/images/gallery/%s" .image)) }}
           <img src="{{ printf "/images/gallery/%s" .image | relURL }}" alt="{{ .caption }}" loading="lazy">
         {{ else }}
-          <figcaption class="cap">{{ .caption }} — add {{ .image }}</figcaption>
+          <figcaption class="cap">{{ .caption }}</figcaption>
         {{ end }}
       </figure>
       {{ end }}

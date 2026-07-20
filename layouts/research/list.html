@@ -7,7 +7,9 @@
     {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
   </div>
 </section>
-<section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-j.png" "side" "left" "top" "2%") }}
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "72%") }}
   <div class="wrap">
     <div class="prose">
       {{ .Content }}

@@ -8,7 +8,7 @@
 items:
   - year: "2026"
     title: "Harnessing genomics for early cancer detection, risk stratification and prevention"
-    authors: "M. Gu, W. Z. Zhang, … <strong>A. M. Frankell</strong>, … R. C. Fitzgerald, G. S. Vassiliou"
+    authors: "M. Gu, W. Z. Zhang, … R. C. Fitzgerald, <strong>A. M. Frankell</strong>*, G. S. Vassiliou (*joint corresponding author)"
     venue: "Nature Genetics, 58(4), 704–716"
     url: "https://doi.org/10.1038/s41588-026-02505-1"
     tags: ["Review", "Early detection"]
@@ -18,7 +18,7 @@ items:
 
   - year: "2025"
     title: "Longitudinal ultrasensitive ctDNA monitoring for high-resolution lung cancer risk prediction"
-    authors: "J. R. M. Black, … <strong>A. M. Frankell</strong>, … C. Swanton"
+    authors: "J. R. M. Black, … <strong>A. M. Frankell</strong>*, C. Swanton (*joint senior author)"
     venue: "Cell, 188(24), 7083–7098"
     url: "https://doi.org/10.1016/j.cell.2025.10.020"
     tags: ["ctDNA", "Lung cancer"]
@@ -58,7 +58,7 @@ items:
 
   - year: "2021"
     title: "Longitudinal tracking of 97 esophageal adenocarcinomas using liquid biopsy sampling"
-    authors: "E. Ococks, <strong>A. M. Frankell</strong>, … E. C. Smyth"
+    authors: "E. Ococks*, <strong>A. M. Frankell</strong>*, … E. C. Smyth (*joint first author)"
     venue: "Annals of Oncology, 32(4), 522–532"
     url: "https://doi.org/10.1016/j.annonc.2020.12.010"
     tags: ["ctDNA", "Oesophageal cancer"]

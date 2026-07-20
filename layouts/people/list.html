@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-b.png" "side" "right") }}
   <div class="wrap">
     <p class="eyebrow">The team</p>
     <h1>{{ .Title }}</h1>
@@ -7,29 +8,44 @@
   </div>
 </section>
 
-{{ $groups := slice "Principal Investigator" "Postdoctoral Researchers" "PhD Students" "Research Assistants & Staff" "Team" "Alumni" }}
+{{/* Two sections only: Current and Alumni. Within each, people are ordered
+     by seniority via $roleOrder (PI → postdocs → PhD students → RAs → other).
+     A person is Alumni iff `status: alumni` is set in data/people.yaml. */}}
+{{ $roleOrder := slice "Principal Investigator" "Postdoctoral Researchers" "PhD Students" "Research Assistants & Staff" "Team" }}
 {{ $members := .Site.Data.people.members }}
+{{ $sections := slice "Current" "Alumni" }}
 
 <section>
   <div class="wrap">
-    {{ range $g := $groups }}
-      {{ $inGroup := where $members "group" $g }}
-      {{ if $inGroup }}
-        <h2 style="margin-top:2.5rem;">{{ $g }}</h2>
-        <div class="people-grid">
-          {{ range $inGroup }}
+    {{ range $s := $sections }}
+      {{/* Build the ordered member list for this section */}}
+      {{ $inSection := slice }}
+      {{ range $r := $roleOrder }}
+        {{ range (where $members "group" $r) }}
+          {{ $isAlumni := eq .status "alumni" }}
+          {{ if or (and (eq $s "Alumni") $isAlumni) (and (eq $s "Current") (not $isAlumni)) }}
+            {{ $inSection = $inSection | append . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if $inSection }}
+        <h2 style="margin-top:2.5rem;">{{ $s }}</h2>
+        <div class="people-list">
+          {{ range $inSection }}
           <div class="person">
             <div class="avatar">{{ partial "avatar.html" . }}</div>
-            <p class="name">{{ .name }}</p>
-            <p class="role">{{ .role }}</p>
-            {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
-            {{ if or .email .scholar .github }}
-            <p class="links">
-              {{ with .email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
-              {{ with .scholar }}<a href="{{ . }}">Scholar</a>{{ end }}
-              {{ with .github }}<a href="{{ . }}">GitHub</a>{{ end }}
-            </p>
-            {{ end }}
+            <div>
+              <p class="name">{{ .name }}</p>
+              <p class="role">{{ .role }}</p>
+              {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
+              {{ if or .email .scholar .github }}
+              <p class="links">
+                {{ with .email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
+                {{ with .scholar }}<a href="{{ . }}">Scholar</a>{{ end }}
+                {{ with .github }}<a href="{{ . }}">GitHub</a>{{ end }}
+              </p>
+              {{ end }}
+            </div>
           </div>
           {{ end }}
         </div>
