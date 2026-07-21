@@ -1,0 +1,36 @@
+{{ define "main" }}
+<section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-a.png" "side" "right") }}
+  <div class="wrap">
+    <p class="eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}Open source{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+  </div>
+</section>
+
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-j.png" "side" "left" "top" "35%") }}
+  <div class="wrap">
+    <div class="grid-3">
+      {{ range .Site.Data.software.tools }}
+      <article class="card">
+        <h3 style="font-family:var(--font-mono);">{{ .name }}</h3>
+        {{ with .tagline }}<p class="eyebrow" style="margin:0 0 .6rem;">{{ . }}</p>{{ end }}
+        <p>{{ .description }}</p>
+        <p class="links" style="margin-top:1rem;">
+          {{ with .lang }}<span class="tag" style="cursor:default;">{{ . }}</span>{{ end }}
+          {{ with .repo }}<a class="tag" href="{{ . }}">View on GitHub →</a>{{ end }}
+        </p>
+        {{ with .author }}<p class="role" style="margin-top:.5rem;">{{ . }}</p>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+
+    {{ with .Site.Data.software.org }}
+    <p style="margin-top:2rem;"><a href="{{ . }}">All repositories on GitHub →</a></p>
+    {{ end }}
+
+    {{ with .Content }}<div class="prose" style="margin-top:2.5rem;">{{ . }}</div>{{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-f.png" "side" "right") }}
   <div class="wrap">
     <p class="eyebrow">Get in touch</p>
     <h1>{{ .Title }}</h1>
@@ -7,7 +8,7 @@
   </div>
 </section>
 
-<section>
+<section class="decor-host contact-details">
   <div class="wrap contact-grid">
     <div class="prose">
       {{ .Content }}
@@ -24,4 +25,16 @@
     </div>
   </div>
 </section>
+
+{{ if fileExists "static/images/logo.png" }}
+<section class="contact-logo-section">
+  <div class="wrap contact-logo-inner">
+    <img class="contact-logo" src="{{ "/images/logo.png" | relURL }}" alt="{{ .Site.Params.labName }} logo">
+    <div class="contact-logo-text">
+      <p class="lab">{{ .Site.Params.labFullName }}</p>
+      <p>{{ .Site.Params.institution }}</p>
+    </div>
+  </div>
+</section>
+{{ end }}
 {{ end }}

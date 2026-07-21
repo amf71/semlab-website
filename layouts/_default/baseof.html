@@ -7,6 +7,7 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
+  <script defer src="{{ "js/sem-decor.js" | relURL }}"></script>
   <script>
     // Mobile nav toggle
     const t = document.querySelector('.nav-toggle');

@@ -1,0 +1,45 @@
+# ------------------------------------------------------------
+#  Institution & funders.
+#  `institution` logos are shown large and in full colour (our home).
+#  `logos` are the smaller funder/partner strip.
+#  `names` lists all funders as text (for those without a logo).
+#  Image files live in static/images/funders/.
+# ------------------------------------------------------------
+institution:
+  - name: "University of Cambridge"
+    image: "cambridge-mark.png"
+    url: "https://www.cam.ac.uk/"
+  - name: "Early Cancer Institute"
+    icon: "eci-circle.png"
+    text: "Early Cancer<br>Institute"
+    url: "https://www.earlycancer.cam.ac.uk/"
+  - name: "Cancer Research UK Cambridge Centre"
+    image: "crukcc-logo.png"
+    url: "https://crukcambridgecentre.org.uk/"
+
+logos:
+  - name: "Wellcome Trust"
+    image: "hires/h-wellcome.png"
+    url: "https://wellcome.org/"
+  - name: "Cancer Research UK"
+    image: "hires/h-cruk.png"
+    url: "https://www.cancerresearchuk.org/"
+  - name: "Cancer Research UK Cambridge Centre"
+    image: "hires/h-crukcc.png"
+    url: "https://crukcambridgecentre.org.uk/"
+  - name: "Early Cancer Institute"
+    icon: "eci-circle.png"
+    text: "Early Cancer<br>Institute"
+    url: "https://www.earlycancer.cam.ac.uk/"
+  - name: "Academy of Medical Sciences"
+    image: "hires/h-ams.png"
+    url: "https://acmedsci.ac.uk/"
+  - name: "Downing College, Cambridge"
+    image: "hires/h-downing.png"
+    url: "https://www.dow.cam.ac.uk/"
+  - name: "NIHR Cambridge Biomedical Research Centre"
+    image: "hires/h-nihr.png"
+    url: "https://cambridgebrc.nihr.ac.uk/"
+
+# Funders without a logo available — shown as a short text line.
+extra: "the Cowan Foundation"

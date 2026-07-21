@@ -1,5 +1,6 @@
 {{ define "main" }}
 <section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-c.png" "side" "right") }}
   <div class="wrap">
     <p class="eyebrow">Selected work</p>
     <h1>{{ .Title }}</h1>
@@ -7,15 +8,19 @@
   </div>
 </section>
 
-<section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-j.png" "side" "left" "top" "40%") }}
   <div class="wrap">
+    {{ with .Site.Params.scholar }}
+    <p style="margin:0 0 2rem;"><a class="btn" href="{{ . }}">View full list on Google Scholar →</a></p>
+    {{ end }}
     <ul class="pub-list">
       {{ range .Site.Data.publications.items }}
       <li class="pub">
         <div class="year">{{ .year }}</div>
         <div>
           <p class="title">{{ if .url }}<a href="{{ .url }}" style="text-decoration:none;color:inherit;">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</p>
-          <p class="authors">{{ .authors }}</p>
+          <p class="authors">{{ .authors | safeHTML }}</p>
           <p class="venue"><em>{{ .venue }}</em></p>
           {{ if or .links .tags }}
           <div class="tags">

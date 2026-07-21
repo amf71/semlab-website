@@ -1,42 +1,77 @@
 # ------------------------------------------------------------
-#  Publications, newest first. All entries below are PLACEHOLDERS.
-#  Optional per item: url (links the title), tags (list of strings),
-#  links (list of {label, url} e.g. PDF, Code, Data).
+#  Selected publications, newest first.
+#  Alex Frankell's name is shown in bold (HTML is allowed in `authors`).
+#  * denotes joint first / corresponding author, noted in `authors`.
+#  Optional per item: url (links the title), tags, links [{label, url}].
+#  Full list: https://scholar.google.com/citations?user=2xS5m4gAAAAJ
 # ------------------------------------------------------------
 items:
+  - year: "2026"
+    title: "Harnessing genomics for early cancer detection, risk stratification and prevention"
+    authors: "M. Gu, W. Z. Zhang, R. C. Fitzgerald, <strong>A. M. Frankell</strong>*, G. S. Vassiliou (*joint corresponding author)"
+    venue: "Nature Genetics, 58(4), 704–716"
+    url: "https://doi.org/10.1038/s41588-026-02505-1"
+    tags: ["Review", "Early detection"]
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1038/s41588-026-02505-1"
+
   - year: "2025"
-    title: "Selection dynamics of somatic mutations in ageing human epithelium"
-    authors: "A. Principal, J. Postdoc, R. Student, et al."
-    venue: "Placeholder Journal of Somatic Evolution, in press"
-    tags: ["Clonal dynamics", "Selection"]
+    title: "Longitudinal ultrasensitive ctDNA monitoring for high-resolution lung cancer risk prediction"
+    authors: "J. R. M. Black, … <strong>A. M. Frankell</strong>*, C. Swanton (*joint senior author)"
+    venue: "Cell, 188(25), 7083–7098"
+    url: "https://doi.org/10.1016/j.cell.2025.10.020"
+    tags: ["ctDNA", "Lung cancer"]
     links:
-      - label: "PDF"
-        url: "#"
-      - label: "Code"
-        url: "#"
+      - label: "DOI"
+        url: "https://doi.org/10.1016/j.cell.2025.10.020"
 
-  - year: "2024"
-    title: "A phylogenetic framework for reconstructing tissue histories from single-cell data"
-    authors: "R. Student, A. Principal"
-    venue: "Placeholder Methods, 12(3), 210–225"
-    tags: ["Phylogenetics"]
+  - year: "2025"
+    title: "Ultrasensitive ctDNA detection for preoperative disease stratification in early-stage lung adenocarcinoma"
+    authors: "J. R. M. Black, … M. Jamal-Hanjani, <strong>A. M. Frankell</strong>*, C. Swanton (*joint senior author)"
+    venue: "Nature Medicine, 31(1), 70–76"
+    url: "https://doi.org/10.1038/s41591-024-03216-y"
+    tags: ["ctDNA", "Early detection"]
     links:
-      - label: "Preprint"
-        url: "#"
-
-  - year: "2024"
-    title: "Inferring mutation rates from ultra-deep targeted sequencing"
-    authors: "J. Postdoc, S. Fellow, A. Principal"
-    venue: "Placeholder Genomics, 8, 1145"
-    tags: ["Mutation", "Methods"]
+      - label: "DOI"
+        url: "https://doi.org/10.1038/s41591-024-03216-y"
 
   - year: "2023"
-    title: "Clonal haematopoiesis and the population genetics of blood"
-    authors: "S. Fellow, A. Principal"
-    venue: "Placeholder Reviews Cancer, 21, 55–70"
-    tags: ["Review"]
+    title: "The evolution of lung cancer and impact of subclonal selection in TRACERx"
+    authors: "<strong>A. M. Frankell</strong>*, M. Dietzen, M. Al Bakir, … C. Swanton (*joint first author)"
+    venue: "Nature, 616, 525–533"
+    url: "https://doi.org/10.1038/s41586-023-05783-5"
+    tags: ["Selection", "TRACERx", "Lung cancer"]
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1038/s41586-023-05783-5"
 
-  - year: "2022"
-    title: "Quantitative models of pre-cancerous clonal expansion"
-    authors: "A. Principal, C. Graduate"
-    venue: "Placeholder Cell Systems, 5, 401–414"
+  - year: "2023"
+    title: "Tracking early lung cancer metastatic dissemination in TRACERx using ctDNA"
+    authors: "C. Abbosh*, <strong>A. M. Frankell</strong>*, … C. Swanton (*joint first author)"
+    venue: "Nature, 616, 553–562"
+    url: "https://doi.org/10.1038/s41586-023-05776-4"
+    tags: ["ctDNA", "Metastasis", "TRACERx"]
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1038/s41586-023-05776-4"
+
+  - year: "2021"
+    title: "Longitudinal tracking of 97 esophageal adenocarcinomas using liquid biopsy sampling"
+    authors: "E. Ococks*, <strong>A. M. Frankell</strong>*, … E. C. Smyth (*joint first author)"
+    venue: "Annals of Oncology, 32(4), 522–532"
+    url: "https://doi.org/10.1016/j.annonc.2020.12.010"
+    tags: ["ctDNA", "Oesophageal cancer"]
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1016/j.annonc.2020.12.010"
+
+  - year: "2019"
+    title: "The landscape of selection in 551 esophageal adenocarcinomas defines genomic biomarkers for the clinic"
+    authors: "<strong>A. M. Frankell</strong>, S. Jammula, … R. C. Fitzgerald"
+    venue: "Nature Genetics, 51, 506–516"
+    url: "https://doi.org/10.1038/s41588-018-0331-5"
+    tags: ["Selection", "Oesophageal cancer", "Biomarkers"]
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1038/s41588-018-0331-5"

@@ -2,9 +2,23 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  {{ partial "lineage.html" . }}
+  <div class="decor decor--lineage" data-decor="lineage" data-seed="4" aria-hidden="true"></div>
+  <div class="decor decor--fish" data-decor="fishplot" data-seed="9" aria-hidden="true"></div>
   <div class="wrap hero-inner">
-    <p class="tagline">{{ .Site.Params.tagline }}</p>
+    {{ with .Site.Data.funders.institution }}
+    <div class="hero-affil">
+      {{ range . }}
+        {{ if .url }}<a class="affil-item" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="affil-item">{{ end }}
+          {{ if and .icon .text }}
+            <img class="affil-icon" src="{{ printf "/images/funders/%s" .icon | relURL }}" alt="{{ .name }}" loading="eager">
+            <span class="affil-label">{{ .text | safeHTML }}</span>
+          {{ else if .image }}
+            <img class="affil-full" src="{{ printf "/images/funders/%s" .image | relURL }}" alt="{{ .name }}" loading="eager">
+          {{ end }}
+        {{ if .url }}</a>{{ else }}</span>{{ end }}
+      {{ end }}
+    </div>
+    {{ end }}
     <h1>{{ .Site.Params.labFullName }}</h1>
     <p class="subtitle">{{ .Site.Params.subtitle }}</p>
     <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
@@ -12,7 +26,8 @@
 </section>
 
 <!-- ============ MISSION ============ -->
-<section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-j.png" "side" "left" "top" "8%") }}
   <div class="wrap mission">
     <p class="eyebrow">Our aim</p>
     <p class="lead">{{ .Params.missionLead | safeHTML }}</p>
@@ -44,28 +59,24 @@
   <div class="wrap">
     <figure class="figure">
       {{ partial "group-photo.html" . }}
-      <figcaption><strong>The group, {{ now.Format "2006" }}.</strong> Replace <code>static/images/group.jpg</code> with your own photo and edit this caption in <code>content/_index.md</code>.</figcaption>
+      <figcaption><strong>The Somatic Evolution Monitoring Lab.</strong></figcaption>
     </figure>
-    <div class="stats">
-      {{ range .Site.Data.research.stats }}
-      <div class="stat"><div class="n">{{ .n }}</div><div class="l">{{ .l }}</div></div>
-      {{ end }}
-    </div>
   </div>
 </section>
 
 <!-- ============ SELECTED PUBLICATIONS ============ -->
-<section class="section-alt">
+<section class="section-alt decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "12%") }}
   <div class="wrap">
     <p class="eyebrow">Selected work</p>
-    <h2>Recent publications</h2>
+    <h2>Selected publications</h2>
     <ul class="pub-list">
       {{ range first 4 .Site.Data.publications.items }}
       <li class="pub">
         <div class="year">{{ .year }}</div>
         <div>
           <p class="title">{{ .title }}</p>
-          <p class="authors">{{ .authors }}</p>
+          <p class="authors">{{ .authors | safeHTML }}</p>
           <p class="venue"><em>{{ .venue }}</em></p>
         </div>
       </li>
@@ -75,21 +86,29 @@
   </div>
 </section>
 
+<!-- ============ FUNDERS ============ -->
+{{ partial "funders.html" . }}
+
 <!-- ============ PEOPLE PREVIEW ============ -->
 <section>
   <div class="wrap">
     <p class="eyebrow">The team</p>
     <h2>People</h2>
-    <div class="people-grid">
-      {{ range first 4 .Site.Data.people.members }}
-      <div class="person">
+    {{/* All current members (exclude alumni) */}}
+    {{ $current := slice }}
+    {{ range .Site.Data.people.members }}
+      {{ if ne .status "alumni" }}{{ $current = $current | append . }}{{ end }}
+    {{ end }}
+    <div class="people-preview">
+      {{ range $current }}
+      <div class="person-card">
         <div class="avatar">{{ partial "avatar.html" . }}</div>
         <p class="name">{{ .name }}</p>
         <p class="role">{{ .role }}</p>
       </div>
       {{ end }}
     </div>
-    <p style="margin-top:1.75rem;"><a href="{{ "/people/" | relURL }}">Meet the whole team →</a></p>
+    <p style="margin-top:1.75rem;"><a href="{{ "/people/" | relURL }}">All lab member profiles →</a></p>
   </div>
 </section>
 

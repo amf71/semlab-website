@@ -17,18 +17,22 @@ enableRobotsTXT = true
   # ---- Identity -------------------------------------------------
   labName      = "SEM Lab"                              # shown in the nav
   labFullName  = "Somatic Evolution Monitoring Lab"       # shown in the footer
-  tagline      = "forecasting cancer before it begins"
-  subtitle     = "Evolution · Mathematics · Genomics"
+  tagline      = "tracking cancer evolution before it begins"
+  subtitle     = "Tech & Methods Development · Evolutionary Dynamics · Non‑invasive Biomarkers"
   institution  = "Early Cancer Institute, University of Cambridge"
-  email        = "sem.lab@cam.ac.uk"
+  email        = "amf71@cam.ac.uk"
   # ---- Social / external links (leave blank to hide) ------------
-  twitter      = "https://x.com/"
-  scholar      = "https://scholar.google.com/"
-  github       = "https://github.com/"
+  twitter      = ""
+  scholar      = "https://scholar.google.com/citations?user=2xS5m4gAAAAJ&hl=en"
+  github       = "https://github.com/Somatic-Evolutionary-Monitoring-Lab"
   bluesky      = ""
 
 # ---- Top navigation (order set by weight) ---------------------
 [menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 5
   [[menu.main]]
     name = "Research"
     pageRef = "/research"
@@ -37,6 +41,10 @@ enableRobotsTXT = true
     name = "Publications"
     pageRef = "/publications"
     weight = 20
+  [[menu.main]]
+    name = "Software"
+    pageRef = "/software"
+    weight = 25
   [[menu.main]]
     name = "People"
     pageRef = "/people"

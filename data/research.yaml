@@ -1,22 +1,11 @@
 # ------------------------------------------------------------
-#  Research themes shown on the homepage.
+#  Research themes shown on the homepage (the lab's three aims).
 #  Add / remove / reorder freely.
 # ------------------------------------------------------------
 themes:
-  - title: "Clonal dynamics"
-    summary: "Quantifying how mutant clones expand, compete and are purified by selection in healthy and pre-cancerous tissue over a lifetime."
-  - title: "Mutation & selection"
-    summary: "Inferring mutation rates and selection coefficients from deep sequencing to distinguish drivers from passengers in early lesions."
-  - title: "Phylogenetic reconstruction"
-    summary: "Building single-cell and bulk phylogenies to reconstruct the evolutionary history of a tissue from its somatic mutations."
-
-# ------------------------------------------------------------
-#  Headline numbers shown beneath the group photo.
-# ------------------------------------------------------------
-stats:
-  - n: "12"
-    l: "Group members"
-  - n: "40+"
-    l: "Publications"
-  - n: "3"
-    l: "Funders"
+  - title: "Longitudinal, non-invasive tracking"
+    summary: "Holistically tracking the longitudinal dynamics of somatic evolution using non-invasive samples such as circulating tumour DNA, so cancer clones can be followed over space and time."
+  - title: "Somatic evolution & carcinogenesis"
+    summary: "Understanding somatic evolution and carcinogenesis from detailed snapshots of tissue biopsies — reconstructing how competing clones initiate, progress and metastasise."
+  - title: "Clinical biomarkers"
+    summary: "Developing clinical biomarkers to predict and detect high-risk somatic evolution, translating evolutionary measurements into tools for early detection and prevention."

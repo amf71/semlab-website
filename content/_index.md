@@ -1,11 +1,11 @@
 ---
 # The homepage. The hero text comes from hugo.toml [params].
 # `missionLead` is the large serif statement; the body below is this file's content.
-missionLead: "We aim to develop a <em>quantitative</em> understanding of somatic evolution to predict and prevent cancer."
+missionLead: "We study the dynamics and drivers of Darwinian evolution in competing somatic cells to <em>understand, detect and prevent</em> cancer initiation, progression, metastasis and drug resistance."
 ---
 
-We are a multidisciplinary research group in the Early Cancer Institute at the University of Cambridge. We monitor the somatic evolution that unfolds in our tissues in the years and decades before a cancer diagnosis — and how it differs from the evolution occurring in people never destined to develop a cancer.
+We are a multidisciplinary research group in the [Early Cancer Institute](https://www.earlycancer.cam.ac.uk/) at the University of Cambridge. Our tissues are populations of cells that mutate, compete and are selected throughout life: the same Darwinian process that, in a small fraction of cases, culminates in cancer.
 
-Our vision is that by measuring somatic evolution across healthy and pre-cancerous human tissues, and by modelling it quantitatively, we can design more rational approaches to *predict* and *prevent* cancer. To do this we combine large-scale clinical sample collections, state-of-the-art genomic technologies, and data-driven evolutionary models.
+We track this somatic evolution across space and time, using experimental and computational techniques to combine large longitudinal collections of non-invasive samples, detailed snapshots from tissue biopsies, and state-of-the-art genomic technologies with quantitative evolutionary models. Our aim is to measure high-risk evolution as it unfolds and to turn those measurements into biomarkers that can detect and prevent cancer earlier.
 
-Our work is generously supported by Cancer Research UK, UKRI, and the University of Cambridge.
+Our work is generously supported by the Wellcome Trust, Cancer Research UK, the Academy of Medical Sciences, the Cowan Foundation, Downing College and the NIHR Cambridge Biomedical Research Centre.

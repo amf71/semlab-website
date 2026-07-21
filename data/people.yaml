@@ -1,51 +1,85 @@
 # ------------------------------------------------------------
-#  Lab members. `group` must match one of the headings in
-#  layouts/people/list.html:
+#  Lab members. The page has two sections, Current and Alumni.
+#  Section is set per person by `status`:
+#    status: alumni  -> Alumni section (omit for current members)
+#  Within each section people are ordered by seniority using `group`
+#  (see $roleOrder in layouts/people/list.html):
 #    Principal Investigator | Postdoctoral Researchers |
-#    PhD Students | Research Assistants & Staff | Alumni
+#    PhD Students | Research Assistants & Staff | Team
 #
 #  Optional per person: photo (file in static/images/people/),
 #  blurb, email, scholar, github.
-#  --- All names below are placeholders. Replace with your team. ---
+#
+#  NOTE: roles marked "Team member" below need confirming, and most
+#  members still need a short blurb and a headshot (drop a JPG into
+#  static/images/people/ and set `photo:`). Alex & Emma are complete.
 # ------------------------------------------------------------
 members:
-  - name: "Alex Principal"
-    role: "Principal Investigator"
+  - name: "Alex Frankell"
+    role: "Group Leader · Assistant Professor"
     group: "Principal Investigator"
-    blurb: "Group leader. Somatic evolution, clonal dynamics and the mathematics of early cancer."
-    email: "sem.lab@cam.ac.uk"
-    scholar: "https://scholar.google.com/"
+    photo: "alex-frankell.jpg"
+    blurb: "Alex leads the Somatic Evolution Monitoring Lab at the Early Cancer Institute. He completed his PhD at the MRC Cancer Unit, University of Cambridge, where he led whole-genome sequencing analysis in the Oesophageal ICGC project and followed up his findings in plasma circulating tumour DNA. He then undertook a postdoctoral fellowship at UCL and the Francis Crick Institute as part of the TRACERx study, using multiregional sequencing and longitudinal plasma sampling to uncover novel patterns of clonal evolution and biomarkers in non-small cell lung cancer. He has since developed multiple novel methods and intellectual property, including computational and experimental approaches to track cancer evolution across space and time — such as cloneMap, ECLIPSE and ParallelGDDetect. He holds an 8 year, £2.6M Wellcome Career Development Award alongside several other project grants which support the lab's work."
+    email: "amf71@cam.ac.uk"
+    scholar: "https://scholar.google.com/citations?user=2xS5m4gAAAAJ&hl=en"
 
-  - name: "Jordan Postdoc"
+  - name: "Emma Hazelwood"
+    role: "Postdoctoral Research Fellow in Cancer Evolution"
+    group: "Postdoctoral Researchers"
+    photo: "emma-hazelwood.jpg"
+    blurb: "Emma joined the lab as a postdoc, after completing her PhD in Cancer Epidemiology at the University of Bristol in 2024. Emma now works on developing spatial DNA sequencing technologies and contributing to the TRACERx lung cancer project, focussing on germline analyses. Alongside her position in the Frankell lab, Emma also holds the Everitt Butterfield Research Fellowship at Downing College. Outside of work, she enjoys watching live music and participating in pub quizzes."
+
+  - name: "Lianlian (Leanne) Wu"
     role: "Postdoctoral Researcher"
     group: "Postdoctoral Researchers"
-    blurb: "Selection inference from ultra-deep sequencing of normal tissue."
+    blurb: ""
 
-  - name: "Sam Fellow"
-    role: "Postdoctoral Researcher"
-    group: "Postdoctoral Researchers"
-    blurb: "Population-genetics models of clonal haematopoiesis."
-
-  - name: "Riley Student"
+  - name: "Zhidong (Woody) Zhang"
     role: "PhD Student"
     group: "PhD Students"
-    blurb: "Single-cell phylogenetics of pre-malignant lesions."
+    photo: "woody-zhang.jpg"
+    blurb: "Woody studied computational biology at Sichuan University before completing an MPhil in Chemical Pathology with Professor Dennis Lo at the Chinese University of Hong Kong, where he studied cell-free DNA biology and its applications in non-invasive prenatal and cancer testing. He joined the Frankell lab as a PhD student in 2024. His research focuses on developing sensitive computational genomics methods to detect chromosomal instability and track tumour evolution in non-invasive samples, including circulating tumour DNA and capsule sponges. He applies these methods to some of the most lethal cancers, including lung and oesophageal cancers, with the aim of improving early detection and risk stratification. Outside the lab, Woody enjoys football, hiking and photography."
 
-  - name: "Casey Graduate"
+  - name: "Katie Honan"
     role: "PhD Student"
     group: "PhD Students"
-    blurb: "Bayesian methods for timing mutational events."
+    blurb: ""
 
-  - name: "Morgan Analyst"
+  - name: "Tiantian Ye"
+    role: "Team member"
+    group: "Team"
+    status: "alumni"
+    blurb: ""
+
+  - name: "Fabiola (Fabi) Roman Maldonado"
+    role: "Senior Research Technician in NGS"
+    group: "Research Assistants & Staff"
+    photo: "fabiola-roman-maldonado.jpg"
+    blurb: "Fabi has an MSc and PhD in Parasitology from FIOCRUZ, Brazil, where her work focused on the genetic diversity of the parasite that causes Chagas disease in South America. In 2020 she joined the Sanger Institute in Sequencing Operations, working on library preparation for the Tree of Life project using PacBio and Illumina platforms, and also developed expertise in Hi-C processing of ultra-low input samples. She joined the Frankell lab to focus on duplex sequencing and is also driving the development of spatial genomics techniques."
+
+  - name: "Hannah Bazin"
+    role: "Team member"
+    group: "Team"
+    status: "alumni"
+    blurb: ""
+
+  - name: "Janhavi Rastogi"
     role: "Research Assistant"
     group: "Research Assistants & Staff"
-    blurb: "Sequencing pipelines and data infrastructure."
+    photo: "janhavi-rastogi.jpg"
+    blurb: "Janhavi received her M.Sc. in Biomedical Science from the University of Bristol, where her final-year research focused on cell synchronisation in osteoarthritis. She then joined the CRUK Manchester Institute, investigating circulating tumour cells (CTCs) as biomarkers for cancer detection in Prof Caroline Dive's Laboratory. Since joining the Frankell Lab in January 2026, her research has focused on advancing early cancer detection through the longitudinal analysis of circulating tumour DNA (ctDNA), with the aim of improving our understanding of tumour evolution and disease monitoring."
 
-  - name: "Taylor Manager"
-    role: "Lab Manager"
-    group: "Research Assistants & Staff"
-    blurb: "Keeps the wet and dry labs running."
+  - name: "Jie (Jason) Sheng Aik"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
 
-  - name: "Jamie Former"
-    role: "Now: Postdoc, Somewhere Institute"
-    group: "Alumni"
+  - name: "Thomas Pons"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
+
+  - name: "Timothy Somerset"
+    role: "Team member"
+    group: "Team"
+    blurb: ""
