@@ -8,7 +8,8 @@
   </div>
 </section>
 
-<section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-j.png" "side" "left" "top" "40%") }}
   <div class="wrap">
     {{ with .Site.Params.scholar }}
     <p style="margin:0 0 2rem;"><a class="btn" href="{{ . }}">View full list on Google Scholar →</a></p>

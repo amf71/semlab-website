@@ -8,7 +8,7 @@
 items:
   - year: "2026"
     title: "Harnessing genomics for early cancer detection, risk stratification and prevention"
-    authors: "M. Gu, W. Z. Zhang, … R. C. Fitzgerald, <strong>A. M. Frankell</strong>*, G. S. Vassiliou (*joint corresponding author)"
+    authors: "M. Gu, W. Z. Zhang, R. C. Fitzgerald, <strong>A. M. Frankell</strong>*, G. S. Vassiliou (*joint corresponding author)"
     venue: "Nature Genetics, 58(4), 704–716"
     url: "https://doi.org/10.1038/s41588-026-02505-1"
     tags: ["Review", "Early detection"]
@@ -19,7 +19,7 @@ items:
   - year: "2025"
     title: "Longitudinal ultrasensitive ctDNA monitoring for high-resolution lung cancer risk prediction"
     authors: "J. R. M. Black, … <strong>A. M. Frankell</strong>*, C. Swanton (*joint senior author)"
-    venue: "Cell, 188(24), 7083–7098"
+    venue: "Cell, 188(25), 7083–7098"
     url: "https://doi.org/10.1016/j.cell.2025.10.020"
     tags: ["ctDNA", "Lung cancer"]
     links:

@@ -15,7 +15,8 @@
 {{ $members := .Site.Data.people.members }}
 {{ $sections := slice "Current" "Alumni" }}
 
-<section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "45%") }}
   <div class="wrap">
     {{ range $s := $sections }}
       {{/* Build the ordered member list for this section */}}

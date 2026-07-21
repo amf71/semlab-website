@@ -19,7 +19,7 @@ members:
     role: "Group Leader · Assistant Professor"
     group: "Principal Investigator"
     photo: "alex-frankell.jpg"
-    blurb: "Alex leads the Somatic Evolution Monitoring Lab at the Early Cancer Institute. He combines computational and experimental methods to track cancer evolution across space and time — spanning oesophageal and lung cancer (including TRACERx) and non-invasive ctDNA approaches — and developed methods including cloneMap, ECLIPSE and ParallelGDDetect. He holds a Wellcome Career Development Award."
+    blurb: "Alex leads the Somatic Evolution Monitoring Lab at the Early Cancer Institute. He completed his PhD at the MRC Cancer Unit, University of Cambridge, where he led whole-genome sequencing analysis in the Oesophageal ICGC project and followed up his findings in plasma circulating tumour DNA. He then undertook a postdoctoral fellowship at UCL and the Francis Crick Institute as part of the TRACERx study, using multiregional sequencing and longitudinal plasma sampling to uncover novel patterns of clonal evolution and biomarkers in non-small cell lung cancer. He has since developed multiple novel methods and intellectual property, including computational and experimental approaches to track cancer evolution across space and time — such as cloneMap, ECLIPSE and ParallelGDDetect. He holds an 8 year, £2.6M Wellcome Career Development Award alongside several other project grants which support the lab's work."
     email: "amf71@cam.ac.uk"
     scholar: "https://scholar.google.com/citations?user=2xS5m4gAAAAJ&hl=en"
 
@@ -52,9 +52,10 @@ members:
     blurb: ""
 
   - name: "Fabiola (Fabi) Roman Maldonado"
-    role: "Team member"
-    group: "Team"
-    blurb: ""
+    role: "Senior Research Technician in NGS"
+    group: "Research Assistants & Staff"
+    photo: "fabiola-roman-maldonado.jpg"
+    blurb: "Fabi has an MSc and PhD in Parasitology from FIOCRUZ, Brazil, where her work focused on the genetic diversity of the parasite that causes Chagas disease in South America. In 2020 she joined the Sanger Institute in Sequencing Operations, working on library preparation for the Tree of Life project using PacBio and Illumina platforms, and also developed expertise in Hi-C processing of ultra-low input samples. She joined the Frankell lab to focus on duplex sequencing and is also driving the development of spatial genomics techniques."
 
   - name: "Hannah Bazin"
     role: "Team member"

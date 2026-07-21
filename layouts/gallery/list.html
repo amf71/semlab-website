@@ -8,7 +8,8 @@
   </div>
 </section>
 
-<section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "40%") }}
   <div class="wrap">
     <div class="gallery-grid">
       {{ range .Site.Data.gallery.items }}

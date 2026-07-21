@@ -1,6 +1,7 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <div>
+      {{ if fileExists "static/images/logo.png" }}<img class="footer-mark" src="{{ "/images/logo.png" | relURL }}" alt="{{ .Site.Params.labName }} logo">{{ end }}
       <p class="lab">{{ .Site.Params.labFullName }}</p>
       <p>{{ .Site.Params.institution }}</p>
       <p><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>

@@ -9,14 +9,3 @@ themes:
     summary: "Understanding somatic evolution and carcinogenesis from detailed snapshots of tissue biopsies — reconstructing how competing clones initiate, progress and metastasise."
   - title: "Clinical biomarkers"
     summary: "Developing clinical biomarkers to predict and detect high-risk somatic evolution, translating evolutionary measurements into tools for early detection and prevention."
-
-# ------------------------------------------------------------
-#  Headline numbers shown beneath the group photo.
-# ------------------------------------------------------------
-stats:
-  - n: "12"
-    l: "Group members"
-  - n: "2023"
-    l: "Lab established"
-  - n: "4"
-    l: "Open-source tools"
