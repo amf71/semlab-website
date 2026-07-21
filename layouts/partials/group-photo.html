@@ -1,7 +1,6 @@
 {{/* Shows static/images/group.jpg if it exists, otherwise a placeholder. */}}
-{{ $img := resources.Get "images/group.jpg" }}
 {{ if fileExists "static/images/group.jpg" }}
-  <img src="{{ "/images/group.jpg" | relURL }}" alt="The {{ .Site.Params.labName }} research group" loading="lazy">
+  <img src="{{ "/images/group.jpg" | relURL }}" alt="The {{ .Site.Params.labName }} research group" width="2000" height="1502" loading="lazy" decoding="async">
 {{ else }}
   <div class="placeholder" style="aspect-ratio:16/7;background:linear-gradient(135deg,#eeedf6,#e2e0f2);display:flex;align-items:center;justify-content:center;">
     <span style="font-family:var(--font-mono);font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:#4a4590;">Group photo — drop group.jpg into static/images/</span>
