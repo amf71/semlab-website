@@ -2,13 +2,61 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ $title := .Title }}{{ $site := .Site.Title }}
-  <title>{{ if .IsHome }}{{ $site }} — {{ .Site.Params.tagline }}{{ else }}{{ $title }} · {{ $site }}{{ end }}</title>
-  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.institution }}. {{ .Site.Params.tagline }}.{{ end }}">
+  {{ $pageTitle := cond .IsHome (.Params.seoTitle | default (printf "%s — %s" $site .Site.Params.tagline)) (printf "%s · %s" $title $site) }}
+  {{ $description := .Description | default (cond .IsHome (printf "%s. %s." .Site.Params.institution .Site.Params.tagline) "") }}
+  <title>{{ $pageTitle }}</title>
+  <meta name="description" content="{{ $description }}">
+  <link rel="canonical" href="{{ .Permalink }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ if .IsHome }}{{ $site }}{{ else }}{{ $title }} · {{ $site }}{{ end }}">
+  <meta property="og:title" content="{{ $pageTitle }}">
+  <meta property="og:description" content="{{ $description }}">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ $site }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:image" content="{{ "images/group.jpg" | absURL }}">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $pageTitle }}">
+  <meta name="twitter:description" content="{{ $description }}">
+  <meta name="twitter:image" content="{{ "images/group.jpg" | absURL }}">
+
+  {{ if .IsHome }}
+  <!-- Structured data: helps search engines associate this site with "Frankell Lab" /
+       "Alex Frankell" / "Alexander Frankell" searches -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchOrganization",
+    "name": "{{ .Site.Params.labFullName }}",
+    "alternateName": ["{{ .Site.Params.labName }}", "Frankell Lab"],
+    "url": "{{ .Site.BaseURL }}",
+    "logo": "{{ "images/logo.png" | absURL }}",
+    "email": "{{ .Site.Params.email }}",
+    "parentOrganization": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Cambridge",
+      "url": "https://www.cam.ac.uk/"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Alexander M. Frankell",
+      "alternateName": "Alex Frankell",
+      "jobTitle": "Group Leader & Assistant Professor",
+      "email": "{{ .Site.Params.email }}",
+      "url": "{{ "people/" | absURL }}",
+      "worksFor": {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Cambridge"
+      },
+      "sameAs": [
+        "{{ .Site.Params.scholar }}"{{ with .Site.Params.github }}, "{{ . }}"{{ end }}
+      ]
+    }
+  }
+  </script>
+  {{ end }}
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
