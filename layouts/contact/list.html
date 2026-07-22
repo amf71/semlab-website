@@ -20,7 +20,9 @@
         <dt>Address</dt>
         <dd>{{ .Site.Params.institution }}<br>{{ with .Params.address }}{{ . | safeHTML }}{{ end }}</dd>
         {{ with .Site.Params.scholar }}<dt>Publications</dt><dd><a href="{{ . }}">Google Scholar</a></dd>{{ end }}
-        {{ with .Site.Params.twitter }}<dt>Social</dt><dd><a href="{{ . }}">X / Twitter</a></dd>{{ end }}
+        {{ if or .Site.Params.twitter .Site.Params.linkedin }}<dt>Social</dt>{{ end }}
+        {{ with .Site.Params.twitter }}<dd><a href="{{ . }}">X / Twitter</a></dd>{{ end }}
+        {{ with .Site.Params.linkedin }}<dd><a href="{{ . }}">LinkedIn</a></dd>{{ end }}
       </dl>
     </div>
   </div>

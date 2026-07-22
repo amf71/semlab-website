@@ -51,7 +51,7 @@
         "name": "University of Cambridge"
       },
       "sameAs": [
-        "{{ .Site.Params.scholar }}"{{ with .Site.Params.github }}, "{{ . }}"{{ end }}
+        "{{ .Site.Params.scholar }}"{{ with .Site.Params.github }}, "{{ . }}"{{ end }}{{ with .Site.Params.twitter }}, "{{ . }}"{{ end }}{{ with .Site.Params.linkedin }}, "{{ . }}"{{ end }}
       ]
     }
   }
