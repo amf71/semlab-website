@@ -9,6 +9,8 @@
   {{ partial "footer.html" . }}
   {{ $decor := resources.Get "js/sem-decor.js" | fingerprint }}
   <script defer src="{{ $decor.RelPermalink }}" integrity="{{ $decor.Data.Integrity }}"></script>
+  {{ $lightbox := resources.Get "js/lightbox.js" | fingerprint }}
+  <script defer src="{{ $lightbox.RelPermalink }}" integrity="{{ $lightbox.Data.Integrity }}"></script>
   <script>
     // Mobile nav toggle
     const t = document.querySelector('.nav-toggle');
