@@ -80,7 +80,7 @@ p { margin: 0 0 1.1rem; }
   color: var(--ink); text-decoration: none;
 }
 .brand:hover { color: var(--accent); }
-.brand-mark { height: 34px; width: auto; max-width: none; object-fit: contain; display: block; }
+.brand-mark { height: 34px; width: auto; max-width: none; object-fit: contain; display: block; transform: translateY(-2px); }
 .nav-links { display: flex; gap: 1.6rem; align-items: center; list-style: none; margin: 0; padding: 0; }
 .nav-links a {
   font-size: 0.9rem; color: var(--ink); text-decoration: none;
