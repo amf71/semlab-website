@@ -1,7 +1,7 @@
 <header class="site-header">
   <div class="wrap nav">
     <a class="brand" href="{{ "/" | relURL }}">
-      {{ if fileExists "static/images/logo.png" }}<img class="brand-mark" src="{{ "/images/logo.png" | relURL }}" alt="">{{ end }}
+      {{ if fileExists "static/images/logo.png" }}<img class="brand-mark" src="{{ "/images/logo.png" | relURL }}" alt="{{ .Site.Params.labName }} logo">{{ end }}
       <span>{{ .Site.Params.labName }}</span>
     </a>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
