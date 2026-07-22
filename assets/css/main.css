@@ -395,6 +395,13 @@ a:focus-visible, button:focus-visible, .btn:focus-visible {
 .decor--scatter.decor--left  img { margin-inline-start: -7%; }
 @media (max-width: 640px) { .decor--scatter { display: none; } }
 
+/* Compact variant: a smaller mark that sits in a gutter of whitespace
+   beside text rather than bleeding off the page edge. Selectors matched
+   to the specificity of the default left/right bleed rules above so
+   this reliably overrides them. */
+.decor--scatter-compact.decor--right img,
+.decor--scatter-compact.decor--left img { height: auto; margin-inline: 0; }
+
 
 /* --- Motion (subtle; disabled for reduced-motion) -------------- */
 /* NB: clone/fish colour is carried by each path's fill-opacity, NOT the
