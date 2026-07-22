@@ -7,7 +7,8 @@
     {{ block "main" . }}{{ end }}
   </main>
   {{ partial "footer.html" . }}
-  <script defer src="{{ "js/sem-decor.js" | relURL }}"></script>
+  {{ $decor := resources.Get "js/sem-decor.js" | fingerprint }}
+  <script defer src="{{ $decor.RelPermalink }}" integrity="{{ $decor.Data.Integrity }}"></script>
   <script>
     // Mobile nav toggle
     const t = document.querySelector('.nav-toggle');
