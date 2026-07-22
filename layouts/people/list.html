@@ -39,11 +39,13 @@
               <p class="name">{{ .name }}</p>
               <p class="role">{{ .role }}</p>
               {{ with .blurb }}<p class="blurb">{{ . }}</p>{{ end }}
-              {{ if or .email .scholar .github }}
+              {{ if or .email .scholar .github .twitter .linkedin }}
               <p class="links">
                 {{ with .email }}<a href="mailto:{{ . }}">Email</a>{{ end }}
                 {{ with .scholar }}<a href="{{ . }}">Scholar</a>{{ end }}
                 {{ with .github }}<a href="{{ . }}">GitHub</a>{{ end }}
+                {{ with .twitter }}<a href="{{ . }}">X / Twitter</a>{{ end }}
+                {{ with .linkedin }}<a href="{{ . }}">LinkedIn</a>{{ end }}
               </p>
               {{ end }}
             </div>
