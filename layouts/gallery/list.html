@@ -15,7 +15,10 @@
       {{ range .Site.Data.gallery.items }}
       <figure class="gallery-item">
         {{ if and .image (fileExists (printf "static/images/gallery/%s" .image)) }}
-          <img src="{{ printf "/images/gallery/%s" .image | relURL }}" alt="{{ .caption }}" loading="lazy">
+          {{ $src := printf "/images/gallery/%s" .image | relURL }}
+          <button type="button" class="gallery-trigger" data-lightbox-src="{{ $src }}" data-lightbox-caption="{{ .caption }}" aria-label="View larger: {{ .caption }}">
+            <img src="{{ $src }}" alt="{{ .caption }}" loading="lazy" decoding="async">
+          </button>
         {{ else }}
           <figcaption class="cap">{{ .caption }}</figcaption>
         {{ end }}
