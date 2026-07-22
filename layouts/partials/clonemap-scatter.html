@@ -1,10 +1,17 @@
 {{/* A single faint cloneMap bleeding off an edge, placed at an explicit
      vertical offset down a long page. Purely atmospheric background.
      Params: img (filename in static/images/decor/), side ("left"|"right"),
-             top (CSS offset, e.g. "10%" or "4rem"). */}}
+             top (CSS offset, e.g. "10%" or "4rem").
+     Optional: size (image width, e.g. "12rem") and box (band height, e.g.
+             "14rem") for a smaller instance that sits in a tight gutter
+             instead of bleeding off the page edge — leave unset for the
+             default full-size, edge-bleeding look. */}}
 {{ $img := .img }}
 {{ $side := .side | default "right" }}
 {{ $top := .top | default "0%" }}
-<div class="decor decor--scatter decor--{{ $side }}" style="top:{{ $top }};" aria-hidden="true">
-  <img src="{{ printf "/images/decor/%s" $img | relURL }}" alt="" loading="lazy" decoding="async">
+{{ $size := .size }}
+{{ $box := .box }}
+<div class="decor decor--scatter decor--{{ $side }}{{ if $size }} decor--scatter-compact{{ end }}"
+     style="top:{{ $top }};{{ with $box }}height:{{ . }};{{ end }}" aria-hidden="true">
+  <img src="{{ printf "/images/decor/%s" $img | relURL }}" alt="" loading="lazy" decoding="async"{{ with $size }} style="width:{{ . }};"{{ end }}>
 </div>
