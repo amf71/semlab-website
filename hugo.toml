@@ -24,6 +24,7 @@ enableRobotsTXT = true
   # ---- Social / external links (leave blank to hide) ------------
   twitter      = ""
   scholar      = "https://scholar.google.com/citations?user=2xS5m4gAAAAJ&hl=en"
+  pubmed       = "https://pubmed.ncbi.nlm.nih.gov/?term=Alexander+M+Frankell&sort=date&size=200#"
   github       = "https://github.com/Somatic-Evolutionary-Monitoring-Lab"
   bluesky      = ""
 

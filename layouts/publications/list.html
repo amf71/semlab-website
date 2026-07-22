@@ -11,8 +11,11 @@
 <section class="decor-host">
   {{ partial "clonemap-scatter.html" (dict "img" "clonemap-j.png" "side" "left" "top" "40%") }}
   <div class="wrap">
-    {{ with .Site.Params.scholar }}
-    <p style="margin:0 0 2rem;"><a class="btn" href="{{ . }}">View full list on Google Scholar →</a></p>
+    {{ if or .Site.Params.scholar .Site.Params.pubmed }}
+    <p style="margin:0 0 2rem;display:flex;flex-wrap:wrap;gap:0.75rem;">
+      {{ with .Site.Params.scholar }}<a class="btn" href="{{ . }}">View full list on Google Scholar →</a>{{ end }}
+      {{ with .Site.Params.pubmed }}<a class="btn" href="{{ . }}">View full list on PubMed →</a>{{ end }}
+    </p>
     {{ end }}
     <ul class="pub-list">
       {{ range .Site.Data.publications.items }}

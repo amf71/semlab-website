@@ -18,7 +18,7 @@ items:
 
   - year: "2025"
     title: "Longitudinal ultrasensitive ctDNA monitoring for high-resolution lung cancer risk prediction"
-    authors: "J. R. M. Black, … <strong>A. M. Frankell</strong>*, C. Swanton (*joint senior author)"
+    authors: "J. R. M. Black, … <strong>A. M. Frankell</strong>*, … C. Swanton (*joint senior author)"
     venue: "Cell, 188(25), 7083–7098"
     url: "https://doi.org/10.1016/j.cell.2025.10.020"
     tags: ["ctDNA", "Lung cancer"]
@@ -28,7 +28,7 @@ items:
 
   - year: "2025"
     title: "Ultrasensitive ctDNA detection for preoperative disease stratification in early-stage lung adenocarcinoma"
-    authors: "J. R. M. Black, … M. Jamal-Hanjani, <strong>A. M. Frankell</strong>*, C. Swanton (*joint senior author)"
+    authors: "J. R. M. Black, … M. Jamal-Hanjani, <strong>A. M. Frankell</strong>*, … C. Swanton (*joint senior author)"
     venue: "Nature Medicine, 31(1), 70–76"
     url: "https://doi.org/10.1038/s41591-024-03216-y"
     tags: ["ctDNA", "Early detection"]
