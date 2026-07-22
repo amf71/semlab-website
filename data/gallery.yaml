@@ -3,7 +3,7 @@
 #  If the file is missing, a captioned placeholder tile is shown.
 # ------------------------------------------------------------
 items:
-  - caption: "The group at a lab dinner"
+  - caption: "The group at a formal hall dinner"
     image: "dinner.jpg"
   - caption: "Summer lab sports day and picnic"
     image: "picnic.jpg"
