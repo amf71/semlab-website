@@ -39,6 +39,10 @@ enableRobotsTXT = true
     pageRef = "/research"
     weight = 10
   [[menu.main]]
+    name = "People"
+    pageRef = "/people"
+    weight = 15
+  [[menu.main]]
     name = "Publications"
     pageRef = "/publications"
     weight = 20
@@ -46,10 +50,6 @@ enableRobotsTXT = true
     name = "Software"
     pageRef = "/software"
     weight = 25
-  [[menu.main]]
-    name = "People"
-    pageRef = "/people"
-    weight = 30
   [[menu.main]]
     name = "Opportunities"
     pageRef = "/opportunities"
