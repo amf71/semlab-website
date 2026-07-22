@@ -178,7 +178,12 @@
     function line(a, b, c, d) { return '<path d="M' + a + ' ' + b + 'H' + c + '" class="ln"/>'; }
     function curve(a, b, c, d) { return '<path d="M' + a + ' ' + b + 'C' + ((a + c) / 2).toFixed(0) + ' ' + b + ' ' + a + ' ' + d + ' ' + c + ' ' + d + '" class="ln"/>'; }
     function node(x, y, rr) { return '<circle cx="' + x.toFixed(0) + '" cy="' + y.toFixed(0) + '" r="' + rr + '" class="nd"/>'; }
-    branch(-40, H * 0.5, 300, 0, 24, H - 24);
+    // The band spans wider than the 520-unit viewBox so the outermost branches
+    // run off the top and bottom of the hero (cropped by "slice"). The first
+    // split gap equals half the band height (= `half`), kept larger than the
+    // hero text block so the tree frames it.
+    var cy = H / 2, half = H * 0.65;
+    branch(-40, cy, 300, 0, cy - half, cy + half);
     return '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' +
            '<g fill="none" stroke="#3d348b" stroke-width="1.1">' + segs + '</g>' +
            '<g fill="#3d348b">' + dots + '</g></svg>';
