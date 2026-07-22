@@ -158,21 +158,27 @@
     var r = mulberry32(seed || 1);
     var W = 1200, H = 520;
     var segs = "", dots = "";
-    function branch(x, y, len, depth, spread) {
-      if (depth > 4 || len < 40) { dots += node(x, y, 3.4); return; }
+    // Each branch owns a vertical band [yMin, yMax] and sits at its centre.
+    // Its two children are placed at the centres of the upper and lower
+    // half-bands, so sibling subtrees occupy strictly disjoint vertical space:
+    // branches only ever diverge and can never converge or overlap, as in a
+    // real phylogeny.
+    function branch(x, y, len, depth, yMin, yMax) {
       var x2 = x + len;
-      var up = y - spread, dn = y + spread;
       segs += line(x, y, x2, y);
-      segs += curve(x2, y, x2 + len * 0.5, up);
-      segs += curve(x2, y, x2 + len * 0.5, dn);
+      if (depth > 4 || len < 40) { dots += node(x2, y, 3.4); return; }
+      var xm = x2 + len * 0.5;
+      var upY = (yMin + y) / 2, dnY = (y + yMax) / 2;
+      segs += curve(x2, y, xm, upY);
+      segs += curve(x2, y, xm, dnY);
       dots += node(x2, y, 2.6);
-      branch(x2 + len * 0.5, up, len * 0.66, depth + 1, spread * 0.62);
-      branch(x2 + len * 0.5, dn, len * 0.66, depth + 1, spread * 0.62);
+      branch(xm, upY, len * 0.66, depth + 1, yMin, y);
+      branch(xm, dnY, len * 0.66, depth + 1, y, yMax);
     }
     function line(a, b, c, d) { return '<path d="M' + a + ' ' + b + 'H' + c + '" class="ln"/>'; }
     function curve(a, b, c, d) { return '<path d="M' + a + ' ' + b + 'C' + ((a + c) / 2).toFixed(0) + ' ' + b + ' ' + a + ' ' + d + ' ' + c + ' ' + d + '" class="ln"/>'; }
     function node(x, y, rr) { return '<circle cx="' + x.toFixed(0) + '" cy="' + y.toFixed(0) + '" r="' + rr + '" class="nd"/>'; }
-    branch(-40, H * 0.5, 300, 0, 150);
+    branch(-40, H * 0.5, 300, 0, 24, H - 24);
     return '<svg viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMidYMid slice" aria-hidden="true">' +
            '<g fill="none" stroke="#3d348b" stroke-width="1.1">' + segs + '</g>' +
            '<g fill="#3d348b">' + dots + '</g></svg>';
