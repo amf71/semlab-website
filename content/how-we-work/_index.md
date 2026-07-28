@@ -34,6 +34,8 @@ Project updates are deliberately unpolished and roughly half discussion. Negativ
 
 PhD students meet Alex **weekly for an hour**, at minimum throughout the first year. Postdocs and other members agree their own schedule, anywhere from weekly to ad hoc. Extra meetings are always available when something needs unblocking.
 
+We use OneNote lab books to record discussion points and action items for lab members and Alex for each meeting.
+
 ## Moving between computational and experimental work
 
 <!-- TODO: Alex to confirm — this section is not yet covered in the lab handbook. -->
