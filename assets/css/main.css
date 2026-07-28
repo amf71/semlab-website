@@ -248,6 +248,9 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
 .contact-info dt { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-top: 1.3rem; }
 .contact-info dt:first-child { margin-top: 0; }
 .contact-info dd { margin: 0.25rem 0 0; }
+.contact-info-row { display: flex; gap: 2.5rem; }
+.contact-info-row > div { flex: 1; min-width: 0; }
+.contact-info + .contact-info { margin-top: 1.3rem; }
 .contact-details { padding-bottom: 2.5rem; }
 .contact-map-section { padding-block: 0 4.5rem; }
 .contact-map {
