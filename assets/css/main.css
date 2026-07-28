@@ -243,22 +243,18 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
 .page-head .kicker { color: var(--muted); max-width: 46rem; }
 
 /* Contact card */
-.contact-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 3rem; }
+.contact-grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 3rem; align-items: start; }
+.contact-info { margin: 0; }
 .contact-info dt { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-top: 1.3rem; }
+.contact-info dt:first-child { margin-top: 0; }
 .contact-info dd { margin: 0.25rem 0 0; }
 .contact-details { padding-bottom: 1rem; }
-.contact-map-section { padding-block: 0 3rem; }
+.contact-map-section { padding-block: 0 4.5rem; }
 .contact-map {
   width: 100%; height: 420px; border-radius: 4px; overflow: hidden;
   border: 1px solid var(--line);
 }
 .contact-map iframe { display: block; width: 100%; height: 100%; }
-.contact-logo-section { padding-block: 0 4.5rem; }
-.contact-logo-inner { display: flex; align-items: center; gap: 2.5rem; }
-.contact-logo { height: 340px; width: auto; max-width: 100%; object-fit: contain; flex-shrink: 0; }
-.contact-logo-text { border-left: 1px solid var(--line); padding-left: 2.5rem; }
-.contact-logo-text .lab { font-family: var(--font-display); font-size: 2rem; margin: 0 0 0.5rem; }
-.contact-logo-text p:not(.lab) { font-size: 1.1rem; color: var(--muted); margin: 0; }
 
 /* ============================================================
    Footer
@@ -346,9 +342,6 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
   .contact-grid, .footer-inner { grid-template-columns: 1fr; }
   .gallery-grid { grid-template-columns: repeat(2, 1fr); }
   .people-preview { grid-template-columns: repeat(2, 1fr); }
-  .contact-logo-inner { flex-direction: column; text-align: center; }
-  .contact-logo { height: 200px; }
-  .contact-logo-text { border-left: none; padding-left: 0; }
 }
 @media (max-width: 640px) {
   .nav-toggle { display: block; }

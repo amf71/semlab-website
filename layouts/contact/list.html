@@ -42,16 +42,4 @@
   </div>
 </section>
 {{ end }}
-
-{{ if fileExists "static/images/logo.png" }}
-<section class="contact-logo-section">
-  <div class="wrap contact-logo-inner">
-    <img class="contact-logo" src="{{ "/images/logo.png" | relURL }}" alt="{{ .Site.Params.labName }} logo">
-    <div class="contact-logo-text">
-      <p class="lab">{{ .Site.Params.labFullName }}</p>
-      <p>{{ .Site.Params.institution }}</p>
-    </div>
-  </div>
-</section>
-{{ end }}
 {{ end }}
