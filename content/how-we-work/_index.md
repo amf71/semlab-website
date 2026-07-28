@@ -10,7 +10,7 @@ description: "How the Frankell (SEM) lab runs: meeting structure, one-to-one men
 
 ## Our values
 
-The group agreed these collectively in October 2024, and we mean them literally.
+The group agreed these collectively in October 2024.
 
 **Curiosity and creativity.** We make time to follow up curiosities, anomalies and out-of-the-box ideas alongside long-term projects.
 
