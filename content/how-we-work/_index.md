@@ -58,7 +58,7 @@ Standard hours are 09:00–17:00, but we care about the work, not the clock. We 
 
 ## What we provide
 
-- **Kit.** A MacBook, peripherals and monitor for every member.
+- **Kit.** A MacBook, peripherals and two monitors for every member.
 - **Compute and storage.** Access to the Cambridge CSD3 HPC and 250 TB of shared storage for research data. Where a project needs it, we arrange access to the TRACERx data on the Crick and UCL clusters.
 - **Conferences.** Local meetings whenever they are relevant, and one to three national or international conferences a year to present mature data, funded by the lab where bursaries do not cover it. We favour the 100–500 person meetings where you actually get talked to.
 - **A route into the field.** We sit in the Early Cancer Institute and the CRUK Cambridge Centre on the Cambridge Biomedical Campus, and we work closely with the Fitzgerald and Swanton groups. You will meet the people whose papers you are reading.
