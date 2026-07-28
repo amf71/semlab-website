@@ -18,8 +18,7 @@
         <dt>Email</dt>
         <dd><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></dd>
         <dt>Address</dt>
-        <dd>{{ .Site.Params.institution }}<br>{{ with .Params.address }}{{ . | safeHTML }}{{ end }}</dd>
-        {{ with .Site.Params.scholar }}<dt>Publications</dt><dd><a href="{{ . }}">Google Scholar</a></dd>{{ end }}
+        <dd>{{ with .Params.address }}{{ . | safeHTML }}{{ end }}</dd>
         {{ if or .Site.Params.twitter .Site.Params.linkedin }}<dt>Social</dt>{{ end }}
         {{ with .Site.Params.twitter }}<dd><a href="{{ . }}">X / Twitter</a></dd>{{ end }}
         {{ with .Site.Params.linkedin }}<dd><a href="{{ . }}">LinkedIn</a></dd>{{ end }}
