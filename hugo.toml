@@ -52,11 +52,10 @@ enableRobotsTXT = true
     name = "Software"
     pageRef = "/software"
     weight = 25
-  # Re-enable when content/how-we-work/_index.md comes out of draft.
-  # [[menu.main]]
-  #   name = "How we work"
-  #   pageRef = "/how-we-work"
-  #   weight = 35
+  [[menu.main]]
+    name = "How we work"
+    pageRef = "/how-we-work"
+    weight = 35
   [[menu.main]]
     name = "Opportunities"
     pageRef = "/opportunities"

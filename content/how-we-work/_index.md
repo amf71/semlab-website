@@ -1,7 +1,6 @@
 ---
 # DRAFT — not published. Visible locally via `hugo server -D`, excluded from the
-# live build. To publish: set draft: false, re-enable the "How we work" menu entry
-# in hugo.toml, and restore the pointer at the top of content/opportunities/_index.md.
+# live build. To publish: set draft: false.
 draft: true
 title: "How we work"
 eyebrow: "Lab culture"
@@ -23,10 +22,11 @@ The group agreed these together in October 2024, and we mean them literally.
 
 ## Meetings
 
-- **Monday stand-up**, 09:00, 10–15 minutes, everyone. A quick check-in on the week.
-- **Lab meeting**, Wednesdays 14:30–16:00, with snacks bought by last week's presenter. These rotate between scientific project updates, journal clubs, whiteboard brainstorming sessions (4–5 a year), method workshops (2–3 a year), a "state of the lab" update from Alex, introductory talks from new members, and practice runs for external presentations.
-- **Copy number club**, Wednesdays 14:00 — an open cross-lab meeting we run for anyone in Cambridge working on somatic copy number, currently drawing people from the Frankell, Fitzgerald, Markowetz and Rosenfeld groups.
+- **Monday stand-up**, 09:00, 10–15 minutes, everyone — including anyone working from home that day (see below).
+- **Lab meeting**, Wednesdays 14:30–16:00, with snacks bought by last week's presenter. These rotate between scientific project updates, journal clubs, brainstorming sessions, method workshops, a "state of the lab" update from Alex, introductory talks from new members, and practice runs for external presentations.
 - **Neighbouring groups.** We are welcome at, and regularly attend, the lab meetings of the Blundell/Watson, Fitzgerald and Swanton groups.
+
+**Brainstorming sessions**, a few times a year, run on a whiteboard rather than slides. Everyone brings one idea — anything loosely related to the lab's work, at any stage of readiness — and the group works through it together. Half-formed or slightly wild ideas are exactly the point; some of our grant proposals started out this way.
 
 Project updates are deliberately unpolished and roughly half discussion. Negative results and dead ends are presented too — they are usually the most useful thing in the room. We ask everyone, however junior, to ask questions.
 
@@ -42,13 +42,15 @@ Each one-to-one runs off a shared OneNote notebook using a standing template: la
 
 We recruit from biology, mathematics, physics, statistics and computer science, and our projects genuinely need both benches. Nobody is expected to arrive fluent in both, and nobody is expected to stay in the lane they arrived in.
 
-In practice the crossing is supported by: **method workshops**, where one person takes the whole group step by step through the guts of a method (Illumina sequencing chemistry, haplotype phasing) so the biology and the maths are understood by everyone; a curated list of **foundational papers** for the field; monthly **code review** (below), which is how most people here have learned to code well; and the University's excellent training programmes, including the [Cambridge Bioinformatics Training](https://bioinfotraining.bio.cam.ac.uk/) courses and [Nextflow training](https://training.nextflow.io/), plus any bench training a project requires. If you want to spend time on the other side of the lab, say so at a one-to-one and we will build it into the project plan.
+We commit to providing the training a project needs, computational or experimental: University courses such as the [Cambridge Bioinformatics Training](https://bioinfotraining.bio.cam.ac.uk/) programme and [Nextflow training](https://training.nextflow.io/), plus hands-on bench training for specific techniques; lab-internal **method workshops**, where one person takes the whole group step by step through the guts of a method (Illumina sequencing chemistry, haplotype phasing) until everyone understands it; a curated list of **foundational papers** for the field; and monthly **code review** (below), which is how most people here have picked up their coding skills.
+
+Project plans are not fixed at the outset. If there's a skill you want to build — a technique, a language, a type of analysis — say so at a one-to-one and we will look at shaping your project around it, rather than treating your remit as closed.
 
 ## Code, data and reproducibility
 
 We write clean, commented, reproducible code from the start rather than tidying it up in a panic before submission — messy code hides errors, and by the time a reviewer finds one it is too late. Nextflow is our preferred pipelining language, everything lives in git, and GitHub Copilot is available free through the University.
 
-Every member puts **one script through code review each month**. The author raises a pull request, the assigned reviewer comments, and then the two meet and the author walks through the code line by line — the rubber-duck method — with the reviewer interrupting. Before any paper is submitted, someone who did not write the code must run all of it from scratch and reproduce every figure as it appears in the manuscript. Code and processed data are then deposited publicly.
+Every member puts **one script through code review each month** — its main purpose is spreading tips and good habits around the lab, not just catching bugs. The author raises a pull request, the assigned reviewer comments, and then the two meet so the author can walk the reviewer through the code line by line — the rubber-duck method — with the reviewer chipping in with questions and alternative approaches they might have used. It's one of the best ways to pick up new tricks as a coder, and most people here have learned something from it this way. (Before any paper is submitted, someone who did not write the code separately reproduces every figure from scratch.) Code and processed data are then deposited publicly.
 
 ## Authorship
 
@@ -58,9 +60,9 @@ Authorship is discussed openly and early, at the point a project takes shape rat
 
 ## Hours, flexibility and leave
 
-Standard hours are 09:00–17:00, but we care about the work, not the clock. We ask that you are working and contactable between **10:00 and 16:00**, with flexibility either side as long as you complete a full week (40 hours, or the hours in your contract) — several people here work around childcare on exactly this basis.
+**Computational lab members can work from home on Mondays** and come into the Early Cancer Institute Tuesday to Friday — we stay in sync with a short 09:00 stand-up on Mondays for anyone working remotely that day. The rest of the week we do ask people to be in person: most of the good ideas here start at someone's desk, not on a call. Experimental work is necessarily on site, with the occasional admin day at home.
 
-Computational members come into the Early Cancer Institute **Tuesday to Friday and may work from home on Mondays**. In-person time matters: most good ideas here have started at someone's desk rather than on a video call. Experimental work is necessarily on site, with the occasional admin day at home. If you need more flexibility than this — and caring responsibilities are a good reason — talk to Alex; it is a conversation, not an exception process.
+Standard hours are 09:00–17:00, but we care about the work, not the clock. We ask that you are working and contactable between **10:00 and 16:00**, with flexibility either side to fit your working pattern — several people here work around childcare on exactly this basis. If you need more flexibility than this, talk to Alex; it is a conversation, not an exception process.
 
 Leave is approved by Alex and put in the shared calendar so everyone knows who is away. Sick leave means telling Alex on day one and nothing more; if you are unwell but want to keep working, do it from home.
 
