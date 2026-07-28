@@ -53,6 +53,10 @@ enableRobotsTXT = true
     pageRef = "/software"
     weight = 25
   [[menu.main]]
+    name = "How we work"
+    pageRef = "/how-we-work"
+    weight = 35
+  [[menu.main]]
     name = "Opportunities"
     pageRef = "/opportunities"
     weight = 40
