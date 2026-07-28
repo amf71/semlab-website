@@ -32,9 +32,10 @@ members:
     blurb: "Emma joined the lab as a postdoc, after completing her PhD in Cancer Epidemiology at the University of Bristol in 2024. Emma now works on developing spatial DNA sequencing technologies and contributing to the TRACERx lung cancer project, focussing on germline analyses. Alongside her position in the Frankell lab, Emma also holds the Everitt Butterfield Research Fellowship at Downing College. Outside of work, she enjoys watching live music and participating in pub quizzes."
 
   - name: "Lianlian (Leanne) Wu"
-    role: "Postdoctoral Researcher"
+    role: "Clinical Research Associate"
     group: "Postdoctoral Researchers"
-    blurb: ""
+    photo: "leanne-wu.jpg"
+    blurb: "Leanne is a Clinical Research Associate co-supervised by Prof. Rebecca Fitzgerald and Dr. Alex Frankell. She received her M.D. (PhD equivalent) from Wuhan University in 2020 and previously worked as a gastroenterologist in China, where she co-led the development and clinical translation of EndoAngle, an artificial intelligence system that improved the endoscopic detection of early gastrointestinal cancers. Since joining Cambridge in 2023, her research has evolved from AI-assisted endoscopy to cancer genomics, with a particular focus on using copy-number alterations and minimally invasive sampling approaches for early cancer detection and risk stratification. Her long-term goal is to integrate minimally invasive sampling, multi-omics and AI to enable biology-driven risk prediction and personalised screening and surveillance for GI cancers."
 
   - name: "Zhidong (Woody) Zhang"
     role: "PhD Student"
