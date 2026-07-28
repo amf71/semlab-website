@@ -4,7 +4,9 @@ eyebrow: "Join us"
 kicker: "We are always keen to hear from talented, curious people from biology, mathematics, physics, statistics and computer science."
 ---
 
+<!-- Restore when the How we work page is published:
 Before you get in touch, please read [How we work](/how-we-work/) — our meeting structure, mentoring, authorship norms, expectations and what we provide. It will tell you far more about whether this is the right place for you than a job advert can.
+-->
 
 ## PhD students
 

@@ -1,4 +1,8 @@
 ---
+# DRAFT — not published. Visible locally via `hugo server -D`, excluded from the
+# live build. To publish: set draft: false, re-enable the "How we work" menu entry
+# in hugo.toml, and restore the pointer at the top of content/opportunities/_index.md.
+draft: true
 title: "How we work"
 eyebrow: "Lab culture"
 kicker: "Choosing a lab is mostly a decision about the people and the day-to-day, not just the science. This page summarises how the SEM lab actually runs — our meetings, our mentoring, what we expect and what we provide — so you can judge whether it suits you before you apply. It is a condensed version of our lab handbook, which we are happy to send you in full."
