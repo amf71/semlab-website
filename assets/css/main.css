@@ -247,6 +247,12 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
 .contact-info dt { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-top: 1.3rem; }
 .contact-info dd { margin: 0.25rem 0 0; }
 .contact-details { padding-bottom: 1rem; }
+.contact-map-section { padding-block: 0 3rem; }
+.contact-map {
+  width: 100%; height: 420px; border-radius: 4px; overflow: hidden;
+  border: 1px solid var(--line);
+}
+.contact-map iframe { display: block; width: 100%; height: 100%; }
 .contact-logo-section { padding-block: 0 4.5rem; }
 .contact-logo-inner { display: flex; align-items: center; gap: 2.5rem; }
 .contact-logo { height: 340px; width: auto; max-width: 100%; object-fit: contain; flex-shrink: 0; }

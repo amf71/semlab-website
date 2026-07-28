@@ -20,6 +20,7 @@ enableRobotsTXT = true
   tagline      = "tracking cancer evolution before it begins"
   subtitle     = "Tech & Methods Development · Evolutionary Dynamics · Non‑invasive Biomarkers"
   institution  = "Early Cancer Institute, University of Cambridge"
+  mapAddress   = "Early Cancer Institute, Hutchison Research Centre, Cambridge Biomedical Campus, Cambridge CB2 0XZ, United Kingdom"
   email        = "amf71@cam.ac.uk"
   # ---- Social / external links (leave blank to hide) ------------
   twitter      = "https://x.com/AFrankell"
