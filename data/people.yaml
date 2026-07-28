@@ -48,6 +48,12 @@ members:
     group: "PhD Students"
     blurb: ""
 
+  - name: "Thomas Pons"
+    role: "PhD Student"
+    group: "PhD Students"
+    photo: "thomas-pons.jpg"
+    blurb: "Thomas is a PhD student jointly supervised by Dr Alex Frankell and Prof Rebecca Fitzgerald. He graduated with an MSci in Natural Sciences from the University of Exeter, where his master's research explored the neuroendocrine stress response in rats. His current research focuses on leveraging copy-number alterations alongside other multi-omic features to identify putative biomarkers for the early detection of oesophageal squamous cell carcinoma. He ultimately aims to integrate these with the non-endoscopic capsule sponge to produce a clinically relevant screening tool for the disease."
+
   - name: "Tiantian Ye"
     role: "Team member"
     group: "Team"
@@ -77,12 +83,8 @@ members:
     group: "Team"
     blurb: ""
 
-  - name: "Thomas Pons"
-    role: "Team member"
-    group: "Team"
-    blurb: ""
-
-  - name: "Timothy Somerset"
-    role: "Team member"
-    group: "Team"
-    blurb: ""
+  - name: "Tim Somerset"
+    role: "Computational Research Assistant"
+    group: "Research Assistants & Staff"
+    photo: "tim-somerset.jpg"
+    blurb: "Tim is a research assistant jointly supervised by Prof Rebecca Fitzgerald and Dr Alex Frankell, working on bioinformatics and clinical statistics at the Early Cancer Institute. He completed an MPhil in Computational Biology at the University of Cambridge. With the SEM lab he builds bioinformatic pipelines for new sequencing cohorts and develops statistical methods for quality control in clinical shallow whole-genome sequencing projects, including a method for detecting sample swaps in large multiregion sequencing datasets. His broader work with the Fitzgerald group includes biomarker discovery in Barrett's oesophagus and clinical trial statistics for cancer screening studies."
