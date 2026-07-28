@@ -69,6 +69,6 @@ We hold [LEAF](https://www.ucl.ac.uk/sustainable/take-action/staff-action/leaf-l
 
 ## And the rest
 
-We eat cake on birthdays, we go out at Christmas, and lab meeting talks open with a photo of something from your life outside the lab. It is a small group and we like it that way.
+We eat cake on birthdays, we go out at Christmas, and lab meeting talks open with a photo of something from your life outside the lab.
 
 If this sounds like somewhere you could do your best work, see [Opportunities](/opportunities/) — and do ask us for the full handbook.
