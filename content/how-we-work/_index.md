@@ -38,7 +38,7 @@ Project updates are deliberately unpolished and roughly half discussion. Negativ
 
 ## Moving between computational and experimental work
 
-<!-- TODO: Alex to confirm — this section is not yet covered in the lab handbook. -->
+<!-- TODO: Alex to confirm, this section is not yet covered in the lab handbook. -->
 
 We recruit from biology, mathematics, physics, statistics, computer science and clinical training, and many of our projects rely on both computational and experimental methods. Nobody is expected to arrive fluent in both, and nobody is expected to stay in the lane they arrived in.
 

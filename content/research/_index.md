@@ -1,7 +1,7 @@
 ---
 title: "Research"
 eyebrow: "What we do"
-kicker: "We measure and model how cells in our tissues accumulate mutations, compete and are selected in a Darwinian evolutionary process critical to cancer — turning sequencing data into a quantitative picture of cancer evolution, from normal tissues to the earliest lesions to metastasis and drug resistance. Our projects span three central themes in the lab."
+kicker: "We measure and model how cells in our tissues accumulate mutations, compete and are selected in a Darwinian evolutionary process critical to cancer, turning sequencing data into a quantitative picture of cancer evolution, from normal tissues to the earliest lesions to metastasis and drug resistance. Our projects span three central themes in the lab."
 ---
 
 ## Non-invasive tracking of evolutionary dynamics
