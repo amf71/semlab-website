@@ -1,7 +1,4 @@
 ---
-# DRAFT — not published. Visible locally via `hugo server -D`, excluded from the
-# live build. To publish: set draft: false.
-draft: true
 title: "How we work"
 eyebrow: "Lab culture"
 kicker: "This page summarises how the SEM lab runs: our meetings, our mentoring, what we expect and what we provide. It is a condensed version of our lab handbook, which we are happy to send in full to prospective lab members."
