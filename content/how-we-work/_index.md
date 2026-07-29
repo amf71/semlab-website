@@ -34,7 +34,7 @@ We use OneNote lab books to record discussion points and action items for lab me
 
 **Brainstorming sessions**, a few times a year, run on a whiteboard rather than slides. Everyone brings one idea (anything loosely related to the lab's work, at any stage of readiness) and the group works through it together. Half-formed or slightly wild ideas are exactly the point; some of our grant proposals started out this way.
 
-Project updates are deliberately unpolished and roughly half discussion. Negative results and dead ends are presented too; they are usually the most useful thing in the room. We ask everyone, however junior, to ask questions.
+Project updates are deliberately unpolished and roughly half discussion. Negative results and dead ends are presented too. We ask everyone, however junior, to ask questions.
 
 ## Moving between computational and experimental work
 
