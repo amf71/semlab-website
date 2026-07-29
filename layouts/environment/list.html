@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="page-head">
-  {{ partial "clonemap-decor.html" (dict "img" "clonemap-c.png" "side" "right") }}
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-y.png" "side" "right") }}
   <div class="wrap">
     <p class="eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}{{ .Site.Params.labName }}{{ end }}</p>
     <h1>{{ .Title }}</h1>
@@ -8,7 +8,7 @@
   </div>
 </section>
 <section class="decor-host">
-  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "left" "top" "40%") }}
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-z.png" "side" "left" "top" "40%") }}
   <div class="wrap">
     <div class="prose research-prose">
       {{ .Content }}
