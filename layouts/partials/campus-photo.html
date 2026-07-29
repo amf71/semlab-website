@@ -1,0 +1,11 @@
+{{/* Shows static/images/campus.jpg if it exists, otherwise a captioned placeholder.
+     Same pattern as group-photo.html so the section renders cleanly before the
+     image is supplied. Needs an aerial/exterior shot of the Cambridge
+     Biomedical Campus that the lab has the rights to use. */}}
+{{ if fileExists "static/images/campus.jpg" }}
+  <img src="{{ "/images/campus.jpg" | relURL }}" alt="Aerial view of the Cambridge Biomedical Campus" loading="lazy" decoding="async">
+{{ else }}
+  <div class="placeholder" style="aspect-ratio:16/7;background:linear-gradient(135deg,#eeedf6,#e2e0f2);display:flex;align-items:center;justify-content:center;">
+    <span style="font-family:var(--font-mono);font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:#4a4590;text-align:center;padding:0 1rem;">Campus photo &mdash; drop campus.jpg into static/images/</span>
+  </div>
+{{ end }}

@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {{ $title := .Title }}{{ $site := .Site.Title }}
-  {{ $pageTitle := cond .IsHome (.Params.seoTitle | default (printf "%s — %s" $site .Site.Params.tagline)) (printf "%s · %s" $title $site) }}
+  {{ $pageTitle := cond .IsHome (.Params.seoTitle | default (printf "%s · %s" $site .Site.Params.tagline)) (printf "%s · %s" $title $site) }}
   {{ $description := .Description | default (cond .IsHome (printf "%s. %s." .Site.Params.institution .Site.Params.tagline) "") }}
   <title>{{ $pageTitle }}</title>
   <meta name="description" content="{{ $description }}">

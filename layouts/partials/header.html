@@ -10,8 +10,10 @@
     <ul class="nav-links">
       {{ $current := . }}
       {{ range .Site.Menus.main }}
+        {{ if .URL }}
         {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
         <li><a href="{{ .URL }}"{{ if $active }} aria-current="true"{{ end }}>{{ .Name }}</a></li>
+        {{ end }}
       {{ end }}
     </ul>
   </div>
