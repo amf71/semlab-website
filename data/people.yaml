@@ -46,7 +46,8 @@ members:
   - name: "Katie Honan"
     role: "PhD Student"
     group: "PhD Students"
-    blurb: ""
+    # TODO: headshot to follow — drop a JPG into static/images/people/ and set `photo:`.
+    blurb: "Katie is a PhD student investigating the evolutionary processes that drive cancer progression using genomic data from tumour tissue and circulating tumour DNA (ctDNA). Her research leverages computational cancer genomics to study clonal evolution, metastatic dissemination, and the transition from premalignant disease to invasive cancer across multiple tumour types. Before joining the lab, she completed an MSc in Bioinformatics at the University of Birmingham and worked as a bioinformatician in the Cancer Molecular Diagnostics Laboratory at the University of Cambridge, where she developed scalable bioinformatics pipelines for the analysis of clinical next-generation sequencing data. In her free time, Katie enjoys running, swimming and travelling."
 
   - name: "Thomas Pons"
     role: "PhD Student"
