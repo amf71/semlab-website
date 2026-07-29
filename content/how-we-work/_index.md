@@ -14,7 +14,7 @@ The group agreed these collectively in October 2024.
 
 **Curiosity and creativity.** We make time to follow up curiosities, anomalies and out-of-the-box ideas alongside long-term projects.
 
-**Respect.** Everyone recruited to the lab has outstanding scientific skills. Experience in a given field varies, and those with less of it often bring the perspective that unlocks a problem — so we value questions and opinions from everyone, and we critique work rather than people.
+**Respect.** Everyone recruited to the lab has outstanding scientific skills. Experience in a given field varies, and those with less of it often bring the perspective that unlocks a problem — so we value questions and opinions from everyone, and our feedback is constructive and always directed at the work.
 
 **Trust and honesty.** We hold to the highest standards of integrity and reproducibility, and we are honest with each other — and with ourselves — about our data. We share advice, code and data freely, within the lab and beyond.
 
