@@ -1,7 +1,7 @@
 ---
 title: "Our host environment"
 eyebrow: "Where we work"
-kicker: "The Early Cancer Institute, the Cambridge Biomedical Campus, and a University with a fair claim to having invented modern genomics."
+kicker: "The Early Cancer Institute, the Cambridge Biomedical Campus, and Cambridge University, the home of genomics."
 ---
 
 We are based in the [Early Cancer Institute](https://www.earlycancer.cam.ac.uk/) (ECI), the first institute in the UK dedicated solely to research on early cancer. It brings together around 120 researchers pursuing three goals that map directly onto our own work: improving cancer *risk prediction*, *detection* and *interception*. The institute's main building reopened in 2026 after a £22M extension and renovation. The ECI sits within the CRUK Cambridge Centre and the University of Cambridge.
