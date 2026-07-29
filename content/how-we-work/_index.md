@@ -58,6 +58,8 @@ We know flexible working provides many benefits, from supporting wellbeing to ac
 
 We ask that you are working and contactable between **10:00 and 16:00**, with flexibility either side to fit your working pattern; some people work around childcare on exactly this basis. If you need more flexibility than this, talk to Alex.
 
+Total hours are set by your contract, or by the University's Code of Practice for Research if you're a student. Some people choose to work beyond that when they're working towards a specific goal (a fellowship application, a paper, or a strong case for their next position); how much extra, if any, is up to you.
+
 ## What we provide
 
 - **Kit.** A MacBook, docker hub, peripherals and two monitors for every member.
