@@ -40,7 +40,7 @@ Project updates are deliberately unpolished and roughly half discussion. Negativ
 
 <!-- TODO: Alex to confirm, this section is not yet covered in the lab handbook. -->
 
-We recruit from biology, mathematics, physics, statistics, computer science and clinical training, and many of our projects rely on both computational and experimental methods. Nobody is expected to arrive fluent in both, and nobody is expected to stay in the lane they arrived in.
+We recruit from biology, mathematics, physics, statistics, computer science and from clinical training pathways, and many of our projects rely on both computational and experimental methods. Nobody is expected to arrive fluent in both, and nobody is expected to stay in the lane they arrived in.
 
 We commit to providing the training a project needs, computational or experimental: University courses such as the [Cambridge Bioinformatics Training](https://bioinfotraining.bio.cam.ac.uk/) programme and [Nextflow training](https://training.nextflow.io/), plus hands-on bench training for specific techniques; lab-internal **method workshops**, where one person takes the whole group step by step through the guts of a method (Illumina sequencing chemistry, haplotype phasing) until everyone understands it; a curated list of **foundational papers** for the field; and **code review** every two months (below), which is how most people here have picked up their coding skills.
 
