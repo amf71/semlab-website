@@ -68,7 +68,7 @@ Total hours are set by your contract, or by the University's Code of Practice fo
 - **Conferences.** We attend local meetings (Cambridge/London) regularly, plus one to three national or international conferences a year. Larger meetings such as AACR come later, once a project is mature enough to be worth presenting there. Costs are covered by the lab where bursaries do not, and we generally favour the 100–500 person meetings where you actually get talked to and all attendees will see your presentation.
 - **A route into the field.** We sit in the Early Cancer Institute and the CRUK Cambridge Centre on the Cambridge Biomedical Campus, and we work closely with the Fitzgerald and Swanton groups. You will meet the people whose papers you are reading.
 - **Career support.** Beyond one-to-ones, the University's [Postdoc Academy](https://www.postdocacademy.cam.ac.uk/) and [Careers Service](https://www.careers.cam.ac.uk/) are excellent resources.
-- **A say in how the lab runs.** Lab roles (social secretary, data manager, ordering, sustainability lead, website) rotate annually, and the "state of the lab" meetings exist partly so you can tell Alex what needs to change.
+- **A say in how the lab runs.** Lab roles (social secretary, data manager, sustainability lead, website) rotate annually, and the "state of the lab" meetings exist partly so you can tell Alex what needs to change.
 
 We hold [LEAF](https://www.ucl.ac.uk/sustainable/take-action/staff-action/leaf-laboratory-efficiency-assessment-framework) sustainability accreditation and take the environmental cost of both wet and dry work seriously.
 
