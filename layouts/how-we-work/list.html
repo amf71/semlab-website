@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="page-head">
+  {{ partial "clonemap-decor.html" (dict "img" "clonemap-b.png" "side" "right") }}
+  <div class="wrap">
+    <p class="eyebrow">{{ with .Params.eyebrow }}{{ . }}{{ else }}{{ .Site.Params.labName }}{{ end }}</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.kicker }}<p class="kicker">{{ . }}</p>{{ end }}
+  </div>
+</section>
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "35%") }}
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-e.png" "side" "right" "top" "78%" "size" "9rem" "box" "11rem") }}
+  <div class="wrap">
+    <div class="prose research-prose">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}

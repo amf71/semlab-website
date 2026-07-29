@@ -4,7 +4,7 @@
 draft: true
 title: "How we work"
 eyebrow: "Lab culture"
-kicker: "This page summarises how the SEM lab runs: our meetings, our mentoring, what we expect and what we provide. It is a condensed version of our lab handbook, which we are happy to send you in full."
+kicker: "This page summarises how the SEM lab runs: our meetings, our mentoring, what we expect and what we provide. It is a condensed version of our lab handbook, which we are happy to send in full to prospective lab members."
 description: "How the Frankell (SEM) lab runs: meeting structure, one-to-one mentoring, support for moving between computational and experimental work, working hours and flexibility, and what we provide."
 ---
 
@@ -12,13 +12,24 @@ description: "How the Frankell (SEM) lab runs: meeting structure, one-to-one men
 
 The group agreed these collectively in October 2024.
 
-**Curiosity and creativity.** We make time to follow up curiosities, anomalies and out-of-the-box ideas alongside long-term projects.
-
-**Respect.** Everyone recruited to the lab has outstanding scientific skills. Experience in a given field varies, and those with less of it often bring the perspective that unlocks a problem, so we value questions and opinions from everyone, and our feedback is constructive and always directed at the work.
-
-**Trust and honesty.** We hold to the highest standards of integrity and reproducibility, and we are honest with each other, and with ourselves, about our data. We share advice, code and data freely, within the lab and beyond.
-
-**Humility and pride.** We all make mistakes and learn from one another, while being confident in our ability to do excellent work.
+<div class="grid-2">
+  <div class="card">
+    <h3>Respect</h3>
+    <p>Everyone recruited to the lab has outstanding scientific skills. Experience in a given field varies, and those with less of it often bring the perspective that unlocks a problem, so we value questions and opinions from everyone. Our feedback is constructive and always directed at the work, not individuals.</p>
+  </div>
+  <div class="card">
+    <h3>Trust and honesty</h3>
+    <p>We hold to the highest standards of integrity and reproducibility, and we are honest with each other, and with ourselves, about our data. We share advice, code and data freely, within the lab and beyond.</p>
+  </div>
+  <div class="card">
+    <h3>Curiosity and creativity</h3>
+    <p>We make time to follow up curiosities, anomalies and out-of-the-box ideas alongside long-term project goals. These often form future full projects of their own.</p>
+  </div>
+  <div class="card">
+    <h3>Humility and confidence</h3>
+    <p>We all make mistakes and learn from one another, while being confident in our ability to generate outstanding scientific work.</p>
+  </div>
+</div>
 
 ## One-to-ones
 
@@ -28,9 +39,9 @@ We use OneNote lab books to record discussion points and action items for lab me
 
 ## Meetings
 
-- **Monday stand-up**, 09:00, 10–15 minutes, everyone, including anyone working from home that day (see below).
 - **Lab meeting**, Wednesdays 14:30–16:00, with snacks bought by last week's presenter. These rotate between scientific project updates, journal clubs, brainstorming sessions, method workshops, a "state of the lab" update from Alex, introductory talks from new members, and practice runs for external presentations.
 - **Neighbouring groups.** We are welcome at, and regularly attend, the relevant lab meetings of the Blundell/Watson, Fitzgerald and Swanton groups.
+- **Monday stand-up**, 09:00, 10–15 minutes, everyone, including anyone working from home that day (see below).
 
 **Brainstorming sessions**, a few times a year, run on a whiteboard rather than slides. Everyone brings one idea (anything loosely related to the lab's work, at any stage of readiness) and the group works through it together. Half-formed or slightly wild ideas are exactly the point; some of our grant proposals started out this way.
 
@@ -43,6 +54,11 @@ Project updates are deliberately unpolished and roughly half discussion. Negativ
 We recruit from biology, mathematics, physics, statistics, computer science and from clinical training pathways, and many of our projects rely on both computational and experimental methods.
 
 We don't expect lab members to necessarily arrive fluent in both computational and experimental methods, and we commit to providing the training a project needs, computational or experimental. This includes University courses such as the [Cambridge Bioinformatics Training](https://bioinfotraining.bio.cam.ac.uk/) programme and [Nextflow training](https://training.nextflow.io/), plus hands-on bench training for specific techniques.
+
+<blockquote class="pull-quote">
+  <p>Nobody is expected to stay in the lane they arrived in.</p>
+  <cite>Alex Frankell</cite>
+</blockquote>
 
 Additionally the lab runs internal **method workshops**, where one person takes the whole group step by step through the guts of a method (e.g. duplex DNA library preparation, Nanopore sequencing, spatial genomics, haplotype phasing or allele-specific copy number determination) until everyone understands it. We keep a curated list of **foundational papers** for the field, and run **code review** every two months (below), to promote the sharing of coding skills and tips.
 
@@ -77,5 +93,10 @@ We hold [LEAF](https://www.ucl.ac.uk/sustainable/take-action/staff-action/leaf-l
 ## And the rest
 
 We eat cake on birthdays, go for drinks regularly (often to celebrate a paper, a fellowship or someone's results finally working), and go out for a meal together at Christmas. Lab meeting talks open with a photo of something from your life outside the lab.
+
+<figure class="figure">
+  <img src="/images/gallery/dinner2.jpg" alt="The lab out for a meal together at Christmas" loading="lazy">
+  <figcaption>Out for a meal together at Christmas.</figcaption>
+</figure>
 
 If this sounds like somewhere you could do your best work, see [Opportunities](/opportunities/), and do ask us for the full handbook.
