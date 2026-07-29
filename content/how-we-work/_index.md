@@ -62,7 +62,7 @@ We ask that you are working and contactable between **10:00 and 16:00**, with fl
 
 - **Kit.** A MacBook, docker hub, peripherals and two monitors for every member.
 - **Compute and storage.** Access to the Cambridge CSD3 HPC and 250 TB of shared storage for research data. Where a project needs it, we arrange access to the TRACERx data on the Crick and UCL clusters.
-- **Software.** Lab membership on Claude and Claude Code (which we use to automate routine tasks and speed up coding), and various other subscriptions.
+- **Software.** Lab membership on Claude and Claude Code (used across the lab for automating routine tasks, speeding up coding, and literature synthesis and discovery), and various other subscriptions.
 - **Conferences.** We attend local meetings regularly, and one to three national or international conferences a year, including larger meetings such as AACR once a project is mature and nearing completion, funded by the lab where bursaries do not cover it. We favour the 100–500 person meetings where you actually get talked to.
 - **A route into the field.** We sit in the Early Cancer Institute and the CRUK Cambridge Centre on the Cambridge Biomedical Campus, and we work closely with the Fitzgerald and Swanton groups. You will meet the people whose papers you are reading.
 - **Career support.** Beyond one-to-ones, the University's [Postdoc Academy](https://www.postdocacademy.cam.ac.uk/) and [Careers Service](https://www.careers.cam.ac.uk/) are excellent resources.
