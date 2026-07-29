@@ -18,6 +18,6 @@ All of this sits on the [Cambridge Biomedical Campus](https://cambridge-biomedic
 
 [Cambridge South](https://cambridge-biomedical.com/future-plan/cambridge-south-train-station/) train station opened directly on campus in June 2026, putting London King's Cross about 45 minutes away by direct train. That matters to us because most of our lung cancer collaborators sit at the other end of that line: Prof Charles Swanton at the Francis Crick Institute, which is next door to St Pancras, and the groups of Nicholas McGranahan, Mariam Jamal-Hanjani, Crispin Hiley and Simone Zaccaria at the UCL Cancer Institute a short walk further on. Door to door, we can be with them in under an hour.
 
-For anyone joining us, the practical upshot is proximity: the clinicians who collect the samples, the sequencing capacity to interrogate them, the compute to analyse them, and the people whose papers you are reading are all within a few minutes' walk.
+We are very privileged to combine proximity to the clinicians who collect the samples, the sequencing capacity to interrogate them, the compute to analyse them, and the people whose papers you are reading — all within a few minutes' walk.
 
 ![The Cambridge Biomedical Campus.](/images/campus.jpg)
