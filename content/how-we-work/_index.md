@@ -46,7 +46,7 @@ We don't expect lab members to necessarily arrive fluent in both computational a
 
 Additionally the lab runs internal **method workshops**, where one person takes the whole group step by step through the guts of a method (e.g. duplex DNA library preparation, Nanopore sequencing, spatial genomics, haplotype phasing or allele-specific copy number determination) until everyone understands it. We keep a curated list of **foundational papers** for the field, and run **code review** every two months (below), to promote the sharing of coding skills and tips.
 
-Project plans are not fixed at the outset. If there's a skill you want to build (a technique, a language, a type of analysis), say so at a one-to-one and we will look at shaping your project around it, rather than treating your remit as closed.
+Project plans are not fixed at the outset. If there's a skill you want to build (a technique, a language, a type of analysis), say so at a one-to-one and we will look at shaping your project to include it.
 
 ## Code, data and reproducibility
 
