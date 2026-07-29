@@ -45,6 +45,10 @@ enableRobotsTXT = true
     pageRef = "/people"
     weight = 15
   [[menu.main]]
+    name = "Environment"
+    pageRef = "/environment"
+    weight = 17
+  [[menu.main]]
     name = "Publications"
     pageRef = "/publications"
     weight = 20
