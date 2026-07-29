@@ -16,7 +16,8 @@
 {{ $sections := slice "Current" "Alumni" }}
 
 <section class="decor-host">
-  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "45%") }}
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "right" "top" "30%") }}
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-f.png" "side" "left" "top" "70%") }}
   <div class="wrap">
     {{ range $s := $sections }}
       {{/* Build the ordered member list for this section */}}
