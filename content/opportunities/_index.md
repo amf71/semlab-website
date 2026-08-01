@@ -66,11 +66,6 @@ These are the closest fit to what we do, and where most of our students come fro
     <p class="when">Annual competition, applications in the autumn</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://crukcambridgecentre.org.uk/education-and-training/ccc-clinical-research-fellowships">CRUK Cambridge Centre Clinical Research Training Fellowships</a></h4>
-    <p class="use">A three-year PhD for clinicians in a training post who want a career as a clinician scientist; all medical and surgical specialties are welcome. UK home fee status only.</p>
-    <p class="when">Annual competition, applications in the autumn</p>
-  </li>
-  <li class="scheme">
     <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/jobs">Early Cancer Institute non-clinical PhD studentships</a></h4>
     <p class="use">Studentships based in our own institute, funded by the Michael Cowan Foundation: 3.5 years, UK-rate fees, a maintenance stipend, around £5,000 a year for consumables and a personal development and travel allowance. Advertised on the ECI and University jobs pages, usually closing in February.</p>
     <p class="when">Advertised annually; recent rounds closed in mid-February</p>
@@ -116,9 +111,14 @@ If your background is quantitative or basic-science rather than explicitly cance
 
 ### Clinical PhD fellowships
 
-For applicants who are already medically, dentally or veterinary qualified, or registered as a nurse, midwife or allied health professional. Beyond the CRUK Cambridge Centre fellowships above:
+For applicants who are already medically qualified.
 
 <ul class="schemes">
+  <li class="scheme">
+    <h4 class="name"><a href="https://crukcambridgecentre.org.uk/education-and-training/ccc-clinical-research-fellowships">CRUK Cambridge Centre Clinical Research Training Fellowships</a></h4>
+    <p class="use">A three-year PhD for clinicians in a training post who want a career as a clinician scientist; all medical and surgical specialties are welcome. UK home fee status only.</p>
+    <p class="when">Annual competition, applications in the autumn</p>
+  </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.ukri.org/opportunity/professional-doctorate-clinical-research-training-fellowship/">MRC Professional Doctorate: Clinical Research Training Fellowship</a></h4>
     <p class="use">Typically three years, covering salary, tuition fees and up to £25,000 a year in research costs. You must own the project intellectually and show a clear ambition for a clinical academic career, so this works best when we have shaped the question together. May be held part-time, and rounds close in January, April and September.</p>
