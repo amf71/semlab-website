@@ -59,7 +59,7 @@ Project updates are deliberately unpolished and roughly half discussion. Negativ
 
 <!-- TODO: Alex to confirm, this section is not yet covered in the lab handbook. -->
 
-We recruit from biology, mathematics, physics, statistics, computer science and from clinical training pathways, and many of our projects rely on both computational and experimental methods.
+We recruit from biology, mathematics, physics, statistics, computer science and medicine, and from clinical training pathways, and many of our projects rely on both computational and experimental methods.
 
 We don't expect lab members to necessarily arrive fluent in both computational and experimental methods, and we commit to providing the training a project needs, computational or experimental. This includes University courses such as the [Cambridge Bioinformatics Training](https://bioinfotraining.bio.cam.ac.uk/) programme and [Nextflow training](https://training.nextflow.io/), plus hands-on bench training for specific techniques.
 
