@@ -84,7 +84,7 @@ We know flexible working provides many benefits, from supporting wellbeing to ac
 
 We ask that you are working and contactable between **10:00 and 16:00**, with flexibility either side to fit your working pattern; some people work around childcare on exactly this basis. If you need more flexibility than this, talk to Alex.
 
-Total hours are set by your contract, or by the University's Code of Practice for Research if you're a student. Often people choose to work beyond that to work towards a specific goal (a fellowship application, a paper, or a strong case for their next position); how much extra, if any, is up to you.
+Total hours are set by your contract, or by the University's Code of Practice for Research if you're a student. Often people choose to put in more, to reach a specific goal (a fellowship application, a paper, or a strong case for their next position); how much extra, if any, is up to you.
 
 ## What we provide
 

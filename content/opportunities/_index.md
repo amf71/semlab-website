@@ -5,7 +5,7 @@ kicker: "We are always keen to hear from talented, curious people from biology, 
 description: "How to join the Frankell (SEM) lab: summer internships, the MPhil, Cambridge PhD programmes and studentships, and postdoctoral fellowship schemes we can host."
 ---
 
-We advertise centrally-funded positions from the lab periodically, listed below, but a range of other routes into the group exist via external funding, particularly for PhD studentships: Cambridge runs a number of programmes that feed into our lab. Almost every one of these runs through a competitive scheme with a fixed deadline, so **the single most useful thing you can do is email early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you, which scheme fits best, and whether there is time to do the application properly. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and **one to two months** before a PhD programme deadline.
+We advertise centrally-funded positions from the lab periodically, listed below, but a range of other routes into the group exist via external funding, particularly for PhD studentships: Cambridge runs a number of programmes that feed into our lab. Almost every one of these runs through a competitive scheme with a fixed deadline, so **investigate these and then please get in touch with us early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you and discuss which scheme fits best. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and **one to two months** before a PhD programme deadline.
 
 *Deadlines below were checked on 1 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
@@ -38,12 +38,12 @@ We host rotation and summer students subject to capacity. The ECI generally does
   </li>
   <li class="scheme">
     <h4 class="name">College studentships and bursaries</h4>
-    <p class="use">Several Colleges fund undergraduates doing summer research, typically as a stipend, subsidised or free accommodation, or a small grant — for example <a href="https://www.caths.cam.ac.uk/students/academic-processes-and-opportunities/summer-projects">St Catharine's summer accommodation fund</a>, which houses around ten students doing research or research-related internships in Cambridge over the Long Vacation. Check with your own College first, as terms vary widely.</p>
+    <p class="use">Several Colleges fund undergraduates doing summer research, typically as a stipend, subsidised or free accommodation, or a small grant, for example <a href="https://www.caths.cam.ac.uk/students/academic-processes-and-opportunities/summer-projects">St Catharine's summer accommodation fund</a>, which houses around ten students doing research or research-related internships in Cambridge over the Long Vacation. Check with your own College first, as terms vary widely.</p>
     <p class="when">Varies by College; most run in the spring for that summer</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.bio.cam.ac.uk/research-funding-opportunities-undergraduates">School of Biological Sciences funding list</a></h4>
-    <p class="use">A curated list of further undergraduate vacation research schemes (learned societies, the Wellcome Trust, Amgen Scholars and others) — the best starting point beyond the two above.</p>
+    <p class="use">A curated list of further undergraduate vacation research schemes (learned societies, the Wellcome Trust, Amgen Scholars and others): the best starting point beyond the two above.</p>
     <p class="when">Live list; deadlines vary by scheme</p>
   </li>
 </ul>
@@ -74,7 +74,7 @@ These are the closest fit to what we do, and where most of our students come fro
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/studentships">CRUK Cambridge Centre MRes + PhD (non-clinical)</a></h4>
-    <p class="use">A one-year MRes — two laboratory rotations, advanced coursework and clinical shadowing — followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme. See also the Centre's <a href="https://crukcambridgecentre.org.uk/cancer_phd_cambridge">overview of cancer PhD routes in Cambridge</a>.</p>
+    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme. See also the Centre's <a href="https://crukcambridgecentre.org.uk/cancer_phd_cambridge">overview of cancer PhD routes in Cambridge</a>.</p>
     <p class="when">Annual competition, applications in the autumn</p>
   </li>
   <li class="scheme">
@@ -86,7 +86,7 @@ These are the closest fit to what we do, and where most of our students come fro
 
 ### University-wide funding
 
-If your background is quantitative or basic-science rather than explicitly cancer-focused, these routes are often the better fit — and they are the main way we can fund international students at the full fee rate.
+If your background is quantitative or basic-science rather than explicitly cancer-focused, these routes are often the better fit, and they are the main way we can fund international students at the full fee rate.
 
 <ul class="schemes">
   <li class="scheme">
@@ -101,7 +101,7 @@ If your background is quantitative or basic-science rather than explicitly cance
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.cambridgetrust.org/scholarships/">Cambridge Trust</a></h4>
-    <p class="use">The University's largest source of postgraduate scholarships, from full-cost to part-cost. The Cambridge International Scholarship covers fees and maintenance for overseas PhD students and needs no separate application — candidates are ranked by their department, so tell us you want to be considered.</p>
+    <p class="use">The University's largest source of postgraduate scholarships, from full-cost to part-cost. The Cambridge International Scholarship covers fees and maintenance for overseas PhD students and needs no separate application: candidates are ranked by their department, so tell us you want to be considered.</p>
     <p class="when">Tied to the course funding deadline in your programme's admissions round</p>
   </li>
   <li class="scheme">
@@ -111,7 +111,7 @@ If your background is quantitative or basic-science rather than explicitly cance
   </li>
   <li class="scheme">
     <h4 class="name">Home-country and partner schemes</h4>
-    <p class="use">Many national funders co-fund Cambridge places for their own citizens, usually jointly with the Cambridge Trust — for example the <a href="https://www.cambridgetrust.org/partners/china-scholarship-council">CSC Cambridge Scholarship</a> with the China Scholarship Council. If your government, a national research council or a foundation at home funds study abroad, it is worth checking early: these schemes often have their own deadlines several months before the University's.</p>
+    <p class="use">Many national funders co-fund Cambridge places for their own citizens, usually jointly with the Cambridge Trust, for example the <a href="https://www.cambridgetrust.org/partners/china-scholarship-council">CSC Cambridge Scholarship</a> with the China Scholarship Council. If your government, a national research council or a foundation at home funds study abroad, it is worth checking early: these schemes often have their own deadlines several months before the University's.</p>
     <p class="when">Varies by country; check both deadlines</p>
   </li>
   <li class="scheme">
@@ -160,7 +160,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships">HFSP Long-Term Fellowship</a></h4>
-    <p class="use">High-risk, interdisciplinary basic life science — an excellent fit for technology- and methodology-led early cancer projects. Two-stage: letter of intent first, full proposal by invitation. You must change both country and research topic. The letter of intent for the 2027 award year closed in May 2026.</p>
+    <p class="use">High-risk, interdisciplinary basic life science: an excellent fit for technology- and methodology-led early cancer projects. Two-stage: letter of intent first, full proposal by invitation. You must change both country and research topic. The letter of intent for the 2027 award year closed in May 2026.</p>
     <p class="when">Annual; next letter of intent expected spring 2027</p>
   </li>
   <li class="scheme">
@@ -170,7 +170,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.aacr.org/grants/">AACR fellowships</a></h4>
-    <p class="use">Cancer-focused postdoctoral and clinical research fellowships. Several — though not all — AACR schemes accept host institutions anywhere in the world, so check the eligibility of the specific call. See also the <a href="https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/">research training and fellowships</a> overview.</p>
+    <p class="use">Cancer-focused postdoctoral and clinical research fellowships. Several (though not all) AACR schemes accept host institutions anywhere in the world, so check the eligibility of the specific call. See also the <a href="https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/">research training and fellowships</a> overview.</p>
     <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed</p>
   </li>
   <li class="scheme">
