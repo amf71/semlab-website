@@ -5,6 +5,17 @@ kicker: "This page summarises how the SEM lab runs: our meetings, our mentoring,
 description: "How the Frankell (SEM) lab runs: meeting structure, one-to-one mentoring, support for moving between computational and experimental work, working hours and flexibility, and what we provide."
 ---
 
+<nav class="toc" aria-label="Page sections">
+  <a href="#our-values">Our values</a>
+  <a href="#one-to-ones">One-to-ones</a>
+  <a href="#meetings">Meetings</a>
+  <a href="#moving-between-computational-and-experimental-work">Moving between computational and experimental work</a>
+  <a href="#code-data-and-reproducibility">Code, data and reproducibility</a>
+  <a href="#hours-and-flexibility">Hours and flexibility</a>
+  <a href="#what-we-provide">What we provide</a>
+  <a href="#and-the-rest">And the rest</a>
+</nav>
+
 ## Our values
 
 The group agreed these collectively in October 2024.
