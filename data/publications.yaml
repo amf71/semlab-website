@@ -56,6 +56,16 @@ items:
       - label: "DOI"
         url: "https://doi.org/10.1038/s41586-023-05776-4"
 
+  - year: "2022"
+    title: "When can we be confident of surgical cure with ctDNA?"
+    authors: "<strong>A. M. Frankell</strong>*, M. Jamal-Hanjani (*corresponding author)"
+    venue: "Nature Reviews Clinical Oncology, 19(9), 571–572"
+    url: "https://doi.org/10.1038/s41571-022-00664-8"
+    tags: ["ctDNA", "Commentary"]
+    links:
+      - label: "DOI"
+        url: "https://doi.org/10.1038/s41571-022-00664-8"
+
   - year: "2021"
     title: "Longitudinal tracking of 97 esophageal adenocarcinomas using liquid biopsy sampling"
     authors: "E. Ococks*, <strong>A. M. Frankell</strong>*, … E. C. Smyth (*joint first author)"

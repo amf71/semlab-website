@@ -5,6 +5,17 @@ kicker: "This page summarises how the SEM lab runs: our meetings, our mentoring,
 description: "How the Frankell (SEM) lab runs: meeting structure, one-to-one mentoring, support for moving between computational and experimental work, working hours and flexibility, and what we provide."
 ---
 
+<nav class="toc" aria-label="Page sections">
+  <a href="#our-values">Our values</a>
+  <a href="#one-to-ones">One-to-ones</a>
+  <a href="#meetings">Meetings</a>
+  <a href="#moving-between-computational-and-experimental-work">Moving between computational and experimental work</a>
+  <a href="#code-data-and-reproducibility">Code, data and reproducibility</a>
+  <a href="#hours-and-flexibility">Hours and flexibility</a>
+  <a href="#what-we-provide">What we provide</a>
+  <a href="#and-the-rest">And the rest</a>
+</nav>
+
 ## Our values
 
 The group agreed these collectively in October 2024.
@@ -73,7 +84,7 @@ We know flexible working provides many benefits, from supporting wellbeing to ac
 
 We ask that you are working and contactable between **10:00 and 16:00**, with flexibility either side to fit your working pattern; some people work around childcare on exactly this basis. If you need more flexibility than this, talk to Alex.
 
-Total hours are set by your contract, or by the University's Code of Practice for Research if you're a student. Often people choose to work beyond that to work towards a specific goal (a fellowship application, a paper, or a strong case for their next position); how much extra, if any, is up to you.
+Total hours are set by your contract, or by the University's Code of Practice for Research if you're a student. Often people choose to put in more, to reach a specific goal (a fellowship application, a paper, or a strong case for their next position); how much extra, if any, is up to you.
 
 ## What we provide
 

@@ -60,6 +60,9 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 500; line-height
 h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); letter-spacing: -0.01em; }
 h2 { font-size: clamp(1.8rem, 3.4vw, 2.6rem); letter-spacing: -0.01em; margin-top: 0; }
 h3 { font-size: 1.3rem; }
+/* Clears the sticky header when landing on a heading via an in-page anchor
+   (e.g. the Opportunities page contents nav). */
+h2, h3 { scroll-margin-top: 5.5rem; }
 p { margin: 0 0 1.1rem; }
 
 /* ============================================================
@@ -237,9 +240,31 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
 .prose h3 { margin-top: 2rem; color: var(--accent-dark); }
 .prose ul { padding-left: 1.2rem; }
 .prose li { margin-bottom: 0.5rem; }
+/* In-page contents nav (e.g. Opportunities): a row of jump links to the
+   page's own headings, styled as a bordered card rather than a plain list
+   so it doesn't read as another bullet list. */
+.prose nav.toc {
+  display: flex; flex-wrap: wrap; gap: 0.5rem 1.75rem;
+  margin: 1.75rem 0 2.25rem; padding: 1rem 1.35rem;
+  border: 1px solid var(--line); border-radius: 3px; background: var(--paper-2);
+}
+.prose nav.toc a {
+  font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.03em;
+  color: var(--accent-dark); text-decoration: none;
+}
+.prose nav.toc a:hover { color: var(--accent); text-decoration: underline; }
+@media (max-width: 640px) { .prose nav.toc { flex-direction: column; gap: 0.6rem; } }
 .prose blockquote {
   border-left: 3px solid var(--accent); margin: 1.5rem 0; padding: 0.3rem 0 0.3rem 1.3rem;
   font-family: var(--font-display); font-style: italic; color: var(--accent-dark);
+}
+.prose blockquote p:last-of-type { margin-bottom: 0; }
+/* Attribution on a plain (non pull-quote) blockquote — same mono/uppercase
+   treatment as .pull-quote cite, just not full-width, since the quote itself
+   is inline-sized rather than a standalone display block. */
+.prose blockquote cite {
+  display: block; margin-top: 0.5rem; font-family: var(--font-mono); font-style: normal;
+  font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
 }
 /* Pull-quote: a larger, standalone version of .prose blockquote with an attribution line. */
 .prose blockquote.pull-quote { font-size: 1.6rem; line-height: 1.35; margin: 2.5rem 0; }
@@ -255,6 +280,20 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
   width: 100%; max-width: 100%; height: auto; display: block;
   margin-block: 1.5rem;
   border-radius: 4px; border: 1px solid var(--line);
+}
+
+/* Funding-scheme lists (Opportunities page): scheme name, what it suits, and
+   a mono deadline line. The two reset selectors below carry an element type so
+   they outrank the generic `.prose ul` / `.prose li` rules above — equal
+   specificity, and later in the file wins — so keep them after those. */
+ul.schemes { list-style: none; margin: 1.75rem 0 2rem; padding: 0; }
+li.scheme { margin: 0; padding: 1.15rem 0; border-top: 1px solid var(--line); }
+li.scheme:last-child { border-bottom: 1px solid var(--line); }
+.scheme .name { font-size: 1.12rem; margin: 0 0 0.35rem; }
+.scheme .use { color: var(--muted); font-size: 0.95rem; margin: 0; }
+.scheme .when {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--accent); margin: 0.55rem 0 0;
 }
 
 .page-head { border-bottom: 1px solid var(--line); padding-block: clamp(2.5rem,6vh,4rem) clamp(1.75rem,4vh,2.5rem); }
