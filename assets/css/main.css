@@ -241,6 +241,14 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
   border-left: 3px solid var(--accent); margin: 1.5rem 0; padding: 0.3rem 0 0.3rem 1.3rem;
   font-family: var(--font-display); font-style: italic; color: var(--accent-dark);
 }
+.prose blockquote p:last-of-type { margin-bottom: 0; }
+/* Attribution on a plain (non pull-quote) blockquote — same mono/uppercase
+   treatment as .pull-quote cite, just not full-width, since the quote itself
+   is inline-sized rather than a standalone display block. */
+.prose blockquote cite {
+  display: block; margin-top: 0.5rem; font-family: var(--font-mono); font-style: normal;
+  font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted);
+}
 /* Pull-quote: a larger, standalone version of .prose blockquote with an attribution line. */
 .prose blockquote.pull-quote { font-size: 1.6rem; line-height: 1.35; margin: 2.5rem 0; }
 .prose blockquote.pull-quote p { margin: 0; }

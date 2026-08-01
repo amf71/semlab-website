@@ -175,6 +175,9 @@ We host rotation and summer students subject to capacity. The ECI generally does
   </li>
 </ul>
 
-> We are committed to a supportive, inclusive research environment and welcome applicants from all backgrounds.
+<blockquote>
+  <p>We are committed to a supportive, inclusive research environment and welcome applicants from all backgrounds.</p>
+  <cite>Alex Frankell</cite>
+</blockquote>
 
 See [Contact](/contact/) to get in touch.
