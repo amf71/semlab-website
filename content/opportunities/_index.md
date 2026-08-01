@@ -77,7 +77,7 @@ Cambridge PhD places are almost always attached to a funded programme, and most 
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/studentships">CRUK Cambridge Centre MRes + PhD (non-clinical)</a></h4>
-    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme. See also the Centre's <a href="https://crukcambridgecentre.org.uk/cancer_phd_cambridge">overview of cancer PhD routes in Cambridge</a>.</p>
+    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme; two places are available for international students this year. See also the Centre's <a href="https://crukcambridgecentre.org.uk/cancer_phd_cambridge">overview of cancer PhD routes in Cambridge</a>.</p>
     <p class="when">Annual competition, applications in the autumn</p>
   </li>
   <li class="scheme">
