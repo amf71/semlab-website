@@ -145,9 +145,14 @@ For applicants who are already medically, dentally or veterinary qualified, or r
 
 ## Interns & rotation students
 
-We host rotation and summer students subject to funding and capacity. In most cases we are not able to fund a summer internship ourselves, so we ask undergraduate applicants to secure their own funding through one of the schemes below; get in touch and we can advise on which is the best fit for a project with us.
+We host rotation and summer students subject to funding and capacity. In most cases we are not able to fund a summer internship ourselves, so — with the exception of the Early Cancer Institute's own summer programme below — we ask undergraduate applicants to secure their own funding through one of the schemes below; get in touch and we can advise on which is the best fit for a project with us.
 
 <ul class="schemes">
+  <li class="scheme">
+    <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/early-cancer-institute-summer-programme-2026">Early Cancer Institute Summer Programme</a></h4>
+    <p class="use">Our own institute's fully funded 8-week programme: a research project in one of the Institute's groups (including ours), a stipend, Cambridge college accommodation, and weekly workshops on scientific communication and research ethics. Aimed at students entering the final year of an integrated Master's, or about to start a standalone Master's, in a relevant subject. Only five places, so let us know if you're applying and want to work with us.</p>
+    <p class="when">Annual; the 2026 programme ran 6 July – 28 August and applications have closed</p>
+  </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.biochemistry.org/grants-and-awards/grants-and-bursaries/summer-vacation-studentships/research-studentship/">Biochemical Society Summer Vacation Studentship</a></h4>
     <p class="use">A 4–6 week lab or computational placement for undergraduates in biochemistry, molecular bioscience and related subjects, in the middle year(s) of their degree (not first or final year).</p>
