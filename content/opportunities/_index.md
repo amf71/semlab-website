@@ -1,7 +1,7 @@
 ---
 title: "Opportunities"
 eyebrow: "Join us"
-kicker: "We are always keen to hear from talented, curious people from biology, mathematics, physics, statistics and computer science."
+kicker: "We are always keen to hear from talented, curious people from biology, mathematics, physics, statistics, computer science and medicine."
 description: "How to join the Frankell (SEM) lab: summer internships, the MPhil, Cambridge PhD programmes and studentships, and postdoctoral fellowship schemes we can host."
 ---
 
