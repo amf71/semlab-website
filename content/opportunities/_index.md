@@ -5,8 +5,6 @@ kicker: "We are always keen to hear from talented, curious people from biology, 
 description: "How to join the Frankell (SEM) lab: postdoctoral fellowship schemes we can host, Cambridge PhD programmes and studentships, clinical fellowships, and Master's routes."
 ---
 
-Before you get in touch, please read [How we work](/how-we-work/): our meeting structure, mentoring, authorship norms, expectations and what we provide. It will tell you far more about whether this is the right place for you than a job advert can.
-
 Almost every route into the lab runs through a competitive scheme with a fixed deadline, so **the single most useful thing you can do is email early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you, which scheme fits best, and whether there is time to do the application properly. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and **one to two months** before a PhD programme deadline. Applications assembled in a fortnight rarely succeed.
 
 *Deadlines below were checked on 1 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
