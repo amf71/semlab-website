@@ -65,25 +65,27 @@
   </div>
 </section>
 
-<!-- ============ HOST ENVIRONMENT ============ -->
-<section class="section-alt decor-host">
-  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-b.png" "side" "left" "top" "20%") }}
+<!-- ============ PEOPLE PREVIEW ============ -->
+<section class="decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-d.png" "side" "left" "top" "25%") }}
   <div class="wrap">
-    <p class="eyebrow">Where we work</p>
-    <h2>Our host environment</h2>
-    <div class="prose" style="margin-top:1.5rem;">
-      <p>We are based in the <a href="https://www.earlycancer.cam.ac.uk/">Early Cancer Institute</a>, the first institute in the UK dedicated solely to early cancer research, within the CRUK Cambridge Centre and the University of Cambridge. Down the corridor or a short walk are collaborators including Rebecca Fitzgerald, Florian Markowetz, Tom Mitchell, Jamie Blundell, Caroline Watson and Matt Hoare, a nationally leading sequencing core running the latest Illumina platform, the University's 100,000-CPU compute cluster, and Dawn, Cambridge's AI supercomputer.</p>
-
-      <p>All of this sits on the <a href="https://cambridge-biomedical.com/">Cambridge Biomedical Campus</a>, the largest centre of medical research and health science in Europe and growing, home to the global headquarters of AstraZeneca and Abcam, with GSK and BioNTech both building new R&amp;D centres here. <a href="https://cambridge-biomedical.com/future-plan/cambridge-south-train-station/">Cambridge South</a> station, opened in 2026, puts our closest lung cancer collaborators at the Francis Crick Institute and UCL under an hour away door to door.</p>
-
-      <p>Cambridge is also the home of modern genomics: the double helix, Sanger sequencing and next-generation sequencing were all invented within a few miles of our desks. The University's 31 colleges give lab members a second community outside the lab.</p>
-
-      <p><a href="{{ "/environment/" | relURL }}">Read more about our host environment →</a></p>
+    <p class="eyebrow">The team</p>
+    <h2>People</h2>
+    {{/* All current members (exclude alumni) */}}
+    {{ $current := slice }}
+    {{ range .Site.Data.people.members }}
+      {{ if ne .status "alumni" }}{{ $current = $current | append . }}{{ end }}
+    {{ end }}
+    <div class="people-preview">
+      {{ range $current }}
+      <div class="person-card">
+        <div class="avatar">{{ partial "avatar.html" . }}</div>
+        <p class="name">{{ .name }}</p>
+        <p class="role">{{ .role }}</p>
+      </div>
+      {{ end }}
     </div>
-    <figure class="figure" style="margin-top:2.5rem;">
-      {{ partial "campus-photo.html" . }}
-      <figcaption><strong>The Cambridge Biomedical Campus.</strong> Europe's largest centre of medical research and health science.</figcaption>
-    </figure>
+    <p style="margin-top:1.75rem;"><a href="{{ "/people/" | relURL }}">All lab member profiles →</a></p>
   </div>
 </section>
 
@@ -112,27 +114,25 @@
 <!-- ============ FUNDERS ============ -->
 {{ partial "funders.html" . }}
 
-<!-- ============ PEOPLE PREVIEW ============ -->
-<section class="decor-host">
-  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-d.png" "side" "left" "top" "25%") }}
+<!-- ============ HOST ENVIRONMENT ============ -->
+<section class="section-alt decor-host">
+  {{ partial "clonemap-scatter.html" (dict "img" "clonemap-b.png" "side" "left" "top" "20%") }}
   <div class="wrap">
-    <p class="eyebrow">The team</p>
-    <h2>People</h2>
-    {{/* All current members (exclude alumni) */}}
-    {{ $current := slice }}
-    {{ range .Site.Data.people.members }}
-      {{ if ne .status "alumni" }}{{ $current = $current | append . }}{{ end }}
-    {{ end }}
-    <div class="people-preview">
-      {{ range $current }}
-      <div class="person-card">
-        <div class="avatar">{{ partial "avatar.html" . }}</div>
-        <p class="name">{{ .name }}</p>
-        <p class="role">{{ .role }}</p>
-      </div>
-      {{ end }}
+    <p class="eyebrow">Where we work</p>
+    <h2>Our host environment</h2>
+    <div class="prose" style="margin-top:1.5rem;">
+      <p>We are based in the <a href="https://www.earlycancer.cam.ac.uk/">Early Cancer Institute</a>, the first institute in the UK dedicated solely to early cancer research, within the CRUK Cambridge Centre and the University of Cambridge. Down the corridor or a short walk are collaborators including Rebecca Fitzgerald, Florian Markowetz, Tom Mitchell, Jamie Blundell, Caroline Watson and Matt Hoare, a nationally leading sequencing core running the latest Illumina platform, the University's 100,000-CPU compute cluster, and Dawn, Cambridge's AI supercomputer.</p>
+
+      <p>All of this sits on the <a href="https://cambridge-biomedical.com/">Cambridge Biomedical Campus</a>, the largest centre of medical research and health science in Europe and growing, home to the global headquarters of AstraZeneca and Abcam, with GSK and BioNTech both building new R&amp;D centres here. <a href="https://cambridge-biomedical.com/future-plan/cambridge-south-train-station/">Cambridge South</a> station, opened in 2026, puts our closest lung cancer collaborators at the Francis Crick Institute and UCL under an hour away door to door.</p>
+
+      <p>Cambridge is also the home of modern genomics: the double helix, Sanger sequencing and next-generation sequencing were all invented within a few miles of our desks. The University's 31 colleges give lab members a second community outside the lab.</p>
+
+      <p><a href="{{ "/environment/" | relURL }}">Read more about our host environment →</a></p>
     </div>
-    <p style="margin-top:1.75rem;"><a href="{{ "/people/" | relURL }}">All lab member profiles →</a></p>
+    <figure class="figure" style="margin-top:2.5rem;">
+      {{ partial "campus-photo.html" . }}
+      <figcaption><strong>The Cambridge Biomedical Campus.</strong> Europe's largest centre of medical research and health science.</figcaption>
+    </figure>
   </div>
 </section>
 
