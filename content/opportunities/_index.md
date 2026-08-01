@@ -145,7 +145,7 @@ For applicants who are already medically, dentally or veterinary qualified, or r
 
 ## Interns & rotation students
 
-We host rotation and summer students subject to capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Get in touch and we can advise on which is the best fit for a project with us.
+We host rotation and summer students subject to capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
 
 <ul class="schemes">
   <li class="scheme">
