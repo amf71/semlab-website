@@ -16,6 +16,11 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <a href="#postdoctoral-researchers">Postdoctoral researchers</a>
 </nav>
 
+<blockquote>
+  <p>We are committed to a supportive, inclusive research environment and welcome applicants from all backgrounds.</p>
+  <cite>Alex Frankell</cite>
+</blockquote>
+
 ## Interns & rotation students
 
 We host rotation and summer students only when we have capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
@@ -63,8 +68,6 @@ We host rotation and summer students only when we have capacity. The ECI general
 Cambridge PhD places are almost always attached to a funded programme, and most programmes run a single annual competition in the autumn or winter for entry the following October. Email us before you apply so we can discuss your interests and how these may synergise with the projects available in the lab.
 
 ### Cancer and early-detection programmes
-
-These are the closest fit to what we do, and where most of our students come from.
 
 <ul class="schemes">
   <li class="scheme">
@@ -179,10 +182,5 @@ We are happy to support strong candidates applying for independent fellowships, 
     <p class="when">Annual; 2027–28 round closes 15 September 2026, 17:00 ET</p>
   </li>
 </ul>
-
-<blockquote>
-  <p>We are committed to a supportive, inclusive research environment and welcome applicants from all backgrounds.</p>
-  <cite>Alex Frankell</cite>
-</blockquote>
 
 See [Contact](/contact/) to get in touch.
