@@ -145,7 +145,30 @@ For applicants who are already medically, dentally or veterinary qualified, or r
 
 ## Interns & rotation students
 
-We host rotation and summer students subject to funding and capacity. Enquiries welcome.
+We host rotation and summer students subject to funding and capacity. In most cases we are not able to fund a summer internship ourselves, so we ask undergraduate applicants to secure their own funding through one of the schemes below; get in touch and we can advise on which is the best fit for a project with us.
+
+<ul class="schemes">
+  <li class="scheme">
+    <h4 class="name"><a href="https://www.biochemistry.org/grants-and-awards/grants-and-bursaries/summer-vacation-studentships/research-studentship/">Biochemical Society Summer Vacation Studentship</a></h4>
+    <p class="use">A 4–6 week lab or computational placement for undergraduates in biochemistry, molecular bioscience and related subjects, in the middle year(s) of their degree (not first or final year).</p>
+    <p class="when">Annual; 2026 round closed</p>
+  </li>
+  <li class="scheme">
+    <h4 class="name"><a href="https://genetics.org.uk/grants/summer-studentships/">Genetics Society Summer Studentship</a></h4>
+    <p class="use">Up to 8 weeks at £300 a week, plus lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
+    <p class="when">Annual, applied for via the Society's membership portal</p>
+  </li>
+  <li class="scheme">
+    <h4 class="name">College studentships and bursaries</h4>
+    <p class="use">Several Colleges fund undergraduates doing summer research, typically as a stipend, subsidised or free accommodation, or a small grant — for example <a href="https://www.caths.cam.ac.uk/students/academic-processes-and-opportunities/summer-projects">St Catharine's summer accommodation fund</a>, which houses around ten students doing research or research-related internships in Cambridge over the Long Vacation. Check with your own College first, as terms vary widely.</p>
+    <p class="when">Varies by College; most run in the spring for that summer</p>
+  </li>
+  <li class="scheme">
+    <h4 class="name"><a href="https://www.bio.cam.ac.uk/research-funding-opportunities-undergraduates">School of Biological Sciences funding list</a></h4>
+    <p class="use">A curated list of further undergraduate vacation research schemes (learned societies, the Wellcome Trust, Amgen Scholars and others) — the best starting point beyond the two above.</p>
+    <p class="when">Live list; deadlines vary by scheme</p>
+  </li>
+</ul>
 
 > We are committed to a supportive, inclusive research environment and welcome applicants from all backgrounds.
 
