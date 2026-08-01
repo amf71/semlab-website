@@ -2,53 +2,65 @@
 title: "Opportunities"
 eyebrow: "Join us"
 kicker: "We are always keen to hear from talented, curious people from biology, mathematics, physics, statistics and computer science."
-description: "How to join the Frankell (SEM) lab: postdoctoral fellowship schemes we can host, Cambridge PhD programmes and studentships, clinical fellowships, and Master's routes."
+description: "How to join the Frankell (SEM) lab: summer internships, the MPhil, Cambridge PhD programmes and studentships, and postdoctoral fellowship schemes we can host."
 ---
 
 We advertise centrally-funded positions from the lab periodically, but a range of other routes into the group exist via external funding, particularly for PhD studentships: Cambridge runs a number of programmes that feed into our lab, listed below. Almost every one of these runs through a competitive scheme with a fixed deadline, so **the single most useful thing you can do is email early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you, which scheme fits best, and whether there is time to do the application properly. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and **one to two months** before a PhD programme deadline.
 
 *Deadlines below were checked on 1 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
-## Postdoctoral researchers
+<nav class="toc" aria-label="Page sections">
+  <a href="#interns--rotation-students">Interns &amp; rotation students</a>
+  <a href="#masters-students">Master's students</a>
+  <a href="#phd-students">PhD students</a>
+  <a href="#postdoctoral-researchers">Postdoctoral researchers</a>
+</nav>
 
-We are happy to support strong candidates applying for independent fellowships, and we will develop the project with you rather than hand you a ready-made one. The schemes below are the ones we can realistically host at Cambridge. Funded positions on our own grants, when available, will be listed here.
+## Interns & rotation students
+
+We host rotation and summer students subject to capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
 
 <ul class="schemes">
   <li class="scheme">
-    <h4 class="name"><a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships">MSCA European Postdoctoral Fellowship</a></h4>
-    <p class="use">The flagship route for an international postdoc to develop a joint project with us. One to two years, generous salary and mobility allowances. Note the mobility rule: you must not have spent more than 12 months in the UK in the three years before the deadline.</p>
-    <p class="when">Next deadline: 9 September 2026, 17:00 CEST</p>
+    <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/early-cancer-institute-summer-programme-2026">Early Cancer Institute Summer Programme</a></h4>
+    <p class="use">Our own institute's fully funded 8-week programme: a research project in one of the Institute's groups (including ours), a stipend, Cambridge college accommodation, and weekly workshops on scientific communication and research ethics. Aimed at students entering the final year of an integrated Master's, or about to start a standalone Master's, in a relevant subject. Only five places, so let us know if you're applying and want to work with us.</p>
+    <p class="when">Annual; the 2026 programme ran 6 July – 28 August and applications have closed</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/">EMBO Postdoctoral Fellowship</a></h4>
-    <p class="use">Strong for molecular and cell biology, genomics, imaging and related early-cancer biology. Applications are accepted year-round and enter one of two evaluation rounds.</p>
-    <p class="when">Rolling; next hard cut-off 22 January 2027, 14:00 CET</p>
+    <h4 class="name"><a href="https://www.biochemistry.org/grants-and-awards/grants-and-bursaries/summer-vacation-studentships/research-studentship/">Biochemical Society Summer Vacation Studentship</a></h4>
+    <p class="use">A 4–6 week lab or computational placement for undergraduates in biochemistry, molecular bioscience and related subjects, in the middle year(s) of their degree (not first or final year).</p>
+    <p class="when">Annual; 2026 round closed</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships">HFSP Long-Term Fellowship</a></h4>
-    <p class="use">High-risk, interdisciplinary basic life science — an excellent fit for technology- and methodology-led early cancer projects. Two-stage: letter of intent first, full proposal by invitation. You must change both country and research topic. The letter of intent for the 2027 award year closed in May 2026.</p>
-    <p class="when">Annual; next letter of intent expected spring 2027</p>
+    <h4 class="name"><a href="https://genetics.org.uk/grants/summer-studentships/">Genetics Society Summer Studentship</a></h4>
+    <p class="use">Up to 8 weeks at £300 a week, plus lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
+    <p class="when">Annual, applied for via the Society's membership portal</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://wellcome.org/research-funding/schemes/wellcome-early-career-awards">Wellcome Early-Career Award</a></h4>
-    <p class="use">For a candidate ready to build a distinct research identity, not a conventional supervised postdoc: your salary plus up to £400,000 over (usually) five years. We would act as your sponsor and host rather than your supervisor, so come with your own question.</p>
-    <p class="when">Next deadline: 10 November 2026, 15:00 GMT</p>
+    <h4 class="name">College studentships and bursaries</h4>
+    <p class="use">Several Colleges fund undergraduates doing summer research, typically as a stipend, subsidised or free accommodation, or a small grant — for example <a href="https://www.caths.cam.ac.uk/students/academic-processes-and-opportunities/summer-projects">St Catharine's summer accommodation fund</a>, which houses around ten students doing research or research-related internships in Cambridge over the Long Vacation. Check with your own College first, as terms vary widely.</p>
+    <p class="when">Varies by College; most run in the spring for that summer</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://www.aacr.org/grants/">AACR fellowships</a></h4>
-    <p class="use">Cancer-focused postdoctoral and clinical research fellowships. Several — though not all — AACR schemes accept host institutions anywhere in the world, so check the eligibility of the specific call. See also the <a href="https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/">research training and fellowships</a> overview.</p>
-    <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed</p>
+    <h4 class="name"><a href="https://www.bio.cam.ac.uk/research-funding-opportunities-undergraduates">School of Biological Sciences funding list</a></h4>
+    <p class="use">A curated list of further undergraduate vacation research schemes (learned societies, the Wellcome Trust, Amgen Scholars and others) — the best starting point beyond the two above.</p>
+    <p class="when">Live list; deadlines vary by scheme</p>
   </li>
+</ul>
+
+## Master's students
+
+<ul class="schemes">
   <li class="scheme">
-    <h4 class="name"><a href="https://www.fulbright.org.uk/our-programmes/fulbright-scholarships-to-the-uk/us-scholars/">Fulbright US Scholar Award</a></h4>
-    <p class="use">For a US citizen postdoc or academic coming to Cambridge for a defined collaboration. You need our written agreement to host before you apply, and applications are made through the <a href="https://fulbrightscholars.org/us-scholar-awards">Fulbright US Scholar Program</a>.</p>
-    <p class="when">Annual; 2027–28 round closes 15 September 2026, 17:00 ET</p>
+    <h4 class="name"><a href="https://www.oncology.cam.ac.uk/educ-train/postgrad/mphil-cancer-biology-and-medicine-taught">MPhil in Cancer Biology and Medicine</a></h4>
+    <p class="use">A one-year taught MPhil in the Department of Oncology, built around a 32-week research project starting in November, alongside lectures and training in biostatistics and bioinformatics. A good route into the field, and into a PhD here. Get in touch if you would like your project to be with us.</p>
+    <p class="when">Funding deadlines from December; final deadline 4 March 2027 for October 2027 entry</p>
   </li>
 </ul>
 
 ## PhD students
 
-Cambridge PhD places are almost always attached to a funded programme, and most programmes run a single annual competition in the autumn or winter for entry the following October. Email us before you apply so we can agree a project and, where the programme allows it, be named in your application.
+Cambridge PhD places are almost always attached to a funded programme, and most programmes run a single annual competition in the autumn or winter for entry the following October. Email us before you apply so we can discuss your interests and how these may synergise with the projects available in the lab.
 
 ### Cancer and early-detection programmes
 
@@ -131,45 +143,40 @@ For applicants who are already medically qualified.
   </li>
 </ul>
 
-## Master's students
+## Postdoctoral researchers
+
+We are happy to support strong candidates applying for independent fellowships, and we will develop the project with you rather than hand you a ready-made one. The schemes below are the ones we can realistically host at Cambridge. Funded positions on our own grants, when available, will be listed here.
 
 <ul class="schemes">
   <li class="scheme">
-    <h4 class="name"><a href="https://www.oncology.cam.ac.uk/educ-train/postgrad/mphil-cancer-biology-and-medicine-taught">MPhil in Cancer Biology and Medicine</a></h4>
-    <p class="use">A one-year taught MPhil in the Department of Oncology, built around a 32-week research project starting in November, alongside lectures and training in biostatistics and bioinformatics. A good route into the field, and into a PhD here. Get in touch if you would like your project to be with us.</p>
-    <p class="when">Funding deadlines from December; final deadline 4 March 2027 for October 2027 entry</p>
-  </li>
-</ul>
-
-## Interns & rotation students
-
-We host rotation and summer students subject to capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
-
-<ul class="schemes">
-  <li class="scheme">
-    <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/early-cancer-institute-summer-programme-2026">Early Cancer Institute Summer Programme</a></h4>
-    <p class="use">Our own institute's fully funded 8-week programme: a research project in one of the Institute's groups (including ours), a stipend, Cambridge college accommodation, and weekly workshops on scientific communication and research ethics. Aimed at students entering the final year of an integrated Master's, or about to start a standalone Master's, in a relevant subject. Only five places, so let us know if you're applying and want to work with us.</p>
-    <p class="when">Annual; the 2026 programme ran 6 July – 28 August and applications have closed</p>
+    <h4 class="name"><a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships">MSCA European Postdoctoral Fellowship</a></h4>
+    <p class="use">The flagship route for an international postdoc to develop a joint project with us. One to two years, generous salary and mobility allowances. Note the mobility rule: you must not have spent more than 12 months in the UK in the three years before the deadline.</p>
+    <p class="when">Next deadline: 9 September 2026, 17:00 CEST</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://www.biochemistry.org/grants-and-awards/grants-and-bursaries/summer-vacation-studentships/research-studentship/">Biochemical Society Summer Vacation Studentship</a></h4>
-    <p class="use">A 4–6 week lab or computational placement for undergraduates in biochemistry, molecular bioscience and related subjects, in the middle year(s) of their degree (not first or final year).</p>
-    <p class="when">Annual; 2026 round closed</p>
+    <h4 class="name"><a href="https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/">EMBO Postdoctoral Fellowship</a></h4>
+    <p class="use">Strong for molecular and cell biology, genomics, imaging and related early-cancer biology. Applications are accepted year-round and enter one of two evaluation rounds.</p>
+    <p class="when">Rolling; next hard cut-off 22 January 2027, 14:00 CET</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://genetics.org.uk/grants/summer-studentships/">Genetics Society Summer Studentship</a></h4>
-    <p class="use">Up to 8 weeks at £300 a week, plus lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
-    <p class="when">Annual, applied for via the Society's membership portal</p>
+    <h4 class="name"><a href="https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships">HFSP Long-Term Fellowship</a></h4>
+    <p class="use">High-risk, interdisciplinary basic life science — an excellent fit for technology- and methodology-led early cancer projects. Two-stage: letter of intent first, full proposal by invitation. You must change both country and research topic. The letter of intent for the 2027 award year closed in May 2026.</p>
+    <p class="when">Annual; next letter of intent expected spring 2027</p>
   </li>
   <li class="scheme">
-    <h4 class="name">College studentships and bursaries</h4>
-    <p class="use">Several Colleges fund undergraduates doing summer research, typically as a stipend, subsidised or free accommodation, or a small grant — for example <a href="https://www.caths.cam.ac.uk/students/academic-processes-and-opportunities/summer-projects">St Catharine's summer accommodation fund</a>, which houses around ten students doing research or research-related internships in Cambridge over the Long Vacation. Check with your own College first, as terms vary widely.</p>
-    <p class="when">Varies by College; most run in the spring for that summer</p>
+    <h4 class="name"><a href="https://wellcome.org/research-funding/schemes/wellcome-early-career-awards">Wellcome Early-Career Award</a></h4>
+    <p class="use">For a candidate ready to build a distinct research identity, not a conventional supervised postdoc: your salary plus up to £400,000 over (usually) five years. We would act as your sponsor and host rather than your supervisor, so come with your own question.</p>
+    <p class="when">Next deadline: 10 November 2026, 15:00 GMT</p>
   </li>
   <li class="scheme">
-    <h4 class="name"><a href="https://www.bio.cam.ac.uk/research-funding-opportunities-undergraduates">School of Biological Sciences funding list</a></h4>
-    <p class="use">A curated list of further undergraduate vacation research schemes (learned societies, the Wellcome Trust, Amgen Scholars and others) — the best starting point beyond the two above.</p>
-    <p class="when">Live list; deadlines vary by scheme</p>
+    <h4 class="name"><a href="https://www.aacr.org/grants/">AACR fellowships</a></h4>
+    <p class="use">Cancer-focused postdoctoral and clinical research fellowships. Several — though not all — AACR schemes accept host institutions anywhere in the world, so check the eligibility of the specific call. See also the <a href="https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/">research training and fellowships</a> overview.</p>
+    <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed</p>
+  </li>
+  <li class="scheme">
+    <h4 class="name"><a href="https://www.fulbright.org.uk/our-programmes/fulbright-scholarships-to-the-uk/us-scholars/">Fulbright US Scholar Award</a></h4>
+    <p class="use">For a US citizen postdoc or academic coming to Cambridge for a defined collaboration. You need our written agreement to host before you apply, and applications are made through the <a href="https://fulbrightscholars.org/us-scholar-awards">Fulbright US Scholar Program</a>.</p>
+    <p class="when">Annual; 2027–28 round closes 15 September 2026, 17:00 ET</p>
   </li>
 </ul>
 
