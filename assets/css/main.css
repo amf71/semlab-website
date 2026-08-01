@@ -257,6 +257,20 @@ section { padding-block: clamp(3.5rem, 8vh, 6rem); }
   border-radius: 4px; border: 1px solid var(--line);
 }
 
+/* Funding-scheme lists (Opportunities page): scheme name, what it suits, and
+   a mono deadline line. The two reset selectors below carry an element type so
+   they outrank the generic `.prose ul` / `.prose li` rules above — equal
+   specificity, and later in the file wins — so keep them after those. */
+ul.schemes { list-style: none; margin: 1.75rem 0 2rem; padding: 0; }
+li.scheme { margin: 0; padding: 1.15rem 0; border-top: 1px solid var(--line); }
+li.scheme:last-child { border-bottom: 1px solid var(--line); }
+.scheme .name { font-size: 1.12rem; margin: 0 0 0.35rem; }
+.scheme .use { color: var(--muted); font-size: 0.95rem; margin: 0; }
+.scheme .when {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.07em;
+  text-transform: uppercase; color: var(--accent); margin: 0.55rem 0 0;
+}
+
 .page-head { border-bottom: 1px solid var(--line); padding-block: clamp(2.5rem,6vh,4rem) clamp(1.75rem,4vh,2.5rem); }
 .page-head + section { padding-top: clamp(2rem,5vh,3rem); }
 .page-head h1 { margin-bottom: 0.5rem; }
