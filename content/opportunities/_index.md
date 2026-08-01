@@ -18,7 +18,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
 
 ## Interns & rotation students
 
-We host rotation and summer students subject to capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
+We host rotation and summer students only when we have capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
 
 <ul class="schemes">
   <li class="scheme">
@@ -86,7 +86,7 @@ These are the closest fit to what we do, and where most of our students come fro
 
 ### University-wide funding
 
-If your background is quantitative or basic-science rather than explicitly cancer-focused, these routes are often the better fit, and they are the main way we can fund international students at the full fee rate.
+These are the main way we can fund international students at the full fee rate.
 
 <ul class="schemes">
   <li class="scheme">
