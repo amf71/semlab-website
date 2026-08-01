@@ -5,7 +5,7 @@ kicker: "We are always keen to hear from talented, curious people from biology, 
 description: "How to join the Frankell (SEM) lab: summer internships, the MPhil, Cambridge PhD programmes and studentships, and postdoctoral fellowship schemes we can host."
 ---
 
-We advertise centrally-funded positions from the lab periodically, listed below, but a range of other routes into the group exist via external funding, particularly for PhD studentships: Cambridge runs a number of programmes that feed into our lab. Almost every one of these runs through a competitive scheme with a fixed deadline, so **investigate these and then please get in touch with us early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you and discuss which scheme fits best. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and **one to two months** before a PhD programme deadline.
+We advertise centrally-funded positions from the lab periodically, listed below, but a range of other routes into the group exist via external funding, particularly for PhD studentships: Cambridge runs a number of programmes that feed into our lab. Almost every one of these runs through a competitive scheme with a fixed deadline, so **investigate these and then please get in touch with us early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you and discuss which scheme fits best. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and ideally **one to two months** before a PhD programme deadline.
 
 *Deadlines below were checked on 1 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
@@ -18,7 +18,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
 
 ## Interns & rotation students
 
-We host rotation and summer students subject to capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
+We host rotation and summer students only when we have capacity. The ECI generally does not host unpaid internships, and expects candidates to acquire competitive funding through our own or other eligible schemes; some of these are listed below. Please investigate these before getting in touch.
 
 <ul class="schemes">
   <li class="scheme">
@@ -86,7 +86,7 @@ These are the closest fit to what we do, and where most of our students come fro
 
 ### University-wide funding
 
-If your background is quantitative or basic-science rather than explicitly cancer-focused, these routes are often the better fit, and they are the main way we can fund international students at the full fee rate.
+These are the main way we can fund international students at the full fee rate.
 
 <ul class="schemes">
   <li class="scheme">
