@@ -7,8 +7,6 @@ description: "How to join the Frankell (SEM) lab: summer internships, the MPhil,
 
 We advertise centrally-funded positions from the lab periodically, listed below, but a range of other routes into the group exist via external funding, particularly for PhD studentships: Cambridge runs a number of programmes that feed into our lab, though the list below is not exhaustive and you should do your own additional research. Almost every one of these runs through a competitive scheme with a fixed deadline, so **investigate these and then please get in touch with us early**. Send a short statement of research interests and a CV, and we will tell you honestly whether we can host you and discuss which scheme fits best. As a rough guide, we want **three months** before a postdoctoral fellowship deadline and ideally **one to two months** before a PhD programme deadline.
 
-*Deadlines below were checked on 1 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
-
 <nav class="toc" aria-label="Page sections">
   <a href="#interns--rotation-students">Interns &amp; rotation students</a>
   <a href="#masters-students">Master's students</a>
@@ -20,6 +18,8 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <p>We are committed to a supportive, inclusive research environment and welcome applicants from all backgrounds.</p>
   <cite>Alex Frankell</cite>
 </blockquote>
+
+*Deadlines below were checked on 1 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -58,7 +58,7 @@ We host rotation and summer students only when we have capacity. The ECI general
 <ul class="schemes">
   <li class="scheme">
     <h4 class="name"><a href="https://www.oncology.cam.ac.uk/educ-train/postgrad/mphil-cancer-biology-and-medicine-taught">MPhil in Cancer Biology and Medicine</a></h4>
-    <p class="use">A one-year taught MPhil in the Department of Oncology, built around a 32-week research project starting in November, alongside lectures and training in biostatistics and bioinformatics. A good route into the field, and into a PhD here. Get in touch if you would like your project to be with us.</p>
+    <p class="use">A one-year taught MPhil in the Department of Oncology, built around a 32-week research project starting in November, alongside lectures and training in biostatistics and bioinformatics. A good route into the field. Get in touch if you would like your project to be with us.</p>
     <p class="when">Funding deadlines from December; final deadline 4 March 2027 for October 2027 entry</p>
   </li>
 </ul>
