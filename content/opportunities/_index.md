@@ -71,8 +71,8 @@ Cambridge PhD places are almost always attached to a funded programme, and most 
 
 <ul class="schemes">
   <li class="scheme">
-    <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/aced-phd-studentship">ACED PhD Studentship</a></h4>
-    <p class="use">The International Alliance for Cancer Early Detection studentship: four years, with a first year spent developing your project and training across the disciplines relevant to early detection, then three years of research. Open to biology, computer science, engineering, epidemiology, mathematics, medicine and related backgrounds. Funded by CRUK at the UK home fee rate; it does not cover international fees, and topping them up yourself is not permitted.</p>
+    <h4 class="name"><a href="https://crukcambridgecentre.org.uk/training/aced-early-detection-phd-studentship">ACED PhD Studentship</a></h4>
+    <p class="use">The International Alliance for Cancer Early Detection studentship: four years, with a first year spent developing your project and training across the disciplines relevant to early detection, then three years of research. Open to biology, computer science, engineering, epidemiology, mathematics, medicine and related backgrounds. Funded by CRUK at the UK home fee rate; it does not cover international fees, and topping them up yourself is not permitted. This scheme has not yet been advertised for this year; the linked page is from last year's round.</p>
     <p class="when">Rounds open in the autumn for the following October's entry</p>
   </li>
   <li class="scheme">
