@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 3 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 10 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -169,7 +169,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   <li class="scheme">
     <h4 class="name"><a href="https://wellcome.org/research-funding/schemes/wellcome-early-career-awards">Wellcome Early-Career Award</a></h4>
     <p class="use">For a candidate ready to build a distinct research identity, not a conventional supervised postdoc: your salary plus up to £400,000 over (usually) five years. We would act as your sponsor and host rather than your supervisor, so come with your own question.</p>
-    <p class="when">Next deadline: 10 November 2026, 15:00 GMT</p>
+    <p class="when">Now rolling, with no fixed annual deadline; assessed at periodic cut-offs, the next being 10 November 2026, 15:00 GMT</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.aacr.org/grants/">AACR fellowships</a></h4>
