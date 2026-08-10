@@ -2,13 +2,8 @@
 
 <!-- ============ HERO ============ -->
 <section class="hero">
-  <div class="hero-media" aria-hidden="true">
-    <video class="hero-media__clip" autoplay muted loop playsinline preload="auto" src="{{ "videos/hero/hero-1.mp4" | relURL }}"></video>
-    <video class="hero-media__clip" muted loop playsinline preload="none" data-src="{{ "videos/hero/hero-2.mp4" | relURL }}"></video>
-    <video class="hero-media__clip" muted loop playsinline preload="none" data-src="{{ "videos/hero/hero-3.mp4" | relURL }}"></video>
-    <video class="hero-media__clip" muted loop playsinline preload="none" data-src="{{ "videos/hero/hero-4.mp4" | relURL }}"></video>
-    <div class="hero-media__overlay"></div>
-  </div>
+  <div class="decor decor--lineage" data-decor="lineage" data-seed="4" aria-hidden="true"></div>
+  <div class="decor decor--fish" data-decor="fishplot" data-seed="9" aria-hidden="true"></div>
   <div class="wrap hero-inner">
     {{ with .Site.Data.funders.institution }}
     <div class="hero-affil">
@@ -27,6 +22,17 @@
     <h1>{{ .Site.Params.labFullName }}</h1>
     <p class="subtitle">{{ .Site.Params.subtitle }}</p>
     <a class="btn" href="{{ "/research/" | relURL }}">Explore our research</a>
+  </div>
+</section>
+
+<!-- ============ LAB FOOTAGE ============ -->
+<section class="clip-banner">
+  <div class="hero-media" aria-hidden="true">
+    <video class="hero-media__clip" autoplay muted loop playsinline preload="auto" src="{{ "videos/hero/hero-1.mp4" | relURL }}"></video>
+    <video class="hero-media__clip" muted loop playsinline preload="none" data-src="{{ "videos/hero/hero-2.mp4" | relURL }}"></video>
+    <video class="hero-media__clip" muted loop playsinline preload="none" data-src="{{ "videos/hero/hero-3.mp4" | relURL }}"></video>
+    <video class="hero-media__clip" muted loop playsinline preload="none" data-src="{{ "videos/hero/hero-4.mp4" | relURL }}"></video>
+    <div class="hero-media__overlay"></div>
   </div>
 </section>
 
