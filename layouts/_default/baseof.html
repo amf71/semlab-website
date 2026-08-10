@@ -11,6 +11,10 @@
   <script defer src="{{ $decor.RelPermalink }}" integrity="{{ $decor.Data.Integrity }}"></script>
   {{ $lightbox := resources.Get "js/lightbox.js" | fingerprint }}
   <script defer src="{{ $lightbox.RelPermalink }}" integrity="{{ $lightbox.Data.Integrity }}"></script>
+  {{ if .IsHome }}
+  {{ $heroVideo := resources.Get "js/hero-video.js" | fingerprint }}
+  <script defer src="{{ $heroVideo.RelPermalink }}" integrity="{{ $heroVideo.Data.Integrity }}"></script>
+  {{ end }}
   <script>
     // Mobile nav toggle
     const t = document.querySelector('.nav-toggle');

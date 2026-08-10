@@ -113,13 +113,41 @@ p { margin: 0 0 1.1rem; }
 /* ============================================================
    Hero
    ============================================================ */
-.hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); }
+.hero { position: relative; overflow: hidden; border-bottom: 1px solid var(--line); background: #0b0c0c; }
 .hero-inner {
   position: relative; z-index: 2;
-  padding-block: clamp(5rem, 14vh, 9rem);
+  padding-block: clamp(6rem, 20vh, 11rem);
   max-width: 46rem;
 }
-.hero-affil { display: flex; flex-wrap: wrap; align-items: center; column-gap: 1.5rem; row-gap: 0.9rem; margin: 0 0 1.8rem; }
+
+/* Crossfading background footage: four muted clips stacked and cycled by
+   js/hero-video.js. Only the first clip has a real `src` (autoplay+loop),
+   so the hero still works with JS disabled — it just won't cycle. */
+.hero-media { position: absolute; inset: 0; z-index: 0; overflow: hidden; background: #0b0c0c; }
+.hero-media__clip {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  opacity: 0; will-change: opacity; filter: contrast(1.06) saturate(0.94);
+}
+.hero-media__clip:first-child { opacity: 1; }
+.hero-media__clip.is-active { opacity: 1; }
+.hero-media__overlay {
+  position: absolute; inset: 0; pointer-events: none;
+  box-shadow: inset 0 0 200px 20px rgba(8, 9, 9, 0.35);
+  background: linear-gradient(to bottom, rgba(8, 9, 9, 0.5) 0%, rgba(8, 9, 9, 0.22) 35%, rgba(8, 9, 9, 0.35) 70%, rgba(8, 9, 9, 0.65) 100%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-media__clip { animation: none; }
+}
+
+/* Institution lockups sit on their own light chip so logo colour reads
+   the same regardless of what's playing behind them. */
+.hero-affil {
+  display: flex; flex-wrap: wrap; align-items: center; column-gap: 1.5rem; row-gap: 0.9rem;
+  margin: 0 0 2.2rem; width: fit-content;
+  background: color-mix(in srgb, var(--paper) 92%, transparent);
+  backdrop-filter: blur(6px);
+  border-radius: 6px; padding: 0.85rem 1.2rem;
+}
 .affil-item { display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; transition: opacity 0.2s; }
 .affil-item:hover { opacity: 0.72; }
 .affil-full { height: 36px; width: auto; object-fit: contain; }        /* Cambridge / CRUK CC lockups */
@@ -128,9 +156,9 @@ p { margin: 0 0 1.1rem; }
   font-family: var(--font-display); font-weight: 500; font-size: 1.12rem;
   line-height: 1.1; color: #1f2430; letter-spacing: 0.005em;
 }
-.hero h1 { margin: 0 0 0.6rem; }
-.hero .tagline { font-family: var(--font-display); font-size: clamp(1.4rem, 2.6vw, 2rem); font-style: italic; color: var(--accent-dark); margin: 0 0 0.4rem; }
-.hero .subtitle { font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: 0.12em; color: var(--muted); margin: 0 0 2rem; }
+.hero h1 { margin: 0 0 0.6rem; color: #faf9f6; }
+.hero .tagline { font-family: var(--font-display); font-size: clamp(1.4rem, 2.6vw, 2rem); font-style: italic; color: #cfc9f0; margin: 0 0 0.4rem; }
+.hero .subtitle { font-family: var(--font-mono); font-size: 0.85rem; letter-spacing: 0.12em; color: rgba(250, 249, 246, 0.78); margin: 0 0 2rem; }
 .btn {
   display: inline-block; font-family: var(--font-mono); font-size: 0.8rem;
   letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none;
@@ -462,9 +490,6 @@ a:focus-visible, button:focus-visible, .btn:focus-visible {
 .decor svg { width: 100%; height: 100%; display: block; }
 
 /* --- Placements ------------------------------------------------ */
-/* Hero: lineage fanning from the left, a faint fishplot flowing behind */
-.hero .decor--lineage { opacity: 0.45; }
-.hero .decor--fish    { opacity: 0.16; z-index: 0; }
 
 /* Page headers (research / software) */
 .page-head { position: relative; overflow: hidden; }
