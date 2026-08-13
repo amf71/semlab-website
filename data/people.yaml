@@ -56,10 +56,11 @@ members:
     blurb: "Thomas is a PhD student jointly supervised by Dr Alex Frankell and Prof Rebecca Fitzgerald. He graduated with an MSci in Natural Sciences from the University of Exeter, where his master's research explored the neuroendocrine stress response in rats. His current research focuses on leveraging copy-number alterations alongside other multi-omic features to identify putative biomarkers for the early detection of oesophageal squamous cell carcinoma. He ultimately aims to integrate these with the non-endoscopic capsule sponge to produce a clinically relevant screening tool for the disease."
 
   - name: "Tiantian Ye"
-    role: "Team member"
+    role: "Visiting Scholar"
     group: "Team"
     status: "alumni"
-    blurb: ""
+    photo: "tiantian-ye.jpg"
+    blurb: "Tiantian is an Associate Professor in the Department of Chemistry at Wuhan University, where her research uses mass spectrometry to study nucleic acid modifications and plant hormone metabolism. She joined the Frankell lab as a visiting scholar for one year from 2025 to 2026, during which she established critical in vitro models of cell-free DNA shedding using blood- and tumour-matched samples from the same individuals. These models now provide an infinite, reproducible source of ctDNA admixtures used for analytical benchmarking across several other projects in the lab. Tiantian has since returned to her position at Wuhan University, taking the skills she gained in Cambridge back into her own research."
 
   - name: "Fabiola (Fabi) Roman Maldonado"
     role: "Senior Research Technician in NGS"
@@ -68,10 +69,11 @@ members:
     blurb: "Fabi has an MSc and PhD in Parasitology from FIOCRUZ, Brazil, where her work focused on the genetic diversity of the parasite that causes Chagas disease in South America. In 2020 she joined the Sanger Institute in Sequencing Operations, working on library preparation for the Tree of Life project using PacBio and Illumina platforms, and also developed expertise in Hi-C processing of ultra-low input samples. She joined the Frankell lab to focus on duplex sequencing and is also driving the development of spatial genomics techniques."
 
   - name: "Hannah Bazin"
-    role: "Team member"
+    role: "Master's Student"
     group: "Team"
     status: "alumni"
-    blurb: ""
+    photo: "hannah-bazin.jpg"
+    blurb: "Hannah completed her undergraduate degree in Life Sciences Engineering at EPFL in Switzerland, including an exchange year in Biomedical Engineering at Johns Hopkins University in Baltimore. She then spent time at the Milner Therapeutics Institute in Cambridge before joining the Frankell lab for four months in 2026 as part of her Master's degree at the University of Cambridge. Her project used personalised deep sequencing of thousands of mutations across hundreds of samples from the TRACERx study to identify new determinants of differential circulating tumour DNA (ctDNA) shedding between clonal mutations. Hannah is now undertaking a PhD in Blood Cancer Evolution at the University of Cambridge."
 
   - name: "Janhavi Rastogi"
     role: "Research Assistant"
@@ -80,10 +82,11 @@ members:
     blurb: "Janhavi received her M.Sc. in Biomedical Science from the University of Bristol, where her final-year research focused on cell synchronisation in osteoarthritis. She then joined the CRUK Manchester Institute, investigating circulating tumour cells (CTCs) as biomarkers for cancer detection in Prof Caroline Dive's Laboratory. Since joining the Frankell Lab in January 2026, her research has focused on advancing early cancer detection through the longitudinal analysis of circulating tumour DNA (ctDNA), with the aim of improving our understanding of tumour evolution and disease monitoring."
 
   - name: "Jie (Jason) Sheng Aik"
-    role: "Team member"
+    role: "Undergraduate Summer Student"
     group: "Team"
     status: "alumni"
-    blurb: ""
+    # photo: pending - drop a JPG into static/images/people/ and set e.g. "jason-aik.jpg" once available
+    blurb: "Jason joined the lab for four months in 2024 as a summer student during his Natural Sciences undergraduate degree at the University of Cambridge. His project explored mechanisms for stabilising cell-free DNA using in vitro models and synthetic, chemically modified nucleic acids designed against a panel of common hotspot mutations that he defined from large-scale next-generation sequencing data. Jason is now undertaking a Master's degree in Chemistry at the University of Cambridge."
 
   - name: "Tim Somerset"
     role: "Computational Research Assistant"
