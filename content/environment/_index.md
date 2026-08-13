@@ -6,6 +6,8 @@ kicker: "The Early Cancer Institute, the Cambridge Biomedical Campus, and Cambri
 
 We are based in the [Early Cancer Institute](https://www.earlycancer.cam.ac.uk/) (ECI), the first institute in the UK dedicated solely to research on early cancer. It brings together around 120 researchers pursuing three goals that map directly onto our own work: improving cancer *risk prediction*, *detection* and *interception*. The institute's main building reopened in 2026 after a £22M extension and renovation. The ECI sits within the CRUK Cambridge Centre and the University of Cambridge.
 
+![The entrance to the Li Ka Shing Early Cancer Institute.](/images/eci-building.jpg)
+
 The University itself was founded in 1209 and is built around 31 largely self-governing colleges that sit alongside the academic departments. PhD students belong to a college as well as to a department, which usually means a second community, and a second set of friends, entirely outside the lab; some postdocs hold college fellowships too, as Dr Emma Hazelwood currently does at Downing. Between them the colleges and departments count 126 Nobel laureates.
 
 ![Some of the Cambridge colleges.](/images/Cambridge%20colleges.jpg)
