@@ -81,12 +81,12 @@ members:
     photo: "janhavi-rastogi.jpg"
     blurb: "Janhavi received her M.Sc. in Biomedical Science from the University of Bristol, where her final-year research focused on cell synchronisation in osteoarthritis. She then joined the CRUK Manchester Institute, investigating circulating tumour cells (CTCs) as biomarkers for cancer detection in Prof Caroline Dive's Laboratory. Since joining the Frankell Lab in January 2026, her research has focused on advancing early cancer detection through the longitudinal analysis of circulating tumour DNA (ctDNA), with the aim of improving our understanding of tumour evolution and disease monitoring."
 
-  - name: "Jie (Jason) Sheng Aik"
+  - name: "Jason Aik"
     role: "Undergraduate Summer Student"
     group: "Team"
     status: "alumni"
-    # photo: pending - drop a JPG into static/images/people/ and set e.g. "jason-aik.jpg" once available
-    blurb: "Jason joined the lab for four months in 2024 as a summer student during his Natural Sciences undergraduate degree at the University of Cambridge. His project explored mechanisms for stabilising cell-free DNA using in vitro models and synthetic, chemically modified nucleic acids designed against a panel of common hotspot mutations that he defined from large-scale next-generation sequencing data. Jason is now undertaking a Master's degree in Chemistry at the University of Cambridge."
+    photo: "jason-aik.jpg"
+    blurb: "Jason was a summer student in the lab for four months in 2024 during his Natural Sciences undergraduate degree at the University of Cambridge. He developed methods for stabilising cell-free DNA in vitro using chemically modified nucleic acids designed against a panel of hotspot mutations derived from large-scale next-generation sequencing data. He has since received his BA in Natural Sciences (Chemistry) from the University of Cambridge in 2025 and is currently an MPhil student at the Department of Chemistry. His MPhil project focuses on engineering photoswitchable proteins for light-controlled permeabilization of the bacterial outer membrane. Jason joins the lab as a research assistant in January 2027."
 
   - name: "Tim Somerset"
     role: "Computational Research Assistant"
