@@ -41,7 +41,7 @@ The group agreed these collectively in October 2024.
 
 ## One-to-ones
 
-PhD students meet Alex **weekly for an hour**, at minimum throughout the first year. Postdocs and other members agree their own schedule, anywhere from weekly to ad hoc. Extra meetings are always available when something needs unblocking.
+All first year PhD students and most lab members meet Alex **weekly for 30 minutes to 1 hour**. Postdocs and other members agree their own schedule, anywhere from weekly to ad hoc. Extra meetings are always available when something needs unblocking.
 
 We use OneNote lab books to record discussion points and action items for lab members and Alex for each meeting.
 
