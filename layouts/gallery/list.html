@@ -12,7 +12,7 @@
   {{ partial "clonemap-scatter.html" (dict "img" "clonemap-k.png" "side" "left" "top" "40%") }}
   <div class="wrap">
     <div class="gallery-grid">
-      {{ range .Site.Data.gallery.items }}
+      {{ range hugo.Data.gallery.items }}
       <figure class="gallery-item">
         {{ if and .image (fileExists (printf "static/images/gallery/%s" .image)) }}
           {{ $src := printf "/images/gallery/%s" .image | relURL }}

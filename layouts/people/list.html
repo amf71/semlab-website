@@ -12,7 +12,7 @@
      by seniority via $roleOrder (PI → postdocs → PhD students → RAs → other).
      A person is Alumni iff `status: alumni` is set in data/people.yaml. */}}
 {{ $roleOrder := slice "Principal Investigator" "Postdoctoral Researchers" "PhD Students" "Research Assistants & Staff" "Team" }}
-{{ $members := .Site.Data.people.members }}
+{{ $members := hugo.Data.people.members }}
 {{ $sections := slice "Current" "Alumni" }}
 
 <section class="decor-host">

@@ -12,7 +12,7 @@
   {{ partial "clonemap-scatter.html" (dict "img" "clonemap-m.png" "side" "left" "top" "35%") }}
   <div class="wrap">
     <div class="grid-3">
-      {{ range .Site.Data.software.tools }}
+      {{ range hugo.Data.software.tools }}
       <article class="card">
         <h3 style="font-family:var(--font-mono);">{{ .name }}</h3>
         {{ with .tagline }}<p class="eyebrow" style="margin:0 0 .6rem;">{{ . }}</p>{{ end }}
@@ -26,7 +26,7 @@
       {{ end }}
     </div>
 
-    {{ with .Site.Data.software.org }}
+    {{ with hugo.Data.software.org }}
     <p style="margin-top:2rem;"><a href="{{ . }}">All repositories on GitHub →</a></p>
     {{ end }}
 

@@ -5,7 +5,7 @@
   <div class="decor decor--lineage" data-decor="lineage" data-seed="4" aria-hidden="true"></div>
   <div class="decor decor--fish" data-decor="fishplot" data-seed="9" aria-hidden="true"></div>
   <div class="wrap hero-inner">
-    {{ with .Site.Data.funders.institution }}
+    {{ with hugo.Data.funders.institution }}
     <div class="hero-affil">
       {{ range . }}
         {{ if .url }}<a class="affil-item" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="affil-item">{{ end }}
@@ -67,7 +67,7 @@
     <p class="eyebrow">Research themes</p>
     <h2>What we work on</h2>
     <div class="grid-3">
-      {{ range $i, $r := .Site.Data.research.themes }}
+      {{ range $i, $r := hugo.Data.research.themes }}
       <article class="card">
         <span class="num">{{ printf "%02d" (add $i 1) }}</span>
         <h3>{{ $r.title }}</h3>
@@ -97,7 +97,7 @@
     <h2>People</h2>
     {{/* All current members (exclude alumni) */}}
     {{ $current := slice }}
-    {{ range .Site.Data.people.members }}
+    {{ range hugo.Data.people.members }}
       {{ if ne .status "alumni" }}{{ $current = $current | append . }}{{ end }}
     {{ end }}
     <div class="people-preview">
@@ -120,7 +120,7 @@
     <p class="eyebrow">Selected work</p>
     <h2>Selected publications</h2>
     <ul class="pub-list">
-      {{ range first 4 .Site.Data.publications.items }}
+      {{ range first 4 hugo.Data.publications.items }}
       <li class="pub">
         <div class="year">{{ .year }}</div>
         <div>

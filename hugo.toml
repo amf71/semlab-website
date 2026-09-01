@@ -5,7 +5,7 @@
 # ============================================================
 
 baseURL = "https://frankell-lab.com/"      # <-- change to your final domain
-languageCode = "en-gb"
+locale = "en-gb"
 title = "SEM Lab"                        # browser tab / SEO title
 enableRobotsTXT = true
 

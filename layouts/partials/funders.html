@@ -3,7 +3,7 @@
   <div class="wrap">
     <p class="eyebrow">Funders</p>
     <div class="funder-wall">
-      {{ range .Site.Data.funders.logos }}
+      {{ range hugo.Data.funders.logos }}
         {{ if .url }}<a class="funder-card" href="{{ .url }}" title="{{ .name }}">{{ else }}<span class="funder-card">{{ end }}
           {{ if and .icon .text }}
             <span class="funder-lockup">
@@ -16,7 +16,7 @@
         {{ if .url }}</a>{{ else }}</span>{{ end }}
       {{ end }}
     </div>
-    {{ with .Site.Data.funders.extra }}
+    {{ with hugo.Data.funders.extra }}
     <p class="funder-names">We are also grateful for the support of {{ . }}.</p>
     {{ end }}
   </div>
