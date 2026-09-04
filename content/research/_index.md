@@ -18,7 +18,7 @@ Most of what is known about cancer evolution comes from single snapshots of dise
 
 ## Somatic selection pressures from spatial, single-cell WGS + RNA co-sequencing
 
-Understanding what drives cellular evolutionary dynamics is essential for designing effective interventions, above all preventive therapies. Both intrinsic and extrinsic influences shape somatic evolution, just as they do for individuals in an ecological habitat. We are developing spatial co-DNA and RNA sequencing approaches to define somatic clones within tissues alongside their microenvironment and architecture, and to identify the forces driving positive and negative selection from cancer initiation through to drug resistance.
+Understanding what drives cellular evolutionary dynamics is essential for designing effective interventions, above all preventive therapies. Both intrinsic and extrinsic influences shape somatic evolution, just as they do for individuals of a species in an ecological habitat. We are developing spatial co-DNA and RNA sequencing approaches to define somatic clones within tissues alongside their microenvironment and architecture, and to identify the forces driving positive and negative selection from cancer initiation through to drug resistance.
 
 ![Cell clusters resolved in expression space by UMAP and t-SNE, then mapped back to their physical location within the tissue.](/images/research/spatial-genomics_adjusted.png)
 
