@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 31 August 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 8 September 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -38,8 +38,8 @@ We host rotation and summer students only when we have capacity. The ECI general
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://genetics.org.uk/grants/summer-studentships/">Genetics Society Summer Studentship</a></h4>
-    <p class="use">Up to 8 weeks at £300 a week, plus lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
-    <p class="when">Annual, applied for via the Society's membership portal</p>
+    <p class="use">Up to 8 weeks at £425 a week, plus up to £750 in lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
+    <p class="when">Annual; 2026 deadline 31 March 2026, applied for via the Society's membership portal</p>
   </li>
   <li class="scheme">
     <h4 class="name">College studentships and bursaries</h4>
@@ -109,7 +109,7 @@ These are the main way we can fund international students at the full fee rate.
   </li>
   <li class="scheme">
     <h4 class="name">College studentships</h4>
-    <p class="use">Individual Colleges fund PhD places, often at the international fee rate and often overlooked. Examples include the <a href="https://www.cambridgestudents.cam.ac.uk/fees-and-funding/funding/trinity-cambridge-research-studentships-tcrs">Trinity–Cambridge Research Studentships</a> (around 30 a year, home or international fees, nominated by your department, and you do not need to be a member of Trinity) and the Shuttleworth Studentship in biomedical sciences at <a href="https://www.cai.cam.ac.uk/apply-caius/postgraduates/postgraduate-studentships">Gonville &amp; Caius</a>.</p>
+    <p class="use">Individual Colleges fund PhD places, often at the international fee rate and often overlooked. Examples include the <a href="https://www.cambridgestudents.cam.ac.uk/fees-and-funding/funding/trinity-cambridge-research-studentships-tcrs">Trinity–Cambridge Research Studentships</a> (around 30 a year, home or international fees, nominated by your department, and you do not need to be a member of Trinity) and the Stanley Elmore Studentship in Biomedical Sciences at <a href="https://www.cai.cam.ac.uk/apply-caius/postgraduates/postgraduate-studentships">Gonville &amp; Caius</a>.</p>
     <p class="when">Mostly awarded by departmental nomination alongside admission</p>
   </li>
   <li class="scheme">
@@ -137,7 +137,7 @@ For applicants who are already medically qualified.
   <li class="scheme">
     <h4 class="name"><a href="https://www.ukri.org/opportunity/professional-doctorate-clinical-research-training-fellowship/">MRC Professional Doctorate: Clinical Research Training Fellowship</a></h4>
     <p class="use">Typically three years, covering salary, tuition fees and up to £25,000 a year in research costs. You must own the project intellectually and show a clear ambition for a clinical academic career, so this works best when we have shaped the question together. May be held part-time, and rounds close in January, April and September.</p>
-    <p class="when">Next round closes 2 September 2026, 16:00 UK time</p>
+    <p class="when">The September 2026 round has closed; next round expected January 2027 (exact date not yet announced)</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.medschl.cam.ac.uk/phd-programme-health-professionals">PhD Programme for Healthcare Professionals in the East of England</a></h4>
