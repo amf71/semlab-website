@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 8 September 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 21 September 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -34,7 +34,7 @@ We host rotation and summer students only when we have capacity. The ECI general
   <li class="scheme">
     <h4 class="name"><a href="https://www.biochemistry.org/grants-and-awards/grants-and-bursaries/summer-vacation-studentships/research-studentship/">Biochemical Society Summer Vacation Studentship</a></h4>
     <p class="use">A 4–6 week lab or computational placement for undergraduates in biochemistry, molecular bioscience and related subjects, in the middle year(s) of their degree (not first or final year).</p>
-    <p class="when">Annual; 2026 round closed</p>
+    <p class="when">Annual; 2026 round closed, and the scheme reopens at the end of February 2027</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://genetics.org.uk/grants/summer-studentships/">Genetics Society Summer Studentship</a></h4>
@@ -95,7 +95,7 @@ These are the main way we can fund international students at the full fee rate.
   <li class="scheme">
     <h4 class="name"><a href="https://bbsrcdtp.lifesci.cam.ac.uk/">Cambridge Biosciences DTP (BBSRC)</a></h4>
     <p class="use">A four-year, rotation-based doctoral training partnership covering full University fees and a stipend (£21,805 for 2026–27), with visa and health surcharge costs met for international students. Open to home and international applicants.</p>
-    <p class="when">Applications open in September and close in early December</p>
+    <p class="when">Applications open in September and close 8 December 2026 for October 2027 entry</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.gatescambridge.org/">Gates Cambridge Scholarship</a></h4>
@@ -154,7 +154,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   <li class="scheme">
     <h4 class="name"><a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships">MSCA European Postdoctoral Fellowship</a></h4>
     <p class="use">The flagship route for an international postdoc to develop a joint project with us. One to two years, generous salary and mobility allowances. Note the mobility rule: you must not have spent more than 12 months in the UK in the three years before the deadline.</p>
-    <p class="when">Next deadline: 9 September 2026, 17:00 CEST</p>
+    <p class="when">Annual; the 2026 call closed 9 September 2026 and dates for the next call are not yet announced</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/">EMBO Postdoctoral Fellowship</a></h4>
@@ -179,7 +179,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   <li class="scheme">
     <h4 class="name"><a href="https://www.fulbright.org.uk/our-programmes/fulbright-scholarships-to-the-uk/us-scholars/">Fulbright US Scholar Award</a></h4>
     <p class="use">For a US citizen postdoc or academic coming to Cambridge for a defined collaboration. You need our written agreement to host before you apply, and applications are made through the <a href="https://fulbrightscholars.org/us-scholar-awards">Fulbright US Scholar Program</a>.</p>
-    <p class="when">Annual; 2027–28 round closes 15 September 2026, 17:00 ET</p>
+    <p class="when">Annual; the 2027–28 round closed 15 September 2026 and applications reopen in 2027</p>
   </li>
 </ul>
 
