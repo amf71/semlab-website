@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 21 September 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 28 September 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -154,7 +154,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   <li class="scheme">
     <h4 class="name"><a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships">MSCA European Postdoctoral Fellowship</a></h4>
     <p class="use">The flagship route for an international postdoc to develop a joint project with us. One to two years, generous salary and mobility allowances. Note the mobility rule: you must not have spent more than 12 months in the UK in the three years before the deadline.</p>
-    <p class="when">Annual; the 2026 call closed 9 September 2026 and dates for the next call are not yet announced</p>
+    <p class="when">Annual; the 2026 call closed 9 September 2026. The 2027 call is provisionally scheduled to open 7 April 2027 and close 8 September 2027 (dates to be confirmed)</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.embo.org/funding/fellowships-grants-and-career-support/postdoctoral-fellowships/">EMBO Postdoctoral Fellowship</a></h4>
