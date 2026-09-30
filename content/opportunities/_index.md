@@ -77,7 +77,7 @@ Cambridge PhD places are almost always attached to a funded programme, and most 
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/studentships">CRUK Cambridge Centre MRes + PhD (non-clinical)</a></h4>
-    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme; two places are available for international students this year, funded by the <a href="https://www.cambridgetrust.org/scholarship/cambridge-cancer-centre-phd-studentship/">Cambridge Cancer Centre PhD Studentship</a> (Cambridge Trust), which covers international fees, maintenance, visa and health surcharge, and needs no separate application.</p>
+    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme; two places are available for international students this year.</p>
     <p class="when">Annual competition; 2027-entry applications open 1 October 2026 (2026-entry round is closed)</p>
   </li>
   <li class="scheme">
@@ -119,7 +119,7 @@ These are the main way we can fund international students at the full fee rate.
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.student-funding.cam.ac.uk/">Cambridge Postgraduate Funding Search</a></h4>
-    <p class="use">The University's searchable database of several hundred awards, filterable by degree, nationality, department and College. The best single place to start, and to find the smaller awards nobody tells you about.</p>
+    <p class="use">The University's searchable database of several hundred awards, filterable by degree, nationality, department and College. The best single place to start, and to find the smaller awards nobody tells you about. The Cambridge Trust also runs its own <a href="https://www.cambridgetrust.org/find-a-scholarship/?jump-to=scholarship-listing#scholarship-listing">scholarship search</a>, filterable by degree level and nationality.</p>
     <p class="when">Live database; deadlines vary by award</p>
   </li>
 </ul>
