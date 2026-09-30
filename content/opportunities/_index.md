@@ -130,6 +130,11 @@ For applicants who are already medically qualified.
 
 <ul class="schemes">
   <li class="scheme">
+    <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/aced-clinical-research-training-fellowship-2027">ACED Clinical Research Training Fellowship</a></h4>
+    <p class="use">A 36-month PhD fellowship in cancer early detection from the International Alliance for Cancer Early Detection, with one fellowship at each UK ACED centre (Cambridge, UCL and Manchester). It covers salary, UK home-rate fees and running costs, up to £292,316 over three years. You choose a supervisor from the <a href="https://www.earlycancer.cam.ac.uk/files/aced_crtf_supervisors_cambridge.pdf">approved Cambridge list</a>, which includes us, and develop the project together. Applicants must hold a medical degree, be eligible for GMC registration and have UK home fee status.</p>
+    <p class="when">2027 round open: expression of interest by 5pm, 12 October 2026; full application by 11 January 2027</p>
+  </li>
+  <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/education-and-training/ccc-clinical-research-fellowships">CRUK Cambridge Centre Clinical Research Training Fellowships</a></h4>
     <p class="use">A three-year PhD for clinicians in a training post who want a career as a clinician scientist; all medical and surgical specialties are welcome. UK home fee status only.</p>
     <p class="when">Annual competition, applications in the autumn</p>
