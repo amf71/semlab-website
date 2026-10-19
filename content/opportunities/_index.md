@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 28 September 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 19 October 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -99,7 +99,7 @@ These are the main way we can fund international students at the full fee rate.
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.gatescambridge.org/">Gates Cambridge Scholarship</a></h4>
-    <p class="use">Full-cost scholarships for outstanding international applicants in any subject, assessed on academic excellence, leadership and commitment to improving the lives of others. You apply once, for both admission and the scholarship. US citizens resident in the USA must apply in a separate, earlier round, closing 14 October 2026.</p>
+    <p class="use">Full-cost scholarships for outstanding international applicants in any subject, assessed on academic excellence, leadership and commitment to improving the lives of others. You apply once, for both admission and the scholarship. US citizens resident in the USA must apply in a separate, earlier round, which closed on 14 October 2026.</p>
     <p class="when">8 December 2026 or 6 January 2027, depending on the course</p>
   </li>
   <li class="scheme">
@@ -132,7 +132,7 @@ For applicants who are already medically qualified.
   <li class="scheme">
     <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/aced-clinical-research-training-fellowship-2027">ACED Clinical Research Training Fellowship</a></h4>
     <p class="use">A 36-month PhD fellowship in cancer early detection from the International Alliance for Cancer Early Detection, with one fellowship at each UK ACED centre (Cambridge, UCL and Manchester). It covers salary, UK home-rate fees and running costs, up to £292,316 over three years. You choose a supervisor from the <a href="https://www.earlycancer.cam.ac.uk/files/aced_crtf_supervisors_cambridge.pdf">approved Cambridge list</a>, which includes us, and develop the project together. Applicants must hold a medical degree, be eligible for GMC registration and have UK home fee status.</p>
-    <p class="when">2027 round open: expression of interest by 5pm, 12 October 2026; full application by 11 January 2027</p>
+    <p class="when">2027 round: the expression-of-interest stage closed 12 October 2026; full applications are due by 11 January 2027</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/education-and-training/ccc-clinical-research-fellowships">CRUK Cambridge Centre Clinical Research Training Fellowships</a></h4>
@@ -147,7 +147,7 @@ For applicants who are already medically qualified.
   <li class="scheme">
     <h4 class="name"><a href="https://www.medschl.cam.ac.uk/phd-programme-health-professionals">PhD Programme for Healthcare Professionals in the East of England</a></h4>
     <p class="use">Cambridge's Wellcome-funded PhD programme for health professionals, open to those registered with the GMC, GDC, NMC, HCPC or RCVS. Generally intended for people who have not yet completed clinical training.</p>
-    <p class="when">Annual; the last round closed 4 November 2025</p>
+    <p class="when">Not accepting applications for 2027 entry, as funding has not been renewed; the last round closed 4 November 2025</p>
   </li>
 </ul>
 
@@ -168,7 +168,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.hfsp.org/funding/hfsp-funding/postdoctoral-fellowships">HFSP Long-Term Fellowship</a></h4>
-    <p class="use">High-risk, interdisciplinary basic life science: an excellent fit for technology- and methodology-led early cancer projects. Two-stage: letter of intent first, full proposal by invitation. You must change both country and research topic. The letter of intent for the 2027 award year closed 12 May 2026; full proposals for shortlisted applicants are due 24 September 2026.</p>
+    <p class="use">High-risk, interdisciplinary basic life science: an excellent fit for technology- and methodology-led early cancer projects. Two-stage: letter of intent first, full proposal by invitation. You must change both country and research topic. The letter of intent for the 2027 award year closed 12 May 2026; full proposals for shortlisted applicants were due 24 September 2026.</p>
     <p class="when">Annual; 2027-cycle letter of intent has closed; 2028-cycle dates not yet announced</p>
   </li>
   <li class="scheme">
