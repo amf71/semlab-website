@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 19 October 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 26 October 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -38,8 +38,8 @@ We host rotation and summer students only when we have capacity. The ECI general
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://genetics.org.uk/grants/summer-studentships/">Genetics Society Summer Studentship</a></h4>
-    <p class="use">Up to 8 weeks at £425 a week, plus up to £750 in lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
-    <p class="when">Annual; 2026 deadline 31 March 2026, applied for via the Society's membership portal</p>
+    <p class="use">Up to 8 weeks at £445 a week, plus up to £750 in lab expenses and a place at the Society's Summer School, usually for second-year undergraduates (or third year on a four-year degree). Both supervisor and student must be Society members.</p>
+    <p class="when">Annual; 2027 student deadline 1 March 2027 (supervisors submit projects by 1 December 2026), applied for via the Society's membership portal</p>
   </li>
   <li class="scheme">
     <h4 class="name">College studentships and bursaries</h4>
@@ -77,8 +77,8 @@ Cambridge PhD places are almost always attached to a funded programme, and most 
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/studentships">CRUK Cambridge Centre MRes + PhD (non-clinical)</a></h4>
-    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Around seven studentships a year, including two through the Black Leaders in Cancer scheme; two places are available for international students this year.</p>
-    <p class="when">Annual competition; 2027-entry applications open 1 October 2026 (2026-entry round is closed)</p>
+    <p class="use">A one-year MRes (two laboratory rotations, advanced coursework and clinical shadowing) followed by a three-year PhD in cancer biology, fully funded by Cancer Research UK. Six studentships for 2027 entry, including two through the Black Leaders in Cancer scheme; two places are available for international students this year.</p>
+    <p class="when">Annual competition; 2027-entry applications close 17 November 2026, with interviews in early January 2027</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.earlycancer.cam.ac.uk/jobs">Early Cancer Institute non-clinical PhD studentships</a></h4>
@@ -137,12 +137,12 @@ For applicants who are already medically qualified.
   <li class="scheme">
     <h4 class="name"><a href="https://crukcambridgecentre.org.uk/education-and-training/ccc-clinical-research-fellowships">CRUK Cambridge Centre Clinical Research Training Fellowships</a></h4>
     <p class="use">A three-year PhD for clinicians in a training post who want a career as a clinician scientist; all medical and surgical specialties are welcome. UK home fee status only.</p>
-    <p class="when">Annual competition, applications in the autumn</p>
+    <p class="when">Annual competition; the 2027 round closes 19 November 2026, for fellowships starting 1 October 2027</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.ukri.org/opportunity/professional-doctorate-clinical-research-training-fellowship/">MRC Professional Doctorate: Clinical Research Training Fellowship</a></h4>
     <p class="use">Typically three years, covering salary, tuition fees and up to £25,000 a year in research costs. You must own the project intellectually and show a clear ambition for a clinical academic career, so this works best when we have shaped the question together. May be held part-time, and rounds close in January, April and September.</p>
-    <p class="when">The September 2026 round has closed; next round expected January 2027 (exact date not yet announced)</p>
+    <p class="when">Current round open since 21 October 2026; closes 13 January 2027, 16:00 UK time</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.medschl.cam.ac.uk/phd-programme-health-professionals">PhD Programme for Healthcare Professionals in the East of England</a></h4>
@@ -174,12 +174,12 @@ We are happy to support strong candidates applying for independent fellowships, 
   <li class="scheme">
     <h4 class="name"><a href="https://wellcome.org/research-funding/schemes/wellcome-early-career-awards">Wellcome Early-Career Award</a></h4>
     <p class="use">For a candidate ready to build a distinct research identity, not a conventional supervised postdoc: your salary plus up to £400,000 over (usually) five years. We would act as your sponsor and host rather than your supervisor, so come with your own question.</p>
-    <p class="when">Now rolling, with no fixed annual deadline; assessed at periodic cut-offs, the next being 10 November 2026, 15:00 GMT</p>
+    <p class="when">Now an open round with no deadlines: applications can be submitted at any time and are shortlisted three times a year (February, June and September)</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.aacr.org/grants/">AACR fellowships</a></h4>
     <p class="use">Cancer-focused postdoctoral and clinical research fellowships. Several (though not all) AACR schemes accept host institutions anywhere in the world, so check the eligibility of the specific call. See also the <a href="https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/">research training and fellowships</a> overview.</p>
-    <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed</p>
+    <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed, and the AACR–QuadW Sarcoma Research Fellowship is currently open (letter of intent by 12 November 2026)</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.fulbright.org.uk/our-programmes/fulbright-scholarships-to-the-uk/us-scholars/">Fulbright US Scholar Award</a></h4>
