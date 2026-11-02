@@ -19,7 +19,7 @@ We advertise centrally-funded positions from the lab periodically, listed below,
   <cite>Alex Frankell</cite>
 </blockquote>
 
-*Deadlines below were checked on 26 October 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
+*Deadlines below were checked on 2 November 2026. Schemes change their dates and rules, so always confirm on the scheme's own page before planning around them.*
 
 ## Interns & rotation students
 
@@ -179,7 +179,7 @@ We are happy to support strong candidates applying for independent fellowships, 
   <li class="scheme">
     <h4 class="name"><a href="https://www.aacr.org/grants/">AACR fellowships</a></h4>
     <p class="use">Cancer-focused postdoctoral and clinical research fellowships. Several (though not all) AACR schemes accept host institutions anywhere in the world, so check the eligibility of the specific call. See also the <a href="https://www.aacr.org/professionals/research-funding/funded-research/research-training-and-fellowships/">research training and fellowships</a> overview.</p>
-    <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed, and the AACR–QuadW Sarcoma Research Fellowship is currently open (letter of intent by 12 November 2026)</p>
+    <p class="when">Calls vary by scheme; the 2026 NSCLC round has closed. Currently open: the AACR–QuadW Sarcoma Research Fellowship (letter of intent by 12 November 2026) and the AACR John and Elizabeth Leonard Basic Cancer Research Fellowship, which accepts host institutions anywhere in the world (letter of intent by 24 November 2026)</p>
   </li>
   <li class="scheme">
     <h4 class="name"><a href="https://www.fulbright.org.uk/our-programmes/fulbright-scholarships-to-the-uk/us-scholars/">Fulbright US Scholar Award</a></h4>
